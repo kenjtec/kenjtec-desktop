@@ -144,6 +144,13 @@ def rezept(craft_wurzel: Path) -> None:
         if text.count(REZEPT_SYMBOL_ANKER) != 1:
             fehler(f"Im Rezept {pfad} fehlt `{REZEPT_SYMBOL_ANKER.strip()}`.")
         text = text.replace(REZEPT_SYMBOL_ANKER, REZEPT_SYMBOL + REZEPT_SYMBOL_ANKER)
+        # Nextclouds Rezept benutzt `os.path.join` in createPackage, importiert
+        # `os` aber nicht (stable-4.0, gemessen 05.11.2026: NameError beim
+        # Packen — Nextclouds eigene CI packt nie und merkt es nicht).
+        if not re.search(r"^import os\b", text, re.M):
+            text, n = re.subn(r"^(import info)(\r?\n)", r"\1\2import os\2", text, count=1, flags=re.M)
+            if n != 1:
+                fehler(f"Im Rezept {pfad} fehlt `import info` — `import os` lässt sich nicht einsetzen.")
         # Die Urheberzeile „Nextcloud GmbH and Nextcloud contributors“ bleibt
         # stehen — die GPL verlangt sie. Geprüft wird nur der Code.
         code = "\n".join(z for z in text.splitlines() if not z.lstrip().startswith("#"))

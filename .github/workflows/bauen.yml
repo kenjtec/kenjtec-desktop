@@ -69,11 +69,13 @@ jobs:
         run: |
           git clone -q --depth 1 --branch ${{ needs.fassung.outputs.tag }} https://github.com/nextcloud/desktop.git $env:QUELLE
           if ($LASTEXITCODE -ne 0) { exit 1 }
+          # Inkscape NIE in den Suchpfad legen: Es bringt ein eigenes python.exe
+          # mit, das dann vor dem echten stünde — ohne Zertifikate (Lauf 4,
+          # 05.11.2026: CERTIFICATE_VERIFY_FAILED). anwenden.py findet Inkscape
+          # am festen Ort, CMake über Chocolateys Verweis — wie bei Nextcloud.
           choco install inkscape -y --no-progress
-          $env:PATH = "C:\Program Files\Inkscape\bin;$env:PATH"
           python kenjtec\werkzeuge\anwenden.py quelle $env:QUELLE --bau ${{ needs.fassung.outputs.bau }}
           if ($LASTEXITCODE -ne 0) { exit 1 }
-          "C:\Program Files\Inkscape\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Quelle für die GPL packen
         shell: pwsh

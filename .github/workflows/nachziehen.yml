@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: 2026 KENJTEC
+# SPDX-License-Identifier: GPL-2.0-or-later
+#
+# Jeden Montag: Gibt es eine neuere STABILE Nextcloud-Fassung derselben
+# Hauptnummer (4.x.y)? Dann UPSTREAM nachziehen und neu bauen — ohne Hand.
+#
+# Ein Sprung der Hauptnummer (4 → 5) geht bewusst NICHT von selbst: Dort
+# ändert Nextcloud erfahrungsgemäß Bauwege und Rezepte. Der Lauf meldet ihn
+# nur (Zusammenfassung des Laufs); einen Menschen braucht es dafür.
+name: Nachziehen
+
+on:
+  schedule:
+    - cron: "17 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    outputs:
+      neu: ${{ steps.p.outputs.neu }}
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+      - id: p
+        run: |
+          jetzt="$(tr -d '[:space:]' < UPSTREAM)"
+          haupt="${jetzt#v}"; haupt="${haupt%%.*}"
+          alle="$(git ls-remote --tags https://github.com/nextcloud/desktop.git \
+                  | awk '{print $2}' | sed 's#refs/tags/##' \
+                  | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | sort -V)"
+          neueste_gleich="$(echo "$alle" | grep -E "^v${haupt}\." | tail -1)"
+          neueste_ueberhaupt="$(echo "$alle" | tail -1)"
+          if [ "$neueste_ueberhaupt" != "$neueste_gleich" ]; then
+            echo "⚠️ Nextcloud $neueste_ueberhaupt ist erschienen (neue Hauptnummer) — bitte von Hand prüfen." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ "$(printf '%s\n%s\n' "$jetzt" "$neueste_gleich" | sort -V | tail -1)" = "$jetzt" ]; then
+            echo "Aktuell: $jetzt." >> "$GITHUB_STEP_SUMMARY"
+            echo "neu=" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          # Die Rezepte für die neue Stufe müssen schon da sein.
+          v="${neueste_gleich#v}"; zweig="stable-${v%.*}"
+          if ! git ls-remote --exit-code --heads https://github.com/nextcloud/desktop-client-blueprints.git "$zweig" >/dev/null; then
+            echo "Nextcloud $neueste_gleich ist da, die Rezepte ($zweig) noch nicht — nächste Woche wieder." >> "$GITHUB_STEP_SUMMARY"
+            echo "neu=" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          echo "$neueste_gleich" > UPSTREAM
+          git config user.name "KENJTEC Bau"
+          git config user.email "admin@kenjtec.com"
+          git commit -am "Nextcloud $neueste_gleich nachziehen"
+          git push
+          echo "Nachgezogen: $jetzt → $neueste_gleich." >> "$GITHUB_STEP_SUMMARY"
+          echo "neu=$neueste_gleich" >> "$GITHUB_OUTPUT"
+
+  # Ein Push mit dem Lauf-Schlüssel löst keinen anderen Lauf aus (GitHub-Regel
+  # gegen Endlosschleifen) — deshalb ruft dieser Lauf den Bau selbst auf.
+  bauen:
+    needs: pruefen
+    if: ${{ needs.pruefen.outputs.neu != '' }}
+    uses: ./.github/workflows/bauen.yml
+    with:
+      ref: main
+    secrets: inherit

@@ -1,0 +1,201 @@
+# SPDX-FileCopyrightText: 2026 KENJTEC
+# SPDX-License-Identifier: GPL-2.0-or-later
+#
+# Baut den KENJTEC-Desktop-Client für Windows und macOS aus der Nextcloud-
+# Fassung in UPSTREAM und legt Installer + vollständige Quelle als Release ab.
+#
+# ⚠️ Solange nicht signiert wird, ist jedes Release ein VORABRELEASE
+# (prerelease). Der Update-Dienst (kenjtec.com/api/desktop/update) liest nur
+# das neueste ECHTE Release — unsignierte Bauten erreichen also keinen Kunden
+# automatisch. Signiert wird, sobald die Geheimnisse da sind (siehe README).
+name: Bauen
+
+on:
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        description: Stand, der gebaut wird (Nachziehen übergibt main)
+        type: string
+        required: false
+  push:
+    branches: [main]
+    paths: [UPSTREAM, branding/**, werkzeuge/**, .github/workflows/bauen.yml]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bauen
+  cancel-in-progress: false
+
+jobs:
+  fassung:
+    name: Fassung bestimmen
+    runs-on: ubuntu-latest
+    outputs:
+      tag: ${{ steps.f.outputs.tag }}
+      version: ${{ steps.f.outputs.version }}
+      zweig: ${{ steps.f.outputs.zweig }}
+      bau: ${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - id: f
+        run: |
+          tag="$(tr -d '[:space:]' < UPSTREAM)"
+          [[ "$tag" =~ ^v([0-9]+)\.([0-9]+)\.([0-9]+)$ ]] || { echo "UPSTREAM ist keine Fassung: $tag"; exit 1; }
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "version=${tag#v}.${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+          echo "zweig=stable-${BASH_REMATCH[1]}.${BASH_REMATCH[2]}" >> "$GITHUB_OUTPUT"
+
+  windows:
+    name: Windows
+    needs: fassung
+    runs-on: windows-2022
+    timeout-minutes: 240
+    env:
+      CRAFT_TARGET: windows-msvc2022_64-cl
+      CRAFT_MASTER_LOCATION: ${{ github.workspace }}\CraftMaster
+      QUELLE: ${{ github.workspace }}\quelle
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          path: kenjtec
+          ref: ${{ inputs.ref || github.sha }}
+      - uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Nextcloud-Quelle holen und branden
+        shell: pwsh
+        run: |
+          git clone -q --depth 1 --branch ${{ needs.fassung.outputs.tag }} https://github.com/nextcloud/desktop.git $env:QUELLE
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+          choco install inkscape -y --no-progress
+          $env:PATH = "C:\Program Files\Inkscape\bin;$env:PATH"
+          python kenjtec\werkzeuge\anwenden.py quelle $env:QUELLE --bau ${{ needs.fassung.outputs.bau }}
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+          "C:\Program Files\Inkscape\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Quelle für die GPL packen
+        shell: pwsh
+        run: |
+          tar --exclude=.git -czf "KENJTEC-${{ needs.fassung.outputs.version }}-quelle.tar.gz" -C "${{ github.workspace }}" quelle kenjtec
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+
+      - name: Craft und Abhängigkeiten
+        shell: pwsh
+        run: |
+          & cmd /C "git clone -q --depth=1 https://invent.kde.org/packaging/craftmaster.git $env:CRAFT_MASTER_LOCATION 2>&1"
+          function craft() {
+              python "$env:CRAFT_MASTER_LOCATION\CraftMaster.py" --config "$env:QUELLE\craftmaster.ini" --target $env:CRAFT_TARGET -c $args
+              if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+          craft --add-blueprint-repository "https://github.com/nextcloud/craft-blueprints-kde.git|${{ needs.fassung.outputs.zweig }}|"
+          craft --add-blueprint-repository "https://github.com/nextcloud/desktop-client-blueprints.git|${{ needs.fassung.outputs.zweig }}|"
+          craft craft
+          craft --install-deps nextcloud-client
+          python kenjtec\werkzeuge\anwenden.py rezept "${{ github.workspace }}\$env:CRAFT_TARGET"
+          if ($LASTEXITCODE -ne 0) { exit 1 }
+
+      - name: Bauen und Installer packen
+        shell: pwsh
+        run: |
+          function craft() {
+              python "$env:CRAFT_MASTER_LOCATION\CraftMaster.py" --config "$env:QUELLE\craftmaster.ini" --target $env:CRAFT_TARGET -c $args
+              if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+          craft --options nextcloud-client.buildTests=False --src-dir $env:QUELLE nextcloud-client
+          craft --options nextcloud-client.buildTests=False --src-dir $env:QUELLE --package nextcloud-client
+          $exe = Get-ChildItem -Path "${{ github.workspace }}\$env:CRAFT_TARGET\tmp" -Filter *.exe -Recurse | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+          if (-not $exe) { Write-Error "Kein Installer gefunden"; exit 1 }
+          Copy-Item $exe.FullName "KENJTEC-${{ needs.fassung.outputs.version }}-windows-x64.exe"
+
+      # Hier kommt das Signieren (Azure Trusted Signing) hin, sobald die Firma
+      # eingetragen ist — README, Abschnitt „Signieren“. Bis dahin bleibt der
+      # Installer unsigniert und das Release ein Vorabrelease.
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: windows
+          path: |
+            KENJTEC-*-windows-x64.exe
+            KENJTEC-*-quelle.tar.gz
+          compression-level: 0
+
+  macos:
+    name: macOS
+    needs: fassung
+    runs-on: macos-15
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          path: kenjtec
+          ref: ${{ inputs.ref || github.sha }}
+      - uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c # v6.0.0
+        with:
+          python-version: '3.12'
+      - name: Xcode wählen
+        run: sudo xcode-select -s /Applications/Xcode_16.3.app/Contents/Developer
+
+      - name: Nextcloud-Quelle holen und branden
+        run: |
+          git clone -q --depth 1 --branch "${{ needs.fassung.outputs.tag }}" https://github.com/nextcloud/desktop.git quelle
+          brew install --cask inkscape
+          python3 kenjtec/werkzeuge/anwenden.py quelle "$PWD/quelle" --bau "${{ needs.fassung.outputs.bau }}"
+
+      # mac-crafter ist Nextclouds eigenes Bauwerkzeug für macOS. Das
+      # Craft-Rezept passen wir hier NICHT an: Auf dem Mac packt mac-crafter
+      # selbst, das Rezept liefert nur die CMake-Schalter — und die Marke
+      # steckt schon in der Quelle (kenjtec-marke.cmake).
+      # Ohne Signatur kein Sparkle: --disable-autoupdater. Der Client meldet
+      # neue Fassungen dann nur (Hinweis mit Link), statt sie einzuspielen.
+      - name: Bauen
+        working-directory: quelle/admin/osx/mac-crafter
+        run: |
+          swift run mac-crafter \
+            --repo-root-dir "$GITHUB_WORKSPACE/quelle" \
+            --build-path "$GITHUB_WORKSPACE/mac-bau" \
+            --product-path "$GITHUB_WORKSPACE/mac-produkt" \
+            --app-name KENJTEC \
+            --arch arm64 \
+            --build-type Release \
+            --kde-blueprints-git-ref "${{ needs.fassung.outputs.zweig }}" \
+            --client-blueprints-git-ref "${{ needs.fassung.outputs.zweig }}" \
+            --disable-autoupdater
+
+      - name: DMG packen
+        run: |
+          test -d mac-produkt/KENJTEC.app || { echo "KENJTEC.app fehlt"; ls mac-produkt; exit 1; }
+          mkdir dmg && cp -R mac-produkt/KENJTEC.app dmg/ && ln -s /Applications dmg/Programme
+          hdiutil create -volname KENJTEC -srcfolder dmg -ov -format UDZO "KENJTEC-${{ needs.fassung.outputs.version }}-macos-arm64.dmg"
+
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: macos
+          path: KENJTEC-*-macos-arm64.dmg
+          compression-level: 0
+
+  release:
+    name: Release
+    needs: [fassung, windows, macos]
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          ref: ${{ inputs.ref || github.sha }}
+      - name: Bauten holen
+        run: gh run download ${{ github.run_id }} --dir bauten
+      - name: Release anlegen
+        run: |
+          v="${{ needs.fassung.outputs.version }}"
+          vorab="--prerelease"
+          [ "${{ vars.SIGNIERT }}" = "ja" ] && vorab=""
+          gh release create "v$v" bauten/*/* $vorab \
+            --title "KENJTEC $v" \
+            --notes "KENJTEC-Desktop-Client $v, gebaut aus Nextcloud Desktop ${{ needs.fassung.outputs.tag }} (GPL-2.0-or-later). Die vollständige Quelle dieses Baus liegt als KENJTEC-$v-quelle.tar.gz bei."

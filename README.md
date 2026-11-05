@@ -21,7 +21,7 @@ iPhone bekommen eine eigene, größere App, nicht diesen Client.
 | | |
 |---|---|
 | Quelle der Wahrheit | `apps/desktop/` im Monorepo `kenjtec-platform` |
-| Öffentlich (GPL, Bauen) | `github.com/kenjtec/kenjtec-desktop`. Dieser Ordner ist dort die Wurzel (`git subtree split --prefix apps/desktop`) |
+| Öffentlich (GPL, Bauen) | `github.com/kenjtec/kenjtec-desktop`. Dieser Ordner ist dort die Wurzel. Hinüber kommt er mit `tools/desktop-spiegeln.sh` (nach dem Abliefern) |
 | Update-Dienst | `kenjtec.com/api/desktop/update` → `apps/api/app/core/desktop_update.py` |
 | Projektplan | T-47 |
 
@@ -68,7 +68,7 @@ Solange nicht signiert wird:
 Was dazukommt (CEO-Aufgabe „Entwicklerkonten anlegen“):
 
 1. **Windows:** Azure Trusted Signing. Nach dem Installer-Schritt in `bauen.yml` mit `azure/trusted-signing-action` signieren (Anmeldung über OIDC, kein Schlüssel im Repo).
-2. **macOS:** Apple Developer ID. `mac-crafter` kann es schon (`--code-sign-identity`, `--apple-id`, `--apple-team-id`, Notarisierung); `--disable-autoupdater` fällt dann weg, und Sparkle braucht einen eigenen Signierschlüssel.
+2. **macOS:** Apple Developer ID. `mac-crafter` kann es schon (`--code-sign-identity`, `--apple-id`, `--apple-team-id`, Notarisierung); `--disable-auto-updater` fällt dann weg, und Sparkle braucht einen eigenen Signierschlüssel.
 3. Danach die Repo-Variable `SIGNIERT=ja` setzen. Ab dann sind Releases echte Releases, und Kunden bekommen Updates.
 
 ## Noch offen

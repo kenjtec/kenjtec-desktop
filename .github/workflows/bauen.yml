@@ -25,10 +25,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: bauen
-  cancel-in-progress: false
-
 jobs:
   fassung:
     name: Fassung bestimmen
@@ -156,6 +152,10 @@ jobs:
       # Der Quellordner ist ein POSITIONSARGUMENT, keine Option; die Schalter
       # leitet ArgumentParser aus den Swift-Namen ab (disableAutoUpdater →
       # --disable-auto-updater). Erster Lauf am 05.11.2026 scheiterte daran.
+      # Rezepte auf dem Mac: `next`, NICHT stable-x.y — so baut Nextcloud selbst
+      # (macos-craft-ci.yml, Vorgabe von mac-crafter), und nur dazu passt ihr
+      # Mac-Zwischenspeicher. Mit stable-4.0 verwarf Craft das zlib aus dem
+      # Speicher und lief auf zlib.net in einen 404 (zweiter Lauf, 05.11.2026).
       - name: Bauen
         working-directory: quelle/admin/osx/mac-crafter
         run: |
@@ -165,8 +165,8 @@ jobs:
             --app-name KENJTEC \
             --arch arm64 \
             --build-type Release \
-            --kde-blueprints-git-ref "${{ needs.fassung.outputs.zweig }}" \
-            --client-blueprints-git-ref "${{ needs.fassung.outputs.zweig }}" \
+            --kde-blueprints-git-ref next \
+            --client-blueprints-git-ref next \
             --disable-auto-updater
 
       - name: DMG packen

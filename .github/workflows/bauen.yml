@@ -84,6 +84,8 @@ jobs:
       - name: Craft und Abhängigkeiten
         shell: pwsh
         run: |
+          python kenjtec\werkzeuge\vorrat.py "${{ github.workspace }}\$env:CRAFT_TARGET"
+          if ($LASTEXITCODE -ne 0) { exit 1 }
           & cmd /C "git clone -q --depth=1 https://invent.kde.org/packaging/craftmaster.git $env:CRAFT_MASTER_LOCATION 2>&1"
           function craft() {
               python "$env:CRAFT_MASTER_LOCATION\CraftMaster.py" --config "$env:QUELLE\craftmaster.ini" --target $env:CRAFT_TARGET -c $args
@@ -156,6 +158,9 @@ jobs:
       # (macos-craft-ci.yml, Vorgabe von mac-crafter), und nur dazu passt ihr
       # Mac-Zwischenspeicher. Mit stable-4.0 verwarf Craft das zlib aus dem
       # Speicher und lief auf zlib.net in einen 404 (zweiter Lauf, 05.11.2026).
+      - name: Verschwundene Quellen vorlegen
+        run: python3 kenjtec/werkzeuge/vorrat.py "$GITHUB_WORKSPACE/mac-bau/macos-clang-arm64"
+
       - name: Bauen
         working-directory: quelle/admin/osx/mac-crafter
         run: |

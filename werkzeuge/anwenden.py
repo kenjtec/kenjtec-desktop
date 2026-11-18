@@ -158,6 +158,18 @@ def quelle(ordner: Path, bau: int) -> None:
 
     # 2. Bilder.
     ziel_theme = ordner / "theme"
+    # Die Status-Symbole des Infobereichs ersetzen Nextclouds Dateien gleichen
+    # Namens. Gibt es den Namen dort nicht mehr (oder nicht mehr in der
+    # Ressourcenliste), lägen unsere still daneben und der grüne Haken bliebe.
+    import status_symbole  # liegt neben dieser Datei
+    qrc = (ordner / "theme.qrc.in").read_text(encoding="utf-8") if (ordner / "theme.qrc.in").exists() else ""
+    for name, soll in status_symbole.dateien().items():
+        if (BRANDING / "theme" / "colored" / name).read_text(encoding="utf-8") != soll:
+            fehler(f"branding/theme/colored/{name} entspricht nicht werkzeuge/status_symbole.py — Erzeuger laufen lassen.")
+        if not (ziel_theme / "colored" / name).exists() or f'alias="theme/colored/{name}"' not in qrc:
+            fehler(f"Nextcloud kennt theme/colored/{name} nicht mehr — die Status-Symbole im Infobereich "
+                   "blieben Nextclouds. werkzeuge/status_symbole.py nachziehen.")
+
     for datei in (BRANDING / "theme").rglob("*"):
         if datei.is_file():
             ziel = ziel_theme / datei.relative_to(BRANDING / "theme")

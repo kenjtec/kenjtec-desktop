@@ -41,6 +41,7 @@ Drei Entscheidungen, die man leicht wieder falsch macht:
 - **Der Name hat kein Leerzeichen.** Nextclouds macOS-Bauwerkzeug setzt ihn ungeschützt in Shell-Befehle.
 - **Die Adresse ist `cloud.kenjtec.com`, nicht `my.kenjtec.com`.** `my.` leitet nur weiter (302, auch für `/remote.php/dav`, gemessen 05.11.2026).
 - **Die Urheberzeilen von Nextcloud bleiben**, im Info-Fenster und in den Dateiköpfen. Die GPL verlangt sie.
+- **Im Infobereich steht unser Programmzeichen** (seit 18.11.2026, Rizas Wahl „B“). Der Abgleichstand ist eine kleine Plakette unten rechts (Pfeile, Pause, Ausrufezeichen, Kreuz), „offline“ ist das Zeichen in Grau, „alles abgeglichen“ das Zeichen allein. Die sechs `branding/theme/colored/state-*.svg` erzeugt `werkzeuge/status_symbole.py` aus `KENJTEC-icon.svg`, nie von Hand. `anwenden.py quelle` bricht ab, wenn sie nicht zum Erzeuger passen oder Nextcloud die Namen ändert. Dieselbe Datei zeigt das Schnellfenster neben „Alles synchronisiert!“.
 - **Keine Begrüßungsseite von Nextcloud** (`WITH_PROVIDERS OFF`, seit 18.11.2026). Sonst startet das Anmelde-Fenster auf einer Diaschau mit Nextclouds Logo und den Knöpfen „Mit Provider anmelden“ und „Eigenen Server betreiben“. Ohne sie geht es bei fest eingestellter Adresse direkt zur Anmeldung im Browser. `anwenden.py quelle` und der Bau (Prüfung der fertigen `config.h`) brechen ab, wenn der Schalter nicht greift.
 
 ## Bauen und Aktualisieren

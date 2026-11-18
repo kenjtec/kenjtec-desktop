@@ -3,10 +3,923 @@
  "zweck": "KENJTECs Texte über Nextclouds translations/client_de.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
  "texte": [
   {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can add a client certificate and try again.",
+   "text": "Die sichere Verbindung ist fehlgeschlagen. Du kannst ein Client-Zertifikat hinzufügen und es erneut versuchen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can retry without encryption, or add a client certificate and try again.",
+   "text": "Die sichere Verbindung ist fehlgeschlagen. Du kannst es ohne Verschlüsselung erneut versuchen oder ein Client-Zertifikat hinzufügen und einen neuen Versuch unternehmen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "BrowserAuthPage",
+   "quelle": "Switch to your browser",
+   "text": "Zu deinem Browser wechseln",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "EncryptionTokenDiscoveryDialog",
+   "quelle": "Discovering the certificates stored on your USB token",
+   "text": "Erkennen der auf deinem USB-Token gespeicherten Zertifikate",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "Flow2AuthWidget",
+   "quelle": "Switch to your browser to connect your account",
+   "text": "Wechsle zu deinem Browser, um dein Konto zu verbinden",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "FolderWizardSourcePage",
+   "quelle": "Pick a local folder on your computer to sync",
+   "text": "Wähle einen lokalen Ordner zum Synchronisieren aus",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "Es ist ein unerwarteter Fehler aufgetreten. Versuche die Synchronisierung erneut oder wende dich an deine Serveradministration, wenn das Problem weiterhin besteht.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "<p>Do you really want to stop syncing the folder <i>%1</i>?</p><p><b>Note:</b> This will <b>not</b> delete any files.</p>",
+   "text": "<p>Möchtest du den Ordner <i>%1</i> nicht mehr synchronisieren?</p><p><b>Anmerkung:</b> Dies wird <b>keine</b> Dateien löschen.</p>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Confirm Folder Sync Connection Removal",
+   "text": "Bestätige die Löschung der Ordner-Synchronisierung",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has been initialized on this account with another device.<br>Enter the unique mnemonic to have the encrypted folders synchronize on this device as well.",
+   "text": "Die Ende-zu-Ende-Verschlüsselung wurde für dieses Konto mit einem anderen Gerät initialisiert. <br>Gib den eindeutigen Mnemonic ein, um die verschlüsselten Ordner auch auf diesem Gerät zu synchronisieren.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forgetting end-to-end encryption will remove the sensitive data and all the encrypted files from this device.<br>However, the encrypted files will remain on the server and all your other devices, if configured.",
+   "text": "Wenn die Ende-zu-Ende-Verschlüsselung vergessen wird, werden die vertraulichen Daten und alle verschlüsselten Dateien von diesem Gerät entfernt.<br>Die verschlüsselten Dateien verbleiben jedoch auf dem Server und allen deinen anderen Geräten, sofern eingerichtet.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Please wait for the folder to sync before trying to encrypt it.",
+   "text": "Bitte warte, bis der Ordner synchronisiert ist, bevor du versuchst, ihn zu verschlüsseln.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Server %1 is currently being redirected, or your connection is behind a captive portal.",
+   "text": "Server %1 wird derzeit umgeleitet oder deine Verbindung befindet sich hinter einem Captive-Portal.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "This will encrypt your folder and all files within it. These files will no longer be accessible without your encryption mnemonic key. \n<b>This process is not reversible. Are you sure you want to proceed?</b>",
+   "text": "Dadurch werden dein Ordner und alle darin enthaltenen Dateien verschlüsselt. Auf diese Dateien kann ohne deine Gedächtnisstütze nicht mehr zugegriffen werden.\n<b>Dies kann nicht rückgängig gemacht werden. Bist du sicher, dass du fortfahren möchtest?</b>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 dictionary words. Please note it down and keep it safe. You will need it to set-up the synchronization of encrypted folders on your other devices.",
+   "text": "Um deine kryptografische Identität zu schützen, verschlüsseln wir sie mit einer Gedächtnisstütze aus zwölf Wörtern aus dem Wörterbuch. Bitte notiere sie dir und bewahre sie sicher auf. Du benötigst sie, um die Synchronisierung verschlüsselter Ordner auf deinen anderen Geräten einzurichten.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Unchecked folders will be <b>removed</b> from your local file system and will not be synchronized to this computer anymore",
+   "text": "Nicht markierte Ordner werden von deinem lokalen Dateisystem <b>entfernt</b> und werden auch nicht mehr auf diesem Rechner synchronisiert",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You cannot encrypt a folder with contents, please remove the files.\nWait for the new sync, then encrypt it.",
+   "text": "Du kannst einen Ordner nicht mit Inhalten verschlüsseln, bitte Dateien entfernen.\nWarte auf die neue Synchronisierung und verschlüssele ihn dann.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You cannot encrypt this folder because the end-to-end encryption is not set-up yet on this device.\nWould you like to do this now?",
+   "text": "Dieser Ordner kann nicht verschlüsselt werden, da die Ende-zu-Ende-Verschlüsselung auf diesem Gerät noch nicht eingerichtet ist.\nMöchtest du dies jetzt tun?",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You seem to have the Virtual Files feature enabled on this folder. At the moment, it is not possible to implicitly download virtual files that are end-to-end encrypted. To get the best experience with virtual files and end-to-end encryption, make sure the encrypted folder is marked with \"Make always available locally\".",
+   "text": "Du scheinst die Funktion \"Virtuelle Dateien\" für diesen Ordner aktiviert zu haben. Im Moment ist es nicht möglich, virtuelle Dateien, die Ende-zu-Ende-verschlüsselt sind, implizit herunterzuladen. Um die beste Erfahrung mit virtuellen Dateien und Ende-zu-Ende-Verschlüsselung zu machen, stelle sicher, dass der verschlüsselte Ordner mit \"Immer lokal verfügbar machen\" markiert ist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountSetupFromCommandLineJob",
+   "quelle": "Access forbidden by server. To verify that you have proper access, <a href=\"%1\">click here</a> to access the service with your browser.",
+   "text": "Zugriff durch Server verboten. Um zu überprüfen, ob du über den richtigen Zugriff verfügst, <a href=\"%1\">klicke hier</a>, um mit deinem Browser auf den Dienst zuzugreifen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Access forbidden by server. To verify that you have proper access, open the service in your browser.",
+   "text": "Zugriff vom Server verweigert. Um zu überprüfen, ob du über die erforderlichen Zugriffsrechte verfügst, öffne den Dienst in deinem Browser.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong. Please go back and check your credentials.",
+   "text": "Das Erstellen des Remote-Ordners ist fehlgeschlagen, da die angegebenen Zugangsdaten falsch sind. Bitte gehe zurück und überprüfe deine Zugangsdaten.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "This server requires legacy browser authentication. Enter app-password credentials instead.",
+   "text": "Dieser Server erfordert eine Authentifizierung für ältere Browser. Gib stattdessen Anmeldedaten für ein App-Passwort ein.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "Der Browser kann nicht geöffnet werden. Bitte kopiere den Link in deinen Browser.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Application",
+   "quelle": "There was an error while accessing the configuration file at %1. Please make sure the file can be accessed by your system account.",
+   "text": "Beim Zugriff auf die Konfigurationsdatei unter %1 ist ein Fehler aufgetreten. Stelle sicher, dass dein Systemkonto auf die Datei zugreifen kann.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::CaseClashConflictSolver",
+   "quelle": "Could not rename file. Please make sure you are connected to the server.",
+   "text": "Datei konnte nicht umbenannt werden. Bitte stelle sicher, dass du mit dem Server verbunden bist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::CaseClashConflictSolver",
+   "quelle": "You don't have the permission to rename this file. Please ask the author of the file to rename it.",
+   "text": "Du hast nicht die Berechtigung, diese Datei umzubenennen. Bitte wende dich zum Umbenennen der Datei an deren Ersteller.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ClientSideEncryption",
+   "quelle": "Please enter your end-to-end encryption passphrase:<br><br>Username: %2<br>Account: %3<br>",
+   "text": "Gib deine Passphrase für Ende-zu-Ende-Verschlüsselung ein:<br><br>Benutzername: %2<br>Konto: %3<br>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ConflictDialog",
+   "quelle": "Which version of the file do you want to keep?<br/>If you select both versions, the local file will have a number added to its name.",
+   "text": "Welche Version der Datei soll behalten werden?<br/>Wenn du beide Versionen wählst, wird der lokalen Datei eine Zahl am Ende des Dateinamens angefügt.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ConnectionValidator",
+   "quelle": "Please update to the latest server and restart the client.",
+   "text": "Aktualisiere auf die neueste Serverversion und starte den Client neu.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EditLocallyJob",
+   "quelle": "Could not find a file for local editing. Make sure it is not excluded via selective sync.",
+   "text": "Datei zur lokalen Bearbeitung konnte nicht gefunden werden. Stelle sicher, dass sie nicht durch die selektive Synchronisierung ausgeschlossen wird.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EditLocallyJob",
+   "quelle": "Could not find a file for local editing. Make sure its path is valid and it is synced locally.",
+   "text": "Datei zur lokalen Bearbeitung konnte nicht gefunden werden. Stelle sicher, dass der Pfad gültig ist und lokal synchronisiert wird.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EditLocallyJob",
+   "quelle": "Could not find a remote file info for local editing. Make sure its path is valid.",
+   "text": "Remote-Dateiinformationen für die lokale Bearbeitung konnten nicht gefunden werden. Stelle sicher, dass der Pfad gültig ist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EditLocallyJob",
+   "quelle": "Lock will last for %1 minutes. You can also unlock this file manually once you are finished editing.",
+   "text": "Die Sperre dauert noch %1 Minuten. Du kannst diese Datei auch manuell entsperren, sobald du mit der Bearbeitung fertig bist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EncryptFolderJob",
+   "quelle": "Could not generate the metadata for encryption, Unlocking the folder.\nThis can be an issue with your OpenSSL libraries.",
+   "text": "Die Metadaten für die Verschlüsselung konnten nicht generiert werden. Entsperren des Ordners.\nDies kann ein Problem mit deinen OpenSSL-Bibliotheken sein.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "Your account is offline %1.",
+   "kommentar": "account url",
+   "text": "Dein Konto ist offline %1.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The returned server URL does not start with HTTPS despite the login URL started with HTTPS. Login will not be possible because this might be a security issue. Please contact your administrator.",
+   "text": "Die zurückgegebene Server-URL beginnt nicht mit HTTPS, obwohl die Anmelde-URL mit HTTPS beginnt. Die Anmeldung ist nicht möglich, da dies ein Sicherheitsproblem darstellen könnte. Bitte wende dich an deine Administration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Flow2AuthWidget",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "Der Browser kann nicht geöffnet werden. Bitte kopiere den Link in deinen Browser.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "%1 and %n other file(s) could not be synced due to errors. See the log for details.",
+   "formen": [
+    "%1 und %n weitere Datei konnten aufgrund von Fehlern nicht synchronisiert werden. Details findest du im Protokoll.",
+    "%1 und %n weitere Dateien konnten aufgrund von Fehlern nicht synchronisiert werden. Details findest du im Protokoll."
+   ],
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "%1 could not be synced due to an error. See the log for details.",
+   "text": "%1 konnte aufgrund eines Fehlers nicht synchronisiert werden. Details findest du im Protokoll.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "%1 has a sync conflict. Please check the conflict file!",
+   "text": "Es gab einen Konflikt bei der Synchronisierung von %1. Bitte prüfe die Konfliktdatei!",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "A large number of files in the server have been deleted.\nPlease confirm if you'd like to proceed with these deletions.\nAlternatively, you can restore all deleted files by uploading from '%1' folder to the server.",
+   "text": "Eine große Anzahl von Dateien auf dem Server wurde gelöscht.\nBitte bestätige, dass du mit deren Löschung fortfahren möchtest.\nAlternativ kannst du alle gelöschten Dateien wiederherstellen, indem du sie aus dem Ordner '%1' auf den Server hochlädst.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "A large number of files in your local '%1' folder have been deleted.\nPlease confirm if you'd like to proceed with these deletions.\nAlternatively, you can restore all deleted files by downloading them from the server.",
+   "text": "Eine große Anzahl von Dateien wurde lokal im Ordner '%1' gelöscht.\nBitte bestätige, dass du mit diesen Löschungen fortfahren möchtest.\nAlternativ kannst du auch alle gelöschten Dateien wiederherstellen, indem du sie vom Server herunterlädst.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please choose a different location. %1 isn't a readable folder.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 ist kein lesbarer Ordner.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please choose a different location. %1 isn't a valid folder.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 ist kein gültiger Ordner.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please choose a different location. The folder %1 doesn't exist.",
+   "text": "Bitte wähle einen anderen Speicherort. Der Ordner %1 ist nicht vorhanden.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please go in the settings to select it if you wish to download it.",
+   "text": "Bitte wechsle zu den Einstellungen, falls du den Ordner herunterladen möchtest.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "The file %1 was created but was excluded from synchronization previously. It will not be synchronized.",
+   "text": "Die Datei %1 wurde erstellt, jedoch bereits zuvor von der Synchronisierung ausgeschlossen. Sie wird nicht synchronisiert.",
+   "grund": "sinn"
+  },
+  {
+   "kontext": "OCC::FolderCreationDialog",
+   "quelle": "Could not create a folder! Check your write permissions.",
+   "text": "Ordner konnte nicht erstellt werden! Prüfe die Schreibberechtigungen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "An old sync journal \"%1\" was found, but could not be removed. Please make sure that no application is currently using it.",
+   "text": "Ein altes Synchronisierungsprotokoll \"%1\" wurde gefunden, konnte jedoch nicht entfernt werden. Bitte stelle sicher, dass keine Anwendung es verwendet.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. %1 is already being used as a sync folder for %2.",
+   "kommentar": "folder location, server url",
+   "text": "Bitte wähle einen anderen Speicherort. %1 wird bereits als Synchronisierungsordner für %2 verwendet.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. %1 is already being used as a sync folder.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 wird bereits als Synchronisationsordner verwendet.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. %1 is already contained in a folder used as a sync folder.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 ist bereits in einem Ordner enthalten, der als Synchronisierungsordner verwendet wird.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. The path %1 doesn't exist.",
+   "text": "Bitte wähle einen anderen Speicherort. Der Pfad %1 existiert nicht.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. The path %1 isn't a folder.",
+   "text": "Bitte wähle einen anderen Speicherort. Der Pfad %1 ist kein Ordner.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. The selected folder isn't valid.",
+   "text": "Bitte wähle einen anderen Speicherort. Der ausgewählte Ordner ist ungültig.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. You don't have enough permissions to write to %1.",
+   "kommentar": "folder location",
+   "text": "Bitte wähle einen anderen Speicherort. Du hast nicht genügend Berechtigungen, um in %1 zu schreiben.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "The folder %1 is linked to multiple accounts.\nThis setup can cause data loss and it is no longer supported.\nTo resolve this issue: please remove %1 from one of the accounts and create a new sync folder.\nFor advanced users: this issue might be related to multiple sync database files found in one folder. Please check %1 for outdated and unused .sync_*.db files and remove them.",
+   "text": "Der Ordner %1 ist mit mehreren Konten verknüpft.\nDiese Konfiguration kann zu Datenverlust führen und wird nicht mehr unterstützt.\nSo behebst du dieses Problem: Entferne %1 von einem der Konten und erstelle einen neuen Synchronisierungsordner.\nFür fortgeschrittene Benutzer: Dieses Problem kann damit zusammenhängen, dass sich mehrere Synchronisierungsdatenbankdateien in einem Ordner befinden. Suche in %1 nach veralteten und nicht verwendeten .sync_*.db-Dateien und entferne diese.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Click this button to add a folder to synchronize.",
+   "text": "Wähle diese Schaltfläche, um einen zu synchronisierenden Ordner hinzuzufügen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Due to recent security improvements, the client no longer has access to the folder. Your approval is required one time to restore access. Please select the synchronization folder root.",
+   "text": "Aufgrund aktueller Sicherheitsverbesserungen hat der Client keinen Zugriff mehr auf den Ordner. Deine Zustimmung ist einmalig erforderlich, um den Zugriff wiederherzustellen. Bitte das Stammverzeichnis des Synchronisierungsordners auswählen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "You need to be connected to add a folder",
+   "text": "Du musst verbunden sein, um einen Ordner hinzuzufügen",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWatcherPrivate",
+   "quelle": "This problem usually happens when the inotify watches are exhausted. Check the FAQ for details.",
+   "text": "Dieses Problem tritt zumeist auf, wenn die Inotify-Zähler voll sind. Details findest du in den FAQ.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "Choose this to sync the entire account",
+   "text": "Wähle dies, um das gesamte Konto zu synchronisieren",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "Enter the name of the new folder to be created below \"%1\":",
+   "text": "Gib den Namen des neuen, unter \"%1\" zu erstellenden Ordners ein: ",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "Failed to create the folder on %1. Please check manually.",
+   "text": "Der Ordner konnte nicht auf %1 erstellt werden. Bitte prüfe dies manuell.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "Please choose a different location. %1 is already being synced to %2.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 wird bereits mit %2 synchronisiert.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "You are already syncing the subfolder %1 at %2.",
+   "text": "Du synchronisierst bereits den Unterordner %1 bei %2.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardSelectiveSync",
+   "quelle": "Virtual files are not supported for Windows partition roots as local folder. Please choose a valid subfolder under drive letter.",
+   "text": "Virtuelle Dateien werden für die Wurzel von Windows-Partitionen als lokaler Ordner nicht unterstützt. Bitte wähle einen gültigen Unterordner unter dem Laufwerksbuchstaben.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "The login item has been registered but needs your approval to become active. Please open System Settings → General → Login Items and enable %1 there.",
+   "text": "Das Anmeldeelement wurde registriert, benötigt aber deine Überprüfung, um aktiviert zu werden. Bitte Systemeinstellungen → Allgemein → Anmeldeelemente öffnen und dort %1 aktivieren.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "You cannot disable autostart because system-wide autostart is enabled.",
+   "text": "Du kannst den Autostart nicht deaktivieren, da der systemweite Autostart aktiviert ist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "Cannot rename file because a file with the same name does already exist on the server. Please pick another name.",
+   "text": "Die Datei kann nicht umbenannt werden, da eine Datei mit demselben Namen bereits auf dem Server existiert. Bitte wähle einen anderen Namen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "Could not rename file. Please make sure you are connected to the server.",
+   "text": "Datei konnte nicht umbenannt werden. Bitte stelle sicher, dass du mit dem Server verbunden bist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "Please enter a new name for the file:",
+   "text": "Bitte gib einen neuen Namen für die Datei ein:",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "You don't have the permission to rename this file. Please ask the author of the file to rename it.",
+   "text": "Du hast nicht die Berechtigung, diese Datei umzubenennen. Bitte wende dich an den Autor der Datei, um sie umzubenennen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::LogBrowser",
+   "quelle": "This setting persists across client restarts.\nNote that using any logging command line options will override this setting.",
+   "text": "Diese Einstellung bleibt über Client-Neustarts hinweg bestehen.\nBeachte, dass die Verwendung von Befehlszeilenoptionen für die Protokollierung diese Einstellung außer Kraft setzt.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Mac::FileProviderEditLocallyJob",
+   "quelle": "Could not find a file for local editing. Make sure its path is valid and it is synced locally.",
+   "text": "Eine Datei für die lokale Bearbeitung konnte nicht gefunden werden. Stelle sicher, dass der Pfad gültig ist und die Datei lokal synchronisiert wird.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::NSISUpdater",
+   "quelle": "<p>A new version of the %1 Client is available but the updating process failed.</p><p><b>%2</b> has been downloaded. The installed version is %3. If you confirm restart and update, your computer may reboot to complete the installation.</p>",
+   "text": "<p>Eine neue Version des %1 - Clients ist verfügbar, aber die Aktualisierung ist fehlgeschlagen.</p><p><b>%2</b> wurde heruntergeladen. Die installierte Version ist %3. Wenn du Neustart und Aktualisieren bestätigst, wird dein Computer möglicherweise neu gestartet, um die Installation abzuschließen.</p>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::NSISUpdater",
+   "quelle": "Ask again later",
+   "text": "Versuche es später erneut",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "A new update for %1 is about to be installed. The updater may ask for additional privileges during the process. Your computer may reboot to complete the installation.",
+   "text": "Eine neue Aktualisierung für %1 wird installiert. Während des Aktualisierungsvorgangs wirst du eventuell aufgefordert, zusätzliche Berechtigungen zu gewähren. Dein Computer wird möglicherweise neu gestartet, um die Installation abzuschließen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "Could not download update. Please open %1 to download the update manually.",
+   "text": "Aktualisierung kann nicht heruntergeladen werden. Bitte öffne %1, um die Aktualisierung manuell herunterzuladen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "Could not download update. Please open <a href='%1'>%1</a> to download the update manually.",
+   "text": "Aktualisierung kann nicht heruntergeladen werden. Bitte öffne <a href='%1'>%1</a>, um die Aktualisierung manuell herunterzuladen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "New %1 is available. Please open %2 to download the update.",
+   "text": "Neue Version von %1 vorhanden. Bitte öffne %2, um die Aktualisierung herunterzuladen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "New %1 is available. Please open <a href='%2'>%2</a> to download the update.",
+   "text": "Neue Version von %1 vorhanden. Bitte öffne <a href='%2'>%2</a>, um die Aktualisierung herunterzuladen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "No updates available. Your installation is the latest version.",
+   "text": "Keine Aktualisierungen verfügbar. Deine Installation ist die neueste Version.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "You are using the %1 update channel. Your installation is the latest version.",
+   "text": "Du verwendest den Update-Kanal %1. Deine Installation ist die neueste Version.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudAdvancedSetupPage",
+   "quelle": "Virtual files are not supported for Windows partition roots as local folder. Please choose a valid subfolder under drive letter.",
+   "text": "Virtuelle Dateien werden für die Wurzel von Windows-Partitionen als lokaler Ordner nicht unterstützt. Bitte wähle einen gültigen Unterordner unter dem Laufwerksbuchstaben.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudAdvancedSetupPage",
+   "quelle": "Warning: The local folder is not empty. Pick a resolution!",
+   "text": "Achtung: Der lokale Ordner ist nicht leer. Bitte wähle eine entsprechende Lösung!",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudConnectionMethodDialog",
+   "quelle": "<html><head/><body><p>Failed to connect to the secure server address <em>%1</em>. How do you wish to proceed?</p></body></html>",
+   "text": "<html><head/><body><p>Sichere Verbindung zur Serveradresse <em>%1</em> fehlgeschlagen. Wie möchtest du fortfahren?</p></body></html>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudConnectionMethodDialog",
+   "quelle": "<html><head/><body><p>Failed to connect to the secure server address specified. How do you wish to proceed?</p></body></html>",
+   "text": "<html><head/><body><p>Verbindung mit der angegebenen sicheren Serveradresse fehlgeschlagen. Wie möchtest du fortfahren?</p></body></html>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudHttpCredsPage",
+   "quelle": "Enter user credentials",
+   "text": "Gib deine Benutzer-Anmeldeinformationen ein",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupPage",
+   "quelle": "The link to your %1 web interface when you open it in the browser.",
+   "kommentar": "%1 will be replaced with the application name",
+   "text": "Der Link zu deiner %1 Webseite, wenn du diese im Browser öffnest.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "<p><font color=\"red\">Remote folder creation failed probably because the provided credentials are wrong.</font><br/>Please go back and check your credentials.</p>",
+   "text": "<p><font color=\"red\">Die Erstellung des entfernten Ordners ist fehlgeschlagen, vermutlich sind die angegebenen Zugangsdaten falsch.</font><br/>Bitte gehe zurück und überprüfe deine Zugangsdaten.</p>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "Access forbidden by server. To verify that you have proper access, <a href=\"%1\">click here</a> to access the service with your browser.",
+   "text": "Zugang vom Server nicht erlaubt. <a href=\"%1\">Klicke hier</a> zum Zugriff auf den Dienst mithilfe deines Browsers, so dass du sicherstellen kannst, dass dein Zugang ordnungsgemäß funktioniert.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "Cannot remove and back up the folder because the folder or a file in it is open in another program. Please close the folder or file and hit retry or cancel the setup.",
+   "text": "Der Ordner kann nicht entfernt und gesichert werden, da der Ordner oder eine seiner Dateien in einem anderen Programm geöffnet ist. Bitte schließe den Ordner oder die Datei und versuche es erneut oder beende die Installation.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "Connection to %1 could not be established. Please check again.",
+   "text": "Die Verbindung zu %1 konnte nicht hergestellt werden. Bitte prüfe die Einstellungen erneut.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong!<br/>Please go back and check your credentials.</p>",
+   "text": "Die Erstellung des entfernten Ordners ist fehlgeschlagen, weil die angegebenen Zugangsdaten falsch sind. <br/>Bitte gehe zurück und überprüfe die Zugangsdaten.</p>",
+   "grund": "anrede"
+  },
+  {
    "kontext": "OCC::OwncloudSetupWizard",
    "quelle": "creating folder on Nextcloud: %1",
    "text": "Erstelle Ordner in der BusinessCloud: %1",
    "grund": "marke"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Stay safe",
+   "text": "Sicher bleiben",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "Wenn der Modus \"Virtuelle Dateien\" aktiviert ist, werden zunächst keine Dateien heruntergeladen. Stattdessen wird für jede Datei, die auf dem Server existiert, eine winzige \"%1\"-Datei erstellt. Der Inhalt kann heruntergeladen werden, indem diese Dateien ausgeführt werden oder indem deren Kontextmenü verwendet wird.\n\nDer Modus \"Virtuelle Dateien\" schließt sich mit der ausgewählten Synchronisierung gegenseitig aus. Derzeit nicht ausgewählte Ordner werden in reine Online-Ordner umgewandelt und deine Einstellungen für die selektive Synchronisierung werden zurückgesetzt.\n\nWenn du in diesen Modus wechselst, wird eine aktuell laufende Synchronisierung abgebrochen.\n\nDies ist ein neuer, experimenteller Modus. Wenn du dich entscheidest, ihn zu verwenden, melde bitte alle auftretenden Probleme.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Not allowed because you don't have permission to add files in that folder",
+   "text": "Nicht erlaubt, da du keine Berechtigung zum Hinzufügen von Dateien in diesen Ordner hast.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Not allowed because you don't have permission to add subfolders to that folder",
+   "text": "Nicht erlaubt, da du nicht die Berechtigung hast, Unterordner zu diesem Ordner hinzuzufügen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "The filename cannot be encoded on your file system.",
+   "text": "Der Dateiname kann auf deinem Dateisystem nicht entschlüsselt werden.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "File %1 has invalid modified time reported by server. Do not save it.",
+   "text": "Datei %1 hat eine ungültige Änderungszeit, die vom Server gemeldet wurde. Sie wird nicht gespeichert.",
+   "grund": "sinn"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "I shared something with you",
+   "text": "Ich habe etwas mit dir geteilt",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "The account %1 does not have end-to-end encryption configured. Please configure this in your account settings to enable folder encryption.",
+   "text": "Für das Konto %1 ist keine Ende-zu-Ende-Verschlüsselung konfiguriert. Bitte konfiguriere diese in deinen Kontoeinstellungen, um die Ordnerverschlüsselung zu aktivieren.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Please grant access to your sync folders",
+   "text": "Bitte Zugriff auf deine Synchronisierungsordner gewähren",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Could not fetch predefined statuses. Make sure you are connected to the server.",
+   "text": "Vordefinierte Status konnten nicht abgerufen werden. Stelle bitte sicher, dass du mit dem Server verbunden bist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Could not fetch status. Make sure you are connected to the server.",
+   "text": "Benutzerstatus konnte nicht abgerufen werden. Bitte stelle sicher, dass du mit dem Server verbunden bist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 is a drive. It doesn't support virtual files.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 ist ein Laufwerk. Es unterstützt keine virtuellen Dateien.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 is a network drive. It doesn't support virtual files.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 ist ein Netzlaufwerk. Es unterstützt keine virtuellen Dateien.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 isn't a NTFS file system. It doesn't support virtual files.",
+   "text": "Bitte wähle einen anderen Speicherort. %1 ist kein NTFS-Dateisystem. Es unterstützt keine virtuellen Dateien.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::WebFlowCredentials",
+   "quelle": "You have been logged out of your account %1 at %2. Please login again.",
+   "text": "Du wurdest von deinem Konto %1 als %2 abgemeldet. Bitte melde dich erneut an.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::WelcomePage",
+   "quelle": "Keep your data secure and under your control",
+   "text": "Halte deine Daten sicher und unter deiner Kontrolle",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Please sign in",
+   "text": "Bitte melde dich an",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Your account %1 requires you to accept the terms of service of your server. You will be redirected to %2 to acknowledge that you have read it and agrees with it.",
+   "text": "Für dein Konto %1 musst du die Nutzungsbedingungen deines Servers akzeptieren. Du wirst weitergeleitet an %2, um zu bestätigen, dass du die Nutzungsbedingungen gelesen hast und damit einverstanden bist.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OwncloudAdvancedSetupPage",
+   "quelle": "<html><head/><body><p>If this box is checked, existing content in the local folder will be erased to start a clean sync from the server.</p><p>Do not check this if the local content should be uploaded to the servers folder.</p></body></html>",
+   "text": "<html><head/><body><p>Wenn diese Option gesetzt ist, werden bestehende Inhalte im lokalen Ordner gelöscht, um eine saubere Synchronisierung nur der Serverdaten zu ermöglichen.</p><p>Wähle diese Option nicht, wenn die lokalen Inhalte auf den Server übertragen werden sollen.</p></body></html>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OwncloudSetupPage",
+   "quelle": "This is the link to your %1 web interface when you open it in the browser.",
+   "text": "Dies ist der Link zu deiner %1 Webseite, wenn du diese im Browser öffnest.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "Es ist ein unerwarteter Fehler aufgetreten. Versuche die Synchronisierung erneut oder wende dich an deine Serveradministration, wenn das Problem weiterhin besteht.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It seems you are using a proxy that required authentication. Please check your proxy settings and credentials. If you need help, contact your server administrator.",
+   "text": "Es scheint, dass du einen Proxy verwendest, der eine Authentifizierung erfordert. Bitte überprüfe deine Proxy-Einstellungen und Anmeldedaten. Wenn du Hilfe benötigst, wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It’s taking too long to connect to the server. Please try again later. If you need help, contact your server administrator.",
+   "text": "Der Verbindungsaufbau zum Server dauert zu lange. Versuche es später noch einmal oder wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Server files changed while you were working. Please try syncing again. Contact your server administrator if the issue persists.",
+   "text": "Die Serverdateien wurden während deiner Arbeit geändert. Versuche die Synchronisierung erneut oder wende dich an deine Serveradministration, falls das Problem weiterhin besteht.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The address used to make the request is too long for the server to handle. Please try shortening the information you’re sending or contact your server administrator for assistance.",
+   "text": "Die für die Anfrage verwendete Adresse ist zu lang, um vom Server verarbeitet werden zu können. Bitte versuche, die gesendeten Informationen zu kürzen, oder wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The file is too big to upload. You might need to choose a smaller file or contact your server administrator for assistance.",
+   "text": "Die Datei ist zu groß zum Hochladen. Wähle eine kleinere Datei aus oder wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request could not be completed because some required conditions were not met. Please try syncing again later. If you need assistance, please contact your server administrator.",
+   "text": "Die Anfrage konnte nicht abgeschlossen werden, weil einige erforderliche Bedingungen nicht erfüllt waren. Bitte versuche die Synchronisierung erneut. Wenn du Hilfe benötigst, wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request is taking longer than usual. Please try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "Die Anfrage dauert länger als üblich. Bitte versuche die Synchronisierung erneut. Wenn es immer noch nicht funktioniert, wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The resource you are trying to access is currently locked and cannot be modified. Please try changing it later, or contact your server administrator for assistance.",
+   "text": "Die Ressource, auf die du zuzugreifen versuchst, ist derzeit gesperrt und kann nicht geändert werden. Versuche bitte, sie später zu ändern, oder wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server couldn’t process your request because some information was incorrect or incomplete. Please try syncing again later, or contact your server administrator for assistance.",
+   "text": "Der Server konnte deine Anfrage nicht bearbeiten, da einige Informationen falsch oder unvollständig waren. Bitte wiederhole die Synchronisierung später oder wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not have enough space to complete your request. Please check how much quota your user has by contacting your server administrator.",
+   "text": "Der Server verfügt nicht über genügend Speicherplatz, um deine Anfrage zu bearbeiten. Wende dich an deine Serveradministration, um zu prüfen, wie viel Speicherkontingent dein Konto hat.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not recognize the request method. Please contact your server administrator for help.",
+   "text": "Der Server erkennt die Anfragemethode nicht. Wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not support the version of the connection being used. Contact your server administrator for help.",
+   "text": "Der Server unterstützt die verwendete Version der Verbindung nicht. Wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This file type isn’t supported. Please contact your server administrator for assistance.",
+   "text": "Dieser Dateityp wird nicht unterstützt. Wende dich bitte an deine Serveradministration, um Hilfe zu erhalten.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This folder or file isn’t available anymore. If you need assistance, please contact your server administrator.",
+   "text": "Dieser Ordner oder diese Datei ist nicht mehr verfügbar. Wenn du Hilfe benötigst, wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This request could not be completed because it is missing some required conditions. Please try again later, or contact your server administrator for help.",
+   "text": "Diese Anfrage konnte nicht abgeschlossen werden, da einige erforderliche Bedingungen fehlen. Bitte versuche es später noch einmal oder wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t find what you were looking for. It might have been moved or deleted. If you need help, contact your server administrator.",
+   "text": "Es konnte nicht gefunden werden, wonach du gesucht hast. Möglicherweise wurde es verschoben oder gelöscht. Wenn du Hilfe benötigst, wende dich an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We’re having trouble connecting to the server. Please try again soon. If the issue persists, your server administrator can help you.",
+   "text": "Es bestehen Probleme bei der Verbindung zum Server. Informiere die Serveradministration, falls das Problem weiterhin besteht.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You changed %1",
+   "text": "Du hast %1 geändert",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You created %1",
+   "text": "Du hast %1 erstellt",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You deleted %1",
+   "text": "Du hast %1 gelöscht",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have access to this resource. If you think this is a mistake, please contact your server administrator.",
+   "text": "Du hast keinen Zugriff auf diese Ressource. Wenn du denkst, dass dies ein Fehler ist, wende dich bitte an die Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have permission to access this resource. If you believe this is an error, contact your server administrator to ask for assistance.",
+   "text": "Du hast keine Berechtigung, auf diese Ressource zuzugreifen. Wenn du glaubst, dass es sich um einen Fehler handelt, wende dich für Hilfe an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You made too many requests. Please wait and try again. If you keep seeing this, your server administrator can help.",
+   "text": "Du hast zu viele Anfragen gestellt. Bitte warte und versuche es erneut. Wenn du diese Meldung erneut siehst, kann dir deine Serveradministration helfen.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You need to sign in to continue. If you have trouble with your credentials, please reach out to your server administrator.",
+   "text": "Du musst dich anmelden, um fortzufahren. Wenn du Probleme mit deinen Anmeldedaten hast, wende dich bitte an deine Serveradministration.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You renamed %1",
+   "text": "Du hast %1 umbenannt",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Your network needs extra authentication. Please check your connection. Contact your server administrator for help if the issue persists.",
+   "text": "Dein Netzwerk benötigt eine zusätzliche Authentifizierung. Bitte überprüfe deine Verbindung. Informiere die Serveradministration, falls das Problem weiterhin besteht.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "Choose if you want to keep the local version, server version, or both. If you choose both, the local file will have a number added to its name.",
+   "text": "Wähle, ob du die lokale Version, die Serverversion oder beide behalten möchtest. Wenn du beide auswählst, wird dem Namen der lokalen Datei eine Nummer hinzugefügt.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Enter the link to your %1 web interface from the browser or the link to a folder shared with you.",
+   "text": "Im Browser den Link zu deiner %1 Weboberfläche oder den Link zu einem für dich freigegebenen Ordner eingeben.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Shared with you by %1",
+   "text": "Von %1 mit dir geteilt",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "UnifiedSearchPlaceholderView",
+   "quelle": "Start typing to search",
+   "text": "Beginne mit der Eingabe, um zu suchen",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "What is your status?",
+   "text": "Wie ist dein Status?",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "main.cpp",
+   "quelle": "%1 requires on a working system tray. If you are running XFCE, please follow <a href=\"http://docs.xfce.org/xfce/xfce4-panel/systray\">these instructions</a>. Otherwise, please install a system tray application such as \"trayer\" and try again.",
+   "text": "%1 benötigt ein funktionierendes Benachrichtigungsfeld. Falls du XFCE einsetzt, folge bitte <a href=\"http://docs.xfce.org/xfce/xfce4-panel/systray\">diesen Anweisungen</a>. Andernfalls installiere bitte ein Benachrichtigungsfeld wie zum Beispiel \"Trayer\" und versuche es nochmal.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Stay safe",
+   "text": "Sicher bleiben",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "Wenn der Modus \"Virtuelle Dateien\" aktiviert ist, werden zunächst keine Dateien heruntergeladen. Stattdessen wird für jede Datei, die auf dem Server existiert, eine winzige \"%1\"-Datei erstellt. Der Inhalt kann heruntergeladen werden, indem diese Dateien ausgeführt werden oder indem deren Kontextmenü verwendet wird.\n\nDer Modus \"Virtuelle Dateien\" schließt sich mit der ausgewählten Synchronisierung gegenseitig aus. Derzeit nicht ausgewählte Ordner werden in reine Online-Ordner umgewandelt und deine Einstellungen für die selektive Synchronisierung werden zurückgesetzt.\n\nWenn du in diesen Modus wechselst, wird eine aktuell laufende Synchronisierung abgebrochen.\n\nDies ist ein neuer, experimenteller Modus. Wenn du dich entscheidest, ihn zu verwenden, melde bitte alle auftretenden Probleme.",
+   "grund": "anrede"
   }
  ]
 }

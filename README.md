@@ -27,7 +27,7 @@ iPhone bekommen eine eigene, größere App, nicht diesen Client.
 
 ## Wie die Marke darüberkommt
 
-`werkzeuge/anwenden.py` ändert **keine Zeile** an Nextclouds Quellcode, sondern legt drei Dinge darüber:
+`werkzeuge/anwenden.py` ändert Nextclouds Quellcode nur dort, wo es keinen Schalter gibt — jede Stelle wörtlich in `QUELLTEXT_EINGRIFFE`, und der Bau bricht ab, wenn Nextcloud sie ändert. Heute ist es eine: Das gewählte Konto im Einstellungsfenster trug die Windows-Akzentfarbe (meist Blau); jetzt hell-teal mit dunkler Schrift, bei dunklem Windows dunkel-teal mit heller (Riza, 18.11.2026: „da hätte ich gerne unsere Farben“). Sonst legt es Dinge darüber:
 
 1. `branding/marke.cmake` wird als letzte Zeile in `NEXTCLOUD.cmake` eingebunden. Darin stehen Name `KENJTEC`, Hersteller, feste Adresse, Update-Adresse, Farben, ein Konto je Installation und eigene Windows-GUIDs.
 2. `branding/theme/` kommt über `theme/`: Programmsymbol, Logo im Anmelde-Assistenten (hellteal auf `#04342C`), Startmenü-Kachel, Ordnersymbol, Finder-Seitenleiste.

@@ -7,8 +7,9 @@ WARUM ES DAS GIBT
 -----------------
 Wir bauen keinen eigenen Sync-Client, sondern verteilen Nextclouds Client
 unter unserem Namen (Riza, 05.11.2026). Damit jede neue Nextcloud-Fassung
-ohne Handarbeit durchläuft, ändern wir NICHTS am Quellcode selbst, sondern
-legen nur drei Dinge darüber:
+ohne Handarbeit durchläuft, ändern wir am Quellcode selbst nur, wo es keinen
+Schalter gibt — jede Stelle wörtlich in `QUELLTEXT_EINGRIFFE`, mit Riegel —,
+und legen sonst nur drei Dinge darüber:
 
   1. `branding/marke.cmake` → als letzte Zeile in `NEXTCLOUD.cmake`
      (Name, Hersteller, feste Cloud-Adresse, Update-Adresse, Farben, GUIDs);
@@ -107,6 +108,32 @@ REZEPT_I18N = (
 )
 
 EINBINDUNG = "include(${CMAKE_SOURCE_DIR}/kenjtec-marke.cmake)"
+
+#: Eingriffe in Nextclouds Quellcode — nur, wo es keinen Schalter gibt. Jeder
+#: steht hier WÖRTLICH (links, wie bei Nextcloud), ersetzt genau eine Stelle
+#: und bricht ab, wenn es sie nicht genau einmal gibt.
+#:
+#: Das gewählte Konto im Einstellungsfenster: Nextcloud färbt die Kachel mit
+#: der Akzentfarbe von Windows (`palette().highlight()`, bei den meisten Blau).
+#: Riza, 18.11.2026: „da hätte ich gerne unsere Farben, denn das ist typisch
+#: an der Nextcloud-Farbe.“ Die Symbole auf den Kacheln folgen dem FENSTER
+#: (createColorAwareIcon), nicht der Auswahl — deshalb hell-teal mit dunkler
+#: Schrift auf hellem Fenster, dunkel-teal mit heller Schrift auf dunklem;
+#: nie dunkel auf dunkel. Farben aus apps/web/tailwind.config.ts bzw. dem
+#: Werkzeugrahmen der Cloud (tool-shell-raised, tool-shell-text).
+QUELLTEXT_EINGRIFFE: list[tuple[str, str, str]] = [
+    (
+        "src/gui/settingsdialog.cpp",
+        "    QString highlightColor(palette().highlight().color().name());\n"
+        "    QString highlightTextColor(palette().highlightedText().color().name());\n",
+        # Nur ASCII: MSVC liest Quellen ohne /utf-8 in der Systemcodepage (C4819).
+        "    // KENJTEC (werkzeuge/anwenden.py): selected account in our colors instead of the\n"
+        "    // Windows accent color - light on a light window, dark on a dark one.\n"
+        "    const auto kenjtecDunkel = Theme::instance()->darkMode();\n"
+        "    QString highlightColor(QString::fromLatin1(kenjtecDunkel ? \"#0A453A\" : \"#DDEBE6\"));\n"
+        "    QString highlightTextColor(QString::fromLatin1(kenjtecDunkel ? \"#EDF5F3\" : \"#04342C\"));\n",
+    ),
+]
 
 #: Nextclouds Packliste (`blacklist.txt` neben dem Rezept) wirft jede .exe aus
 #: `bin/` weg, die nicht `nextcloud`/`nextcloudcmd` heißt. Unsere heißen
@@ -207,7 +234,29 @@ def quelle(ordner: Path, bau: int) -> None:
     if not voll:
         fehler("Nicht jede unserer Sprachen ist vollständig — Nextcloud hat neue Texte. "
                "`python werkzeuge/sprachen.py luecken <quelle> <code> <vorlage.json>`, übersetzen, `aufnehmen`.")
+
+    # 5. Die wenigen Eingriffe in Nextclouds Code.
+    eingriffe(ordner)
     print(f"KENJTEC-Branding: Quelle {ordner} gebrandet (Bau {bau}).")
+
+
+def eingriffe(ordner: Path) -> None:
+    """QUELLTEXT_EINGRIFFE anwenden — jede Stelle genau einmal, sonst rot.
+
+    `read_text` liest CRLF als LF: Der Windows-Bauserver klont mit CRLF.
+    """
+    for rel, alt, neu in QUELLTEXT_EINGRIFFE:
+        pfad = ordner / rel
+        if not pfad.exists():
+            fehler(f"{rel} fehlt — Nextcloud hat die Datei verschoben. QUELLTEXT_EINGRIFFE nachziehen.")
+        inhalt = pfad.read_text(encoding="utf-8")
+        if neu in inhalt and alt not in inhalt:
+            continue
+        if inhalt.count(alt) != 1:
+            fehler(f"In {rel} steht die Stelle nicht genau einmal — Nextcloud hat sie geändert. "
+                   "QUELLTEXT_EINGRIFFE in werkzeuge/anwenden.py nachziehen.")
+        pfad.write_text(inhalt.replace(alt, neu), encoding="utf-8", newline="\n")
+        print(f"KENJTEC-Branding: {rel} angepasst.")
 
 
 def rezept(craft_wurzel: Path, fassung: str) -> None:

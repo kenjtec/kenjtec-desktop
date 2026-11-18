@@ -74,6 +74,33 @@ REZEPT_INSTALLER = (
     '        self.defines["version"] = "{fassung}"\n'
 )
 
+#: Die Übersetzungen neben das Programm. Unter Windows sucht der Client sie
+#: in `<Ordner von kenjtec.exe>/i18n/` (application.cpp, applicationTrPath),
+#: Nextclouds CMake legt sie aber nach `<Präfix>/i18n/`. In Nextclouds MSI
+#: liegt alles in einem Ordner, bei Craft steht das Programm in `bin/` — der
+#: Client fand nichts und sprach nur Englisch (gemessen an v4.0.11.7,
+#: 18.11.2026: „folder containing translations is missing“; mit bin/i18n
+#: „Using de_Latn_DE translation“). Eingesetzt VOR `createPackage`.
+REZEPT_I18N_ANKER = "    def createPackage(self):"
+REZEPT_I18N = (
+    "    def install(self):\n"
+    "        # KENJTEC: Übersetzungen nach bin/i18n (siehe werkzeuge/anwenden.py).\n"
+    "        if not super().install():\n"
+    "            return False\n"
+    "        if CraftCore.compiler.isWindows:\n"
+    "            import glob, shutil\n"
+    '            quelle = os.path.join(self.installDir(), "i18n")\n'
+    '            ziel = os.path.join(self.installDir(), "bin", "i18n")\n'
+    "            if os.path.isdir(quelle):\n"
+    "                shutil.rmtree(ziel, ignore_errors=True)\n"
+    "                shutil.move(quelle, ziel)\n"
+    '            if not glob.glob(os.path.join(ziel, "client_*.qm")):\n'
+    '                CraftCore.log.error(f"KENJTEC: keine Übersetzungen in {ziel} — der Client bliebe englisch.")\n'
+    "                return False\n"
+    "        return True\n"
+    "\n"
+)
+
 EINBINDUNG = "include(${CMAKE_SOURCE_DIR}/kenjtec-marke.cmake)"
 
 #: Nextclouds Packliste (`blacklist.txt` neben dem Rezept) wirft jede .exe aus
@@ -167,6 +194,10 @@ def rezept(craft_wurzel: Path, fassung: str) -> None:
             fehler(f"Im Rezept {pfad} fehlt `{REZEPT_SYMBOL_ANKER.strip()}`.")
         installer = REZEPT_INSTALLER.format(fassung=fassung)
         text = text.replace(REZEPT_SYMBOL_ANKER, REZEPT_SYMBOL + installer + REZEPT_SYMBOL_ANKER)
+        if text.count(REZEPT_I18N_ANKER) != 1 or re.search(r"^    def install\(", text, re.M):
+            fehler(f"Im Rezept {pfad} steht `{REZEPT_I18N_ANKER.strip()}` nicht genau einmal, oder es hat schon "
+                   "ein eigenes install() — die Übersetzungen kämen nicht nach bin/i18n.")
+        text = text.replace(REZEPT_I18N_ANKER, REZEPT_I18N + REZEPT_I18N_ANKER)
         # Nextclouds Rezept benutzt `os.path.join` in createPackage, importiert
         # `os` aber nicht (stable-4.0, gemessen 05.11.2026: NameError beim
         # Packen — Nextclouds eigene CI packt nie und merkt es nicht).

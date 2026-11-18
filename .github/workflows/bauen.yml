@@ -125,10 +125,20 @@ jobs:
           # Beleg aus dem fertigen Installer, nicht aus dem Bauordner: jede
           # unserer Sprachen liegt als bin\i18n\client_<code>.qm darin — auch
           # Hindi, das Nextcloud nicht hat (werkzeuge/sprachen.py).
-          # Entschieden wird an den gefundenen Dateien, nicht an 7-Zips
-          # Rückgabewert (Warnungen zu NSIS-Daten hinter dem Archiv sind harmlos).
-          $liste = & 7z l "KENJTEC-${{ needs.fassung.outputs.version }}-windows-x64.exe"
-          if ($LASTEXITCODE -ne 0) { Write-Warning "7-Zip endete mit $LASTEXITCODE"; $liste | Select-Object -Last 15 }
+          # Crafts NSIS-Installer trägt das Programm als EIN 7z-Archiv in sich
+          # (Craft packt das Abbild erst nach tmp\…-x86_64.7z, makensis bettet
+          # es ein). Eine Liste des Installers allein zeigt deshalb keine
+          # einzige .qm (Bau 12: „client_de.qm fehlt“) — erst auspacken, dann
+          # das innere Archiv listen. Entschieden wird an den gefundenen
+          # Dateien, nicht an 7-Zips Rückgabewert.
+          $aus = Join-Path $env:RUNNER_TEMP "installer-inhalt"
+          & 7z x "KENJTEC-${{ needs.fassung.outputs.version }}-windows-x64.exe" "-o$aus" -y | Out-Null
+          if ($LASTEXITCODE -ne 0) { Write-Warning "7-Zip endete beim Auspacken mit $LASTEXITCODE" }
+          $innen = Get-ChildItem $aus -Recurse -File -Filter *.7z | Sort-Object Length -Descending | Select-Object -First 1
+          if (-not $innen) { Get-ChildItem $aus -Recurse -File | Select-Object -First 40 | ForEach-Object { $_.FullName }; Write-Error "Im Installer liegt kein 7z-Archiv — Crafts Packer hat sich geändert"; exit 1 }
+          Write-Output "KENJTEC: Programm-Archiv im Installer: $($innen.Name) ($([math]::Round($innen.Length / 1MB)) MiB)"
+          $liste = & 7z l $innen.FullName
+          if ($LASTEXITCODE -ne 0) { Write-Warning "7-Zip endete beim Listen mit $LASTEXITCODE"; $liste | Select-Object -Last 15 }
           $qm = $liste | Select-String -Pattern 'i18n[\\/]client_[A-Za-z_]+\.qm'
           $qm | ForEach-Object { $_.Line }
           foreach ($code in 'de','es','fr','it','nl','pt','pt_BR','da','sv','ja','ar','hi') {

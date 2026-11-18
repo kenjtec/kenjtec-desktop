@@ -145,6 +145,14 @@ def quelle(ordner: Path, bau: int) -> None:
     marke += f"\n# Vom Bau gesetzt (werkzeuge/anwenden.py):\nset( MIRALL_VERSION_BUILD \"{bau}\" )\nset( MIRALL_VERSION_SUFFIX \"\" )\n"
     (ordner / "kenjtec-marke.cmake").write_text(marke, encoding="utf-8", newline="\n")
     text = cmake.read_text(encoding="utf-8")
+    # marke.cmake schaltet die Begrüßungsseite mit Nextclouds Logo über
+    # WITH_PROVIDERS ab. Heißt der Schalter anders, wirkte unser `set` still
+    # nicht — dann lieber ein roter Bau.
+    wizard = ordner / "src" / "gui" / "owncloudsetupwizard.cpp"
+    if "option( WITH_PROVIDERS" not in text or not wizard.exists() \
+            or "#ifdef WITH_PROVIDERS" not in wizard.read_text(encoding="utf-8"):
+        fehler("Nextcloud hat den Schalter WITH_PROVIDERS umgebaut — ohne ihn käme Nextclouds "
+               "Begrüßungsseite mit ihrem Logo zurück. branding/marke.cmake nachziehen.")
     if EINBINDUNG not in text:
         cmake.write_text(text.rstrip("\n") + "\n\n# KENJTEC\n" + EINBINDUNG + "\n", encoding="utf-8", newline="\n")
 

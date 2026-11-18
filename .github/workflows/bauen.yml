@@ -108,6 +108,12 @@ jobs:
               if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
           }
           craft --options nextcloud-client.buildTests=False --src-dir $env:QUELLE nextcloud-client
+          # Riegel: Nextclouds Begrüßungsseite (ihr Logo, „Mit Provider
+          # anmelden“) ist aus — WITH_PROVIDERS in branding/marke.cmake.
+          $cfg = Get-ChildItem -Path "${{ github.workspace }}\$env:CRAFT_TARGET\build" -Filter config.h -Recurse -ErrorAction SilentlyContinue | Where-Object { (Get-Content $_.FullName -Raw) -match 'cloud\.kenjtec\.com' } | Select-Object -First 1
+          if (-not $cfg) { Write-Error "config.h des Clients nicht gefunden"; exit 1 }
+          if ((Get-Content $cfg.FullName -Raw) -match '(?m)^#define WITH_PROVIDERS') { Write-Error "WITH_PROVIDERS ist an — Nextclouds Begrüßungsseite käme zurück ($($cfg.FullName))"; exit 1 }
+          Write-Output "KENJTEC: Begrüßungsseite aus ($($cfg.FullName))"
           craft --options nextcloud-client.buildTests=False --src-dir $env:QUELLE --package nextcloud-client
           $exe = Get-ChildItem -Path "${{ github.workspace }}\$env:CRAFT_TARGET\tmp" -Filter *.exe -Recurse | Sort-Object LastWriteTime -Descending | Select-Object -First 1
           if (-not $exe) { Write-Error "Kein Installer gefunden"; exit 1 }
@@ -175,6 +181,18 @@ jobs:
             --kde-blueprints-git-ref next \
             --client-blueprints-git-ref next \
             --disable-auto-updater
+
+      - name: Marke im Bau prüfen
+        run: |
+          # Nextclouds Begrüßungsseite (ihr Logo, „Mit Provider anmelden“) ist
+          # aus — WITH_PROVIDERS in branding/marke.cmake.
+          cfg=""
+          for f in $(find "$GITHUB_WORKSPACE/mac-bau" -name config.h 2>/dev/null); do
+            grep -q 'cloud\.kenjtec\.com' "$f" && { cfg="$f"; break; }
+          done
+          [ -n "$cfg" ] || { echo "config.h des Clients nicht gefunden"; exit 1; }
+          if grep -q '^#define WITH_PROVIDERS' "$cfg"; then echo "WITH_PROVIDERS ist an — Nextclouds Begrüßungsseite käme zurück ($cfg)"; exit 1; fi
+          echo "KENJTEC: Begrüßungsseite aus ($cfg)"
 
       - name: DMG packen
         run: |

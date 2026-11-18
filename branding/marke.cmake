@@ -46,6 +46,19 @@ set( APPLICATION_WIZARD_USE_CUSTOM_LOGO ON )
 # Ein Konto je Installation: Der Client ist fuer EINE Cloud gebaut.
 set( ENFORCE_SINGLE_ACCOUNT ON )
 
+# Keine Begrüßungsseite von Nextcloud im Anmelde-Fenster. Mit Anbieterliste
+# startet es auf einer Diaschau mit Nextclouds Logo und Sprüchen, dazu
+# „Mit Provider anmelden“ (nextcloud.com/register) und „Eigenen Server
+# betreiben“ (Nextclouds Installationsanleitung) — Riza, 18.11.2026: „Was
+# macht denn das Nextcloud-Logo da? … das ist auch gar nicht unser Design.“
+# Ohne Anbieterliste startet der Assistent auf der Server-Seite
+# (owncloudsetupwizard.cpp, runWizard), und die prüft bei fest eingestellter
+# Adresse von selbst und geht direkt zur Anmeldung im Browser
+# (owncloudsetuppage.cpp, initializePage). `set` überdeckt Nextclouds
+# `option(WITH_PROVIDERS … ON)`, weil diese Datei danach im selben
+# Geltungsbereich eingebunden wird, in dem config.h entsteht.
+set( WITH_PROVIDERS OFF )
+
 if(WIN32)
     # Eigene Kennungen — Nextclouds Hinweis: „Generate new GUIDs for custom
     # builds“. Sonst stritten sich unser Client und ein installierter

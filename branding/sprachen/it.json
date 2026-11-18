@@ -1,0 +1,746 @@
+{
+ "sprache": "it",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_it.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Advanced",
+   "text": "Avanzate"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Back",
+   "text": "Indietro"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Cancel",
+   "text": "Annulla"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect",
+   "text": "Connetti"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect to %1?",
+   "text": "Vuoi connetterti a %1?"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect without TLS",
+   "text": "Connetti senza TLS"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Copy link",
+   "text": "Copia collegamento"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Done",
+   "text": "Fatto"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Log in",
+   "text": "Accedi"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Open",
+   "text": "Apri"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Proxy settings",
+   "text": "Impostazioni proxy"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Secure connection failed",
+   "text": "Connessione sicura non riuscita"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Self-host",
+   "text": "Ospita in autonomia"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Set up later",
+   "text": "Configura più tardi"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Sign up",
+   "text": "Registrati"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can add a client certificate and try again.",
+   "text": "La connessione sicura non è riuscita. Puoi aggiungere un certificato client e riprovare."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can retry without encryption, or add a client certificate and try again.",
+   "text": "La connessione sicura non è riuscita. Puoi riprovare senza cifratura oppure aggiungere un certificato client e riprovare."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Use client certificate",
+   "text": "Usa certificato client"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "%1 MB",
+   "text": "%1 MB"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Advanced options",
+   "text": "Opzioni avanzate"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing external storage",
+   "text": "Chiedi prima di sincronizzare archiviazioni esterne"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing folders larger than",
+   "text": "Chiedi prima di sincronizzare cartelle più grandi di"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Done",
+   "text": "Fatto"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Large folder threshold",
+   "text": "Soglia per le cartelle grandi"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Connect public share",
+   "text": "Connetti condivisione pubblica"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter credentials",
+   "text": "Inserisci le credenziali"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the share password if the link is password protected.",
+   "text": "Inserisci la password della condivisione se il collegamento è protetto da password."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the username and password for this server.",
+   "text": "Inserisci il nome utente e la password per questo server."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Password",
+   "text": "Password"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Username",
+   "text": "Nome utente"
+  },
+  {
+   "kontext": "BrowserAuthPage",
+   "quelle": "Switch to your browser",
+   "text": "Passa al tuo browser"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Cancel",
+   "text": "Annulla"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate file",
+   "text": "File di certificato"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate password",
+   "text": "Password del certificato"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Choose",
+   "text": "Scegli"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Client certificate",
+   "text": "Certificato client"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Connect",
+   "text": "Connetti"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Select a PKCS#12 certificate file and enter its password.",
+   "text": "Seleziona un file di certificato PKCS#12 e inserisci la relativa password."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "%1 free space",
+   "kommentar": "%1 gets replaced with the size and a matching unit. Example: 3 MB or 5 GB",
+   "text": "Spazio libero di %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Access forbidden by server. To verify that you have proper access, open the service in your browser.",
+   "text": "Accesso negato dal server. Per verificare di avere i permessi di accesso necessari, apri il servizio nel tuo browser."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account connected.",
+   "text": "Account connesso."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account setup failed while creating the sync folder.",
+   "text": "La configurazione dell'account non è riuscita durante la creazione della cartella di sincronizzazione."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Certificate files (*.p12 *.pfx)",
+   "text": "File di certificato (*.p12 *.pfx)"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking account access",
+   "text": "Verifica dell'accesso all'account"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking remote folder",
+   "text": "Verifica della cartella remota"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking server address",
+   "text": "Verifica dell'indirizzo del server"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "Impossibile accedere al file del certificato selezionato."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create local folder %1",
+   "text": "Impossibile creare la cartella locale %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create the sync folder.",
+   "text": "Impossibile creare la cartella di sincronizzazione."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not load certificate. Maybe wrong password?",
+   "text": "Impossibile caricare il certificato. Forse la password è errata?"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Creating remote folder",
+   "text": "Creazione della cartella remota"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Error: %1",
+   "text": "Errore: %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Failed to connect to %1 at %2:\n%3",
+   "text": "Connessione a %1 su %2 non riuscita:\n%3"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Invalid URL",
+   "text": "URL non valido"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Link copied to clipboard.",
+   "text": "Collegamento copiato negli appunti."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Local Sync Folder",
+   "text": "Cartella locale di sincronizzazione"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "No remote folder specified!",
+   "text": "Nessuna cartella remota specificata!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose a local sync folder.",
+   "text": "Scegli una cartella locale di sincronizzazione."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose an empty local sync folder.",
+   "text": "Scegli una cartella locale di sincronizzazione vuota."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Preparing browser login",
+   "text": "Preparazione dell'accesso tramite browser"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Proxy settings are incomplete.",
+   "text": "Le impostazioni proxy sono incomplete."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Remote folder %1 creation failed with error <tt>%2</tt>.",
+   "text": "Creazione della cartella remota %1 non riuscita con l'errore <tt>%2</tt>."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Select a certificate",
+   "text": "Seleziona un certificato"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Server address does not seem to be valid",
+   "text": "L'indirizzo del server non sembra essere valido"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Starting authorization",
+   "text": "Avvio autorizzazione"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The authenticated request to the server was redirected to \"%1\". The URL is bad, the server is misconfigured.",
+   "text": "La richiesta autenticata al server è stata reindirizzata a \"%1\". L'URL non è valido, il server non è configurato correttamente."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The folder creation resulted in HTTP error code %1",
+   "text": "La creazione della cartella ha restituito un codice di errore HTTP %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong. Please go back and check your credentials.",
+   "text": "La creazione della cartella remota non è riuscita perché le credenziali fornite sono errate. Torna indietro e controlla le tue credenziali."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There isn't enough free space in the local folder!",
+   "text": "Non c'è spazio libero sufficiente nella cartella locale!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There was an invalid response to an authenticated WebDAV request",
+   "text": "Risposta non valida a una richiesta WebDAV autenticata"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "This server requires legacy browser authentication. Enter app-password credentials instead.",
+   "text": "Questo server richiede la precedente autenticazione tramite browser. Inserisci invece le credenziali di una password per app."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Timeout while trying to connect to %1 at %2.",
+   "text": "Tempo scaduto durante il tentativo di connessione a %1 su %2."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "Impossibile aprire il browser, copia il collegamento nel tuo browser."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Username must not be empty.",
+   "text": "Il nome utente non può essere vuoto."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Waiting for authorization",
+   "text": "In attesa di autorizzazione"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require %1 of storage",
+   "text": "Richiederà %1 di spazio di archiviazione"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require local storage",
+   "text": "Richiederà spazio di archiviazione locale"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Advanced",
+   "text": "Avanzate"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing external storages",
+   "text": "Chiedi conferma prima di sincronizzare storage esterni"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing new folders larger than",
+   "text": "Chiedi conferma prima di sincronizzare nuove cartelle più grandi di"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Automatically disable synchronisation of folders that overcome limit",
+   "text": "Disattiva automaticamente la sincronizzazione delle cartelle che superano il limite"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "Impossibile accedere alla posizione selezionata. Riprova o scegli una posizione diversa."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Create Debug Archive",
+   "text": "Crea archivio di debug"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Debug Archive Created",
+   "text": "Archivio di debug creato"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Edit &Ignored Files",
+   "text": "Mod&ifica file ignorati"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Failed to Access File",
+   "text": "Impossibile accedere al file"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "MB",
+   "text": "MB"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Move removed files to trash",
+   "text": "Sposta nel cestino i file eliminati"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Notify when synchronised folders grow larger than specified limit",
+   "text": "Avvisa quando le cartelle sincronizzate superano il limite specificato"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "Oscura le informazioni ritenute sensibili prima della condivisione! Archivio di debug creato in %1"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Server poll interval",
+   "text": "Intervallo di polling del server"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Show sync folders in &Explorer's navigation pane",
+   "text": "Mostra le cartelle di sincronizzazione nel pannello di navigazione di &Explorer"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Zip Archives",
+   "text": "Archivi zip"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "secondi (se <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> non è disponibile)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Automatically check for updates",
+   "text": "Verific&a automaticamente la presenza di aggiornamenti"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Restart && Update",
+   "text": "&Riavvia && aggiorna"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- beta: contiene versioni con nuove funzionalità che potrebbero non essere state testate a fondo\n- giornaliero: contiene versioni create ogni giorno solo per test e sviluppo\n\nIl downgrade delle versioni non è possibile immediatamente: passare da beta a stabile significa attendere la nuova versione stabile."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- enterprise: contiene versioni stabili per i clienti.\n\nIl downgrade delle versioni non è possibile immediatamente: passare da stabile a enterprise significa attendere la nuova versione enterprise."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Cancel",
+   "text": "Annulla"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Change update channel",
+   "text": "Cambia il canale di aggiornamento"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Changing update channel?",
+   "text": "Vuoi cambiare canale di aggiornamento?"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Check Now",
+   "text": "Controlla ora"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "Connesso a un sistema enterprise. Il canale di aggiornamento (%1) non può essere modificato."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Desktop client x.x.x",
+   "text": "Client desktop x.x.x"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Legal Notice",
+   "text": "Note legali"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore &Default",
+   "text": "Ripristino &Predefinito"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore to &%1",
+   "text": "Ripristina a &%1"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "Il canale determina quali aggiornamenti verranno proposti per l'installazione:\n- stabile: contiene versioni testate considerate affidabili\n"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Update channel",
+   "text": "Canale di aggiornamento"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Usage Documentation",
+   "text": "Manuale d'uso"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "beta",
+   "text": "beta"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "daily",
+   "text": "giornaliero"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "enterprise",
+   "text": "enterprise"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "stable",
+   "text": "stabile"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "creazione cartella su BusinessCloud: %1",
+   "grund": "marke"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Advanced",
+   "text": "Avanzate"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Info",
+   "text": "Informazioni"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Cancel",
+   "text": "Annulla"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Done",
+   "text": "Fatto"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "Proxy HTTP(S)"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "Nome host del server proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Manually specify proxy",
+   "text": "Specifica manualmente il proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "No proxy",
+   "text": "Nessun proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "Nota: le impostazioni proxy non hanno effetto sugli account su localhost"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "Password per il server proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy port",
+   "text": "Porta del proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy server requires authentication",
+   "text": "Il server proxy richiede l'autenticazione"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy settings",
+   "text": "Impostazioni proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy type",
+   "text": "Tipo di proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "Proxy SOCKS5"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Use system proxy",
+   "text": "Usa proxy di sistema"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "Nome utente per il server proxy"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Answer",
+   "text": "Rispondi"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Enter the link to your %1 web interface from the browser or the link to a folder shared with you.",
+   "text": "Inserisci il collegamento all'interfaccia web di %1 copiato dal browser oppure il collegamento a una cartella condivisa con te."
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in",
+   "text": "Accedi"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in to %1",
+   "text": "Accedi a %1"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Server address",
+   "text": "Indirizzo del server"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose",
+   "text": "Scegli"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose what to sync",
+   "text": "Scegli cosa sincronizzare"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Download files on-demand",
+   "text": "Scarica i file su richiesta"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Local sync folder",
+   "text": "Cartella locale di sincronizzazione"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Synchronize everything",
+   "text": "Sincronizza tutto"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Virtual files",
+   "text": "File virtuali"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental feature?",
+   "text": "Vuoi abilitare la funzionalità sperimentale?"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental placeholder mode",
+   "text": "Attiva la modalità segnaposto sperimentale"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Stay safe",
+   "text": "Rimani al sicuro"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "Quando la modalità \"file virtuali\" è attiva, inizialmente non viene scaricato alcun file. Viene invece creato un piccolo file \"%1\" per ogni file presente sul server. Il contenuto può essere scaricato eseguendo questi file o usando il loro menu contestuale.\n\nLa modalità file virtuali esclude la sincronizzazione selettiva. Le cartelle attualmente non selezionate diventeranno cartelle disponibili solo in linea e le tue impostazioni di sincronizzazione selettiva saranno reimpostate.\n\nIl passaggio a questa modalità interromperà qualsiasi sincronizzazione in corso.\n\nQuesta è una modalità nuova e sperimentale. Se decidi di usarla, segnala qualsiasi problema che si presenti."
+  }
+ ]
+}

@@ -33,8 +33,32 @@ iPhone bekommen eine eigene, größere App, nicht diesen Client.
 2. `branding/theme/` kommt über `theme/`: Programmsymbol, Logo im Anmelde-Assistenten (hellteal auf `#04342C`), Startmenü-Kachel, Ordnersymbol, Finder-Seitenleiste.
 3. Das Craft-Rezept bekommt Firmen- und Programmnamen im Windows-Installer.
 
+4. `branding/sprachen/<code>.json` wird in Nextclouds `translations/client_<code>.ts` eingemischt (`werkzeuge/sprachen.py`, siehe „Sprachen“).
+
 Findet einer der Schritte seine Stelle nicht mehr, **bricht er ab**. Ein halb
 umbenannter Client ist schlechter als ein roter Bau.
+
+## Sprachen
+
+Der Client spricht unsere zwölf Sprachen vollständig (seit dem 18.11.2026).
+Nextclouds eigene Sprachdateien waren lückenhaft (v4.0.11: pt 30 %, da 63 %,
+nl 71 %, ar 75 %, fr 87 %, es/it/ja 90 %, sv 91 %, pt_BR 99 %), Hindi fehlte
+ganz. Was fehlt, zeigt der Client englisch, mitten in der eigenen Sprache.
+
+- **Unsere Texte liegen in `branding/sprachen/<code>.json`** (Nextclouds Kürzel: `sv` für unser `se`, `hi` für unser `in`). Sie gelten vor Nextclouds eigenen. `anwenden.py quelle` mischt sie ein; Hindi entsteht dabei als `client_hi.ts` neu aus der Textliste. Nextclouds CMake sammelt jede `translations/client_*.ts` ein, und der Client nimmt die Datei, die zur Systemsprache passt (`hi_Deva_IN` → `client_hi`).
+- **Einheitliche Anrede** wie auf kenjtec.com: es, pt, nl, da duzen (wo Nextcloud siezte, ersetzt, `"grund": "anrede"`), fr siezt, pt_BR bleibt bei você. Deutsch siezt noch, wie Nextcloud (offen, siehe unten).
+- **„Nextcloud“ als Name des Dienstes** heißt „BusinessCloud“ (`"grund": "marke"`). Die Urheberzeile und die Adressen bleiben.
+- **Der Bau bricht ab**, wenn eine Ergänzung auf einen Text zeigt, den Nextcloud nicht mehr hat, wenn Platzhalter, Markup, Tastenkürzel oder Mehrzahlformen nicht stimmen, wenn eine unserer Sprachen unter 100 % liegt, wenn Nextclouds CMake die Sprachdateien anders einsammelt, und wenn eine `client_<code>.qm` nicht im Installer (`bin\i18n`) bzw. im App-Paket (`Contents/Resources/Translations`) liegt.
+
+Nachziehen, wenn eine neue Nextcloud-Fassung neue Texte bringt (der Bau ist dann rot):
+
+```bash
+python werkzeuge/sprachen.py messen <nextcloud-quelle>
+python werkzeuge/sprachen.py luecken <nextcloud-quelle> hi vorlage-hi.json
+python werkzeuge/sprachen.py aufnehmen hi vorlage-hi.json
+```
+
+`luecken` legt die offenen Texte mit leerem `text` (bzw. `formen`) ab; übersetzt nach den Regeln des Skills `uebersetzen` (Platzhalter `%1`/`%n` exakt, Mehrzahl in Qts Reihenfolge, Namen lateinisch), dann `aufnehmen`. Zeigt eine Ergänzung auf einen geänderten Text, die Zeile in `branding/sprachen/<code>.json` anpassen oder streichen.
 
 Drei Entscheidungen, die man leicht wieder falsch macht:
 
@@ -80,6 +104,7 @@ Was dazukommt (CEO-Aufgabe „Entwicklerkonten anlegen“):
 - **Fallen des Installers** (18.11.2026), behoben in `anwenden.py rezept`: Nextclouds Packliste warf `kenjtec.exe` weg (`PACKLISTE_ALT`); Crafts NSIS-Packer legt eine Startmenü-Verknüpfung nur mit `defines["executable"]` an, und ohne `defines["version"]` steht in „Apps“ die Fassung `HEAD` (`REZEPT_INSTALLER`); die Übersetzungen lagen unter `i18n\`, der Client sucht sie neben `kenjtec.exe` in `bin\i18n\` und sprach nur Englisch (`REZEPT_I18N`, ein `install()` im Rezept). Qts eigene Grundtexte (`qtbase_*`) streicht Nextclouds Packliste absichtlich. Probeinstallation ohne Verwalterrechte: `__COMPAT_LAYER=RunAsInvoker`, dann `<installer> /S /D=%LOCALAPPDATA%\Programs\KENJTEC`.
 - **Große Dateien:** Die Grenze ist nicht Cloudflare (100 MB), sondern **Cloud Run: 32 MiB je Anfrage** (gemessen 18.11.2026, darüber 413). Der Client nimmt als Stückgröße, was die Cloud ankündigt (`files.chunked_upload.max_size`), und schickt Dateien bis zu dieser Größe in EINER Anfrage. Deshalb kündigt die Cloud 30 MiB an (`apps/cloud/config/kenjtec.config.php`, live seit kenjtec-cloud-00173). Downloads über 32 MiB gehen durch (Nextcloud streamt; gemessen mit 40 MiB). Ein Client, der vorher an 413 scheiterte, sperrt die Datei bis zu 24 Stunden — oder bis sie sich ändert.
 - **Intel-Macs:** gebaut wird nur für Apple Silicon (arm64).
+- **Sprachen, am Gerät noch zu sehen:** Ob die arabische Oberfläche von rechts nach links läuft, entscheidet Qt über seine eigene Übersetzung (`QT_LAYOUT_DIRECTION` in `qtbase_ar`), und die streicht Nextclouds Packliste — einmal auf Arabisch ansehen. Brasilianisches Portugiesisch lädt unter Windows `client_pt` (die Systemsprache heißt dort `pt_Latn_BR`, Qt kürzt von hinten), also unser europäisches Portugiesisch. Deutsch siezt wie bei Nextcloud, kenjtec.com duzt — umstellen nur auf Rizas Ja.
 - **Datenschutzerklärung:** Der Update-Abruf schickt Betriebssystem und Fassung an `kenjtec.com`. Der Kern liest nur die Plattform und speichert nichts. Ein Satz dazu gehört in die Erklärung, bevor der Client beworben wird.
 - **Download-Seite** erst, wenn signiert wird (Grundsatz 6).
 

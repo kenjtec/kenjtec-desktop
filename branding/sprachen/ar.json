@@ -1,0 +1,2016 @@
+{
+ "sprache": "ar",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_ar.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Advanced",
+   "text": "متقدمة"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Back",
+   "text": "السابق"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Cancel",
+   "text": "إلغاء"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect",
+   "text": "اتصال"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect to %1?",
+   "text": "الاتصال بـ %1؟"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect without TLS",
+   "text": "الاتصال بدون TLS"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Copy link",
+   "text": "نسخ الرابط"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Done",
+   "text": "تم"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Log in",
+   "text": "تسجيل الدخول"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Open",
+   "text": "فتح"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Proxy settings",
+   "text": "إعدادات الوكيل"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Secure connection failed",
+   "text": "فشل الاتصال الآمن"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Self-host",
+   "text": "استضافة ذاتية"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Set up later",
+   "text": "الإعداد لاحقًا"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Sign up",
+   "text": "إنشاء حساب"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can add a client certificate and try again.",
+   "text": "فشل الاتصال الآمن. يمكنك إضافة شهادة عميل والمحاولة مرة أخرى."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can retry without encryption, or add a client certificate and try again.",
+   "text": "فشل الاتصال الآمن. يمكنك إعادة المحاولة بدون تشفير، أو إضافة شهادة عميل والمحاولة مرة أخرى."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Use client certificate",
+   "text": "استخدام شهادة العميل"
+  },
+  {
+   "kontext": "ActivityItemContent",
+   "quelle": "File actions",
+   "text": "إجراءات الملف"
+  },
+  {
+   "kontext": "ActivityItemContent",
+   "quelle": "File details",
+   "text": "تفاصيل الملف"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "%1 MB",
+   "text": "%1 ميغا بايت"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Advanced options",
+   "text": "خيارات متقدمة"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing external storage",
+   "text": "اسأل قبل مزامنة وحدات التخزين الخارجية"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing folders larger than",
+   "text": "اسأل قبل مزامنة المجلدات الأكبر من"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Done",
+   "text": "تم"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Large folder threshold",
+   "text": "حدّ المجلدات الكبيرة"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Connect public share",
+   "text": "الاتصال بمشاركة عامة"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter credentials",
+   "text": "أدخل بيانات الاعتماد"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the share password if the link is password protected.",
+   "text": "أدخل كلمة مرور المشاركة إذا كان الرابط محميًا بكلمة مرور."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the username and password for this server.",
+   "text": "أدخل اسم المستخدم وكلمة المرور لهذا الخادم."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Password",
+   "text": "كلمة المرور"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Username",
+   "text": "اسم المستخدم"
+  },
+  {
+   "kontext": "BrowserAuthPage",
+   "quelle": "Switch to your browser",
+   "text": "بدّل إلى متصفحك"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Cancel",
+   "text": "إلغاء"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate file",
+   "text": "ملف الشهادة"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate password",
+   "text": "كلمة مرور الشهادة"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Choose",
+   "text": "اختيار"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Client certificate",
+   "text": "شهادة العميل"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Connect",
+   "text": "اتصال"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Select a PKCS#12 certificate file and enter its password.",
+   "text": "اختر ملف شهادة PKCS#12 وأدخل كلمة المرور الخاصة به."
+  },
+  {
+   "kontext": "CloudProviderWrapper",
+   "quelle": "Open %1 Desktop",
+   "kommentar": "Open Nextcloud main window. Placeholer will be the application name. Please keep it.",
+   "text": "فتح عميل سطح المكتب %1"
+  },
+  {
+   "kontext": "CloudProviderWrapper",
+   "quelle": "Open in browser",
+   "text": "فتح في المتصفّح"
+  },
+  {
+   "kontext": "FileActionsWindow",
+   "quelle": "File actions for %1",
+   "text": "إجراءات الملف لـ %1"
+  },
+  {
+   "kontext": "FileProviderSettings",
+   "quelle": "Reset virtual files environment",
+   "text": "إعادة تعيين بيئة الملفات الافتراضية"
+  },
+  {
+   "kontext": "FileProviderSettings",
+   "quelle": "Virtual files appear like regular files, but they do not use local storage space. The content downloads automatically when you open the file. Virtual files and classic sync can not be used at the same time.",
+   "text": "تظهر الملفات الافتراضية مثل الملفات العادية، لكنها لا تستخدم مساحة التخزين المحلية. يتم تنزيل المحتوى تلقائيًا عند فتح الملف. لا يمكن استخدام الملفات الافتراضية والمزامنة الكلاسيكية في الوقت نفسه."
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Ask Assistant …",
+   "text": "اسأل المساعد …"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Ask Assistant…",
+   "text": "اسأل المساعد…"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Cancel",
+   "text": "إلغاء"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Issue with account %1",
+   "text": "مشكلة في الحساب %1"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Issues with several accounts",
+   "text": "مشكلات في عدة حسابات"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Main content",
+   "text": "المحتوى الرئيسي"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "New conversation",
+   "text": "محادثة جديدة"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Send assistant question",
+   "text": "إرسال السؤال إلى المساعد"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Start a new assistant chat",
+   "text": "بدء محادثة جديدة مع المساعد"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Start new conversation?",
+   "text": "بدء محادثة جديدة؟"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "This will clear the existing conversation.",
+   "text": "سيؤدي هذا إلى مسح المحادثة الحالية."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "حدث خطأ غير متوقع. يُرجى محاولة المزامنة مرة أخرى أو التواصل مع مسؤول الخادم لديك إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "The server enforces strict transport security and does not accept untrusted certificates.",
+   "text": "يفرض الخادم أمان النقل الصارم ولا يقبل الشهادات غير الموثوقة."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "The server took too long to respond. Check your connection and try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "استغرق الخادم وقتًا طويلًا للرد. تحقق من اتصالك وحاول المزامنة مرة أخرى. إذا استمرت المشكلة، فتواصل مع مسؤول الخادم لديك."
+  },
+  {
+   "kontext": "OCC::Account",
+   "quelle": "Public Share Link",
+   "text": "رابط مشاركة عامة"
+  },
+  {
+   "kontext": "OCC::AccountManager",
+   "quelle": "An account was detected from a legacy desktop client.\nShould the account be imported?",
+   "text": "تم اكتشاف حساب من عميل سطح مكتب سابق.\nهل تريد استيراد الحساب؟"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Access Error",
+   "text": "خطأ في الوصول"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Bookmark Error",
+   "text": "خطأ في الإشارة المرجعية"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Classic sync",
+   "text": "المزامنة الكلاسيكية"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Connected to %1 (%2).",
+   "text": "متصل بـ %1 (%2)."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not acquire access to the selected folder. Please try again.",
+   "text": "تعذّر الحصول على حق الوصول إلى المجلد المحدد. يُرجى المحاولة مرة أخرى."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not create a security bookmark for the folder. Please try again.",
+   "text": "تعذّر إنشاء إشارة مرجعية أمنية للمجلد. يُرجى المحاولة مرة أخرى."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not resolve the security bookmark. Please try again.",
+   "text": "تعذّر تحليل الإشارة المرجعية الأمنية. يُرجى المحاولة مرة أخرى."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Do you want to forget the end-to-end encryption settings for %1 on this device?",
+   "text": "هل تريد نسيان إعدادات التشفير الطرفي لـ %1 على هذا الجهاز؟"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Encryption is set-up. Remember to <b>Encrypt</b> a folder to end-to-end encrypt any new files added to it.",
+   "text": "تم إعداد التشفير. تذكّر أن <b>تشفّر</b> مجلدًا لتشفير أي ملفات جديدة تُضاف إليه تشفيرًا طرفيًا."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has been initialized on this account with another device.<br>Enter the unique mnemonic to have the encrypted folders synchronize on this device as well.",
+   "text": "تمت تهيئة التشفير الطرفي على هذا الحساب بجهاز آخر.<br>أدخل العبارة الاستذكارية الفريدة لمزامنة المجلدات المشفرة على هذا الجهاز أيضًا."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has not been initialized on this account.",
+   "text": "لم تتم تهيئة التشفير الطرفي على هذا الحساب."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forget encryption setup",
+   "text": "نسيان إعداد التشفير"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forget the end-to-end encryption on this device",
+   "text": "نسيان التشفير الطرفي على هذا الجهاز"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forgetting end-to-end encryption will remove the sensitive data and all the encrypted files from this device.<br>However, the encrypted files will remain on the server and all your other devices, if configured.",
+   "text": "سيؤدي نسيان التشفير الطرفي إلى إزالة البيانات الحساسة وجميع الملفات المشفرة من هذا الجهاز.<br>ومع ذلك، ستبقى الملفات المشفرة على الخادم وعلى جميع أجهزتك الأخرى، إذا تم إعدادها."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Grant access to sync folder",
+   "text": "منح حق الوصول إلى مجلد المزامنة"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Please select the original sync folder: %1",
+   "text": "يُرجى اختيار مجلد المزامنة الأصلي: %1"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "The virtual files integration does not support end-to-end encryption yet.",
+   "text": "لا يدعم تكامل الملفات الافتراضية التشفير الطرفي بعد."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "This account supports end-to-end encryption, but it needs to be set up first.",
+   "text": "يدعم هذا الحساب التشفير الطرفي، لكن يجب إعداده أولًا."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 dictionary words. Please note it down and keep it safe. You will need it to set-up the synchronization of encrypted folders on your other devices.",
+   "text": "لحماية هويتك التشفيرية، نشفّرها بعبارة استذكارية من 12 كلمة من القاموس. يُرجى تدوينها والاحتفاظ بها في مكان آمن. ستحتاج إليها لإعداد مزامنة المجلدات المشفرة على أجهزتك الأخرى."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Virtual files",
+   "text": "الملفات الافتراضية"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Wrong Folder",
+   "text": "مجلد خاطئ"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You cannot encrypt this folder because the end-to-end encryption is not set-up yet on this device.\nWould you like to do this now?",
+   "text": "لا يمكنك تشفير هذا المجلد لأن التشفير الطرفي لم يُعَدّ بعد على هذا الجهاز.\nهل تريد القيام بذلك الآن؟"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "%1 free space",
+   "kommentar": "%1 gets replaced with the size and a matching unit. Example: 3 MB or 5 GB",
+   "text": "المساحة المتاحة %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Access forbidden by server. To verify that you have proper access, open the service in your browser.",
+   "text": "الوصول ممنوع من قِبَل الخادم. للتحقق من أن لديك صلاحية الوصول المناسبة، افتح الخدمة في متصفحك."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account connected.",
+   "text": "تم ربط الحساب."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account setup failed while creating the sync folder.",
+   "text": "فشل إعداد الحساب أثناء إنشاء مجلد المزامنة."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Certificate files (*.p12 *.pfx)",
+   "text": "ملفات الشهادات (*.p12 *.pfx)"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking account access",
+   "text": "جارٍ التحقق من الوصول إلى الحساب"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking remote folder",
+   "text": "جارٍ التحقق من المجلد البعيد"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking server address",
+   "text": "جارٍ التحقق من عنوان الخادم"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "تعذّر الوصول إلى ملف الشهادة المحدد."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create local folder %1",
+   "text": "تعذّر إنشاء المجلد المحلي %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create the sync folder.",
+   "text": "تعذّر إنشاء مجلد المزامنة."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not load certificate. Maybe wrong password?",
+   "text": "تعذّر تحميل الشهادة. هل يمكن أن يكون السبب كلمة مرور غير صحيحة؟"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Creating remote folder",
+   "text": "جارٍ إنشاء المجلد البعيد"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Error: %1",
+   "text": "خطأ: %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Failed to connect to %1 at %2:\n%3",
+   "text": "تعذّر الاتصال بـ %1 على %2:\n%3"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Invalid URL",
+   "text": "عنوان URL غير صالح"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Link copied to clipboard.",
+   "text": "تم نسخ الرابط إلى الحافظة."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Local Sync Folder",
+   "text": "مجلد المزامنة المحلي"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "No remote folder specified!",
+   "text": "لم يتم تحديد مجلد بعيد!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose a local sync folder.",
+   "text": "يُرجى اختيار مجلد مزامنة محلي."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose an empty local sync folder.",
+   "text": "يُرجى اختيار مجلد مزامنة محلي فارغ."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Preparing browser login",
+   "text": "جارٍ تحضير تسجيل الدخول عبر المتصفح"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Proxy settings are incomplete.",
+   "text": "إعدادات الوكيل غير مكتملة."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Remote folder %1 creation failed with error <tt>%2</tt>.",
+   "text": "فشل إنشاء المجلد البعيد %1 بسبب الخطأ <tt>%2</tt>."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Select a certificate",
+   "text": "اختر شهادة"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Server address does not seem to be valid",
+   "text": "عنوان الخادم يبدو غير صحيح"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Starting authorization",
+   "text": "جارٍ بدء عملية الإذن"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The authenticated request to the server was redirected to \"%1\". The URL is bad, the server is misconfigured.",
+   "text": "أُعيد توجيه الطلب المُصادَق عليه المُرسَل إلى الخادم إلى العنوان \"%1\". عنوان URL غير صالح، والخادم مُهيّأ بشكل خاطئ."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The folder creation resulted in HTTP error code %1",
+   "text": "أدى إنشاء المجلد إلى رمز خطأ HTTP %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong. Please go back and check your credentials.",
+   "text": "فشل إنشاء المجلد البعيد لأن بيانات الاعتماد المقدمة غير صحيحة. يُرجى الرجوع والتحقق من بيانات الاعتماد الخاصة بك."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There isn't enough free space in the local folder!",
+   "text": "لا توجد مساحة كافية في المجلد المحلي!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There was an invalid response to an authenticated WebDAV request",
+   "text": "تم تلقي رد غير صالح على طلب WebDAV مُصادَق عليه"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "This server requires legacy browser authentication. Enter app-password credentials instead.",
+   "text": "يتطلب هذا الخادم المصادقة القديمة عبر المتصفح. أدخل بيانات اعتماد كلمة مرور التطبيق بدلًا من ذلك."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Timeout while trying to connect to %1 at %2.",
+   "text": "انتهت المهلة أثناء محاولة الاتصال بـ %1 على %2."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "تعذّر فتح المتصفح، يُرجى نسخ الرابط إلى متصفحك."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Username must not be empty.",
+   "text": "يجب ألا يكون اسم المستخدم فارغًا."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Waiting for authorization",
+   "text": "في انتظار الإذن"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require %1 of storage",
+   "text": "سيتطلب %1 من مساحة التخزين"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require local storage",
+   "text": "سيتطلب مساحة تخزين محلية"
+  },
+  {
+   "kontext": "OCC::AddCertificateDialog",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "تعذّر الوصول إلى ملف الشهادة المحدد."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Advanced",
+   "text": "متقدمة"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing external storages",
+   "text": "اطلب التأكيد قبل مزامنة وحدات التخزين الخارجية"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing new folders larger than",
+   "text": "اطلب التأكيد قبل مزامنة المجلدات الجديدة الأكبر من"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Automatically disable synchronisation of folders that overcome limit",
+   "text": "عطّل تلقائيًا مزامنة المجلدات التي تتجاوز الحد"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "تعذّر الوصول إلى الموضع المحدد. يُرجى المحاولة مرة أخرى أو اختيار موضع آخر."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Create Debug Archive",
+   "text": "إنشاء أرشيف لتنقيح الأخطاء"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Debug Archive Created",
+   "text": "تم إنشاء أرشيف تنقيح الأخطاء"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Edit &Ignored Files",
+   "text": "تحرير الملفات المتجاهلة (&I)"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Failed to Access File",
+   "text": "تعذّر الوصول إلى الملف"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "MB",
+   "text": "ميغا بايت"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Move removed files to trash",
+   "text": "نقل الملفات المحذوفة إلى سلة المهملات"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Notify when synchronised folders grow larger than specified limit",
+   "text": "أبلغني عندما يتجاوز حجم المجلدات المتزامنة الحد المحدد"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "احجب المعلومات التي تُعدّ حساسة قبل المشاركة! تم إنشاء أرشيف تنقيح الأخطاء في %1"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Server poll interval",
+   "text": "الفاصل الزمني لاستطلاع الخادم"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Show sync folders in &Explorer's navigation pane",
+   "text": "أظهِر مجلدات المزامنة في جزء التنقل في Explorer (&E)"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Zip Archives",
+   "text": "أراشيف مضغوطة Zip"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "ثوانٍ (إذا كانت خدمة <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> غير متاحة)"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "Error updating metadata: %1",
+   "text": "خطأ في تحديث البيانات الوصفية: %1"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "File %1 can not be downloaded because of a local file name clash!",
+   "text": "لا يمكن تنزيل الملف %1 بسبب تعارض اسم الملف المحلي!"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "The file %1 is currently in use",
+   "text": "الملف %1 قيد الاستعمال حاليّاً"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "Unable to update metadata of new file %1.",
+   "kommentar": "error with update metadata of new Win VFS file",
+   "text": "تعذّر تحديث البيانات الوصفية للملف الجديد %1."
+  },
+  {
+   "kontext": "OCC::BulkPropagatorJob",
+   "quelle": "File contains leading or trailing spaces and couldn't be renamed",
+   "text": "يحتوي الملف على فراغات في البداية أو النهاية وتعذّرت إعادة تسميته"
+  },
+  {
+   "kontext": "OCC::ConnectionValidator",
+   "quelle": "No %1 account configured",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "لم يتم إعداد حساب %1"
+  },
+  {
+   "kontext": "OCC::DiscoverySingleDirectoryJob",
+   "quelle": "The server returned an unexpected response that couldn’t be read. Please reach out to your server administrator.”",
+   "text": "أرجع الخادم ردًا غير متوقع تعذّرت قراءته. يُرجى التواصل مع مسؤول الخادم لديك."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "%1 did not succeed, please try again later. If you need help, contact your server administrator.",
+   "kommentar": "file action error message",
+   "text": "لم ينجح %1، يُرجى المحاولة مرة أخرى لاحقًا. إذا كنت بحاجة إلى مساعدة، فتواصل مع مسؤول الخادم لديك."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "%1 done.",
+   "kommentar": "file action success message",
+   "text": "اكتمل %1."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "No file actions were returned by the server for %1 files.",
+   "kommentar": "file mimetype, e.g text/plain files",
+   "text": "لم يُرجع الخادم أي إجراءات للملفات من نوع %1."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "The file ID is empty for %1.",
+   "kommentar": "file name",
+   "text": "معرّف الملف فارغ لـ %1."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "The file type for %1 is not valid.",
+   "kommentar": "file name",
+   "text": "نوع الملف لـ %1 غير صالح."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "Your account is offline %1.",
+   "kommentar": "account url",
+   "text": "حسابك غير متصل %1."
+  },
+  {
+   "kontext": "OCC::FileDetails",
+   "quelle": "%1 month(s) ago",
+   "kommentar": "months elapsed since file last modified",
+   "formen": [
+    "منذ %1 شهر",
+    "منذ %1 شهر",
+    "منذ %1 شهرين",
+    "منذ %1 أشهر",
+    "منذ %1 شهرًا",
+    "منذ %1 شهر"
+   ]
+  },
+  {
+   "kontext": "OCC::FileDetails",
+   "quelle": "%1 year(s) ago",
+   "kommentar": "years elapsed since file last modified",
+   "formen": [
+    "منذ %1 سنة",
+    "منذ %1 سنة",
+    "منذ %1 سنتين",
+    "منذ %1 سنوات",
+    "منذ %1 سنةً",
+    "منذ %1 سنة"
+   ]
+  },
+  {
+   "kontext": "OCC::FileDetails",
+   "quelle": "Locked by %1 - Expires in %2 minute(s)",
+   "kommentar": "remaining time before lock expires",
+   "formen": [
+    "مقفول من قِبَل %1 - ينتهي القفل خلال %2 دقيقة",
+    "مقفول من قِبَل %1 - ينتهي القفل خلال %2 دقيقة",
+    "مقفول من قِبَل %1 - ينتهي القفل خلال %2 دقيقتين",
+    "مقفول من قِبَل %1 - ينتهي القفل خلال %2 دقائق",
+    "مقفول من قِبَل %1 - ينتهي القفل خلال %2 دقيقةً",
+    "مقفول من قِبَل %1 - ينتهي القفل خلال %2 دقيقة"
+   ]
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "An unexpected error occurred when trying to access the server. Please try to access it again later or contact your server administrator if the issue continues.",
+   "text": "حدث خطأ غير متوقع أثناء محاولة الوصول إلى الخادم. يُرجى محاولة الوصول إليه مرة أخرى لاحقًا أو التواصل مع مسؤول الخادم لديك إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The server did not reply with the expected data. Please try connecting again later or contact your server administrator if the issue continues.",
+   "text": "لم يرد الخادم بالبيانات المتوقعة. يُرجى محاولة الاتصال مرة أخرى لاحقًا أو التواصل مع مسؤول الخادم لديك إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The server is temporarily unavailable because it is in maintenance mode. Please try again once maintenance has finished.",
+   "text": "الخادم غير متاح مؤقتًا لأنه في وضع الصيانة. يُرجى المحاولة مرة أخرى بعد انتهاء الصيانة."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "We couldn't parse the server response. Please try connecting again later or contact your server administrator if the issue continues.",
+   "text": "تعذّر علينا تحليل رد الخادم. يُرجى محاولة الاتصال مرة أخرى لاحقًا أو التواصل مع مسؤول الخادم لديك إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "%1 and %n other file(s) have been removed.",
+   "formen": [
+    "تم حذف %1 بالإضافة إلى %n ملف آخر.",
+    "تم حذف %1 بالإضافة إلى %n ملف آخر.",
+    "تم حذف %1 بالإضافة إلى %n ملفين آخرين.",
+    "تم حذف %1 بالإضافة إلى %n ملفات أخرى.",
+    "تم حذف %1 بالإضافة إلى %n ملفًا آخر.",
+    "تم حذف %1 بالإضافة إلى %n ملف آخر."
+   ]
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please open the app settings to grant access to the sync folders.",
+   "text": "يُرجى فتح إعدادات التطبيق لمنح حق الوصول إلى مجلدات المزامنة."
+  },
+  {
+   "kontext": "OCC::FolderStatusDelegate",
+   "quelle": "Grant access",
+   "text": "منح حق الوصول"
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Due to recent security improvements, the client no longer has access to the folder. Your approval is required one time to restore access. Please select the synchronization folder root.",
+   "text": "بسبب تحسينات أمنية حديثة، لم يعد لدى العميل حق الوصول إلى المجلد. موافقتك مطلوبة مرة واحدة لاستعادة الوصول. يُرجى اختيار جذر مجلد المزامنة."
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Waiting for %n other folder(s) …",
+   "formen": [
+    "في انتظار %n مجلد آخر …",
+    "في انتظار %n مجلد آخر …",
+    "في انتظار %n مجلدين آخرين …",
+    "في انتظار %n مجلدات أخرى …",
+    "في انتظار %n مجلدًا آخر …",
+    "في انتظار %n مجلد آخر …"
+   ]
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "You are already syncing the subfolder %1 at %2.",
+   "text": "أنت تزامن بالفعل المجلد الفرعي %1 في %2."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "متصل بنظام مؤسسي. لا يمكن تغيير قناة التحديث (%1)."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "تعذّر الوصول إلى الموضع المحدد. يُرجى المحاولة مرة أخرى أو اختيار موضع آخر."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Failed to Access File",
+   "text": "تعذّر الوصول إلى الملف"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "General settings",
+   "text": "الإعدادات العامة"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Login Item Requires Approval",
+   "text": "عنصر تسجيل الدخول يتطلب الموافقة"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "احجب المعلومات التي تُعدّ حساسة قبل المشاركة! تم إنشاء أرشيف تنقيح الأخطاء في %1"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Restore &Default",
+   "text": "استعادة الإعدادات الافتراضية (&D)"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Restore to &%1",
+   "text": "الاستعادة إلى &%1"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show &Quota Warning Notifications",
+   "text": "إظهار إشعارات التحذير من الحصة (&Q)"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show notification when quota usage exceeds 80%.",
+   "text": "إظهار إشعار عندما يتجاوز استخدام الحصة 80%."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "The login item has been registered but needs your approval to become active. Please open System Settings → General → Login Items and enable %1 there.",
+   "text": "تم تسجيل عنصر تسجيل الدخول، لكنه يحتاج إلى موافقتك ليصبح نشطًا. يُرجى فتح إعدادات النظام ← عام ← عناصر تسجيل الدخول وتفعيل %1 هناك."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Automatically check for updates",
+   "text": "ابحث عن التحديثات بشكل تلقائي (&A)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Restart && Update",
+   "text": "أعِد التشغيل && حدّث (&R)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- بيتا: تحتوي على إصدارات بميزات جديدة قد لا تكون مختبرة بشكل كامل\n- يومي: تحتوي على إصدارات تُنشأ يوميًا للاختبار والتطوير فقط\n\nلا يمكن الرجوع إلى إصدار أقدم فورًا: يعني التغيير من بيتا إلى مُستقِر انتظار الإصدار المستقر الجديد."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- مؤسسي: تحتوي على إصدارات مستقرة للعملاء.\n\nلا يمكن الرجوع إلى إصدار أقدم فورًا: يعني التغيير من مُستقِر إلى مؤسسي انتظار الإصدار المؤسسي الجديد."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Cancel",
+   "text": "إلغاء"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Change update channel",
+   "text": "تغيير قناة التحديث"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Changing update channel?",
+   "text": "تغيير قناة التحديث؟"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Check Now",
+   "text": "افحص الآن"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "متصل بنظام مؤسسي. لا يمكن تغيير قناة التحديث (%1)."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Desktop client x.x.x",
+   "text": "عميل سطح المكتب x.x.x"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Legal Notice",
+   "text": "ملاحظة قانونية"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore &Default",
+   "text": "استعادة الإعدادات الافتراضية (&D)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore to &%1",
+   "text": "الاستعادة إلى &%1"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "تحدد القناة الترقيات التي سيُعرض تثبيتها:\n- مُستقِر: تحتوي على إصدارات مختبرة تُعدّ موثوقة\n"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Update channel",
+   "text": "قناة التحديث"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Usage Documentation",
+   "text": "دليل الاستخدام"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "beta",
+   "text": "بيتا"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "daily",
+   "text": "يومي"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "enterprise",
+   "text": "مؤسسي"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "stable",
+   "text": "مُستقِر"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "The following characters are not allowed on the system: \\ / : ? * \"  < > | leading/trailing spaces",
+   "text": "الأحرف التالية غير مسموح بها على النظام: \\ / : ? * \"  < > | الفراغات في البداية/النهاية"
+  },
+  {
+   "kontext": "OCC::LegacyAccountSelectionDialog",
+   "quelle": "Legacy import",
+   "text": "استيراد من التهيئة السابقة"
+  },
+  {
+   "kontext": "OCC::LegacyAccountSelectionDialog",
+   "quelle": "Select the accounts to import from the legacy configuration:",
+   "text": "اختر الحسابات المراد استيرادها من التهيئة السابقة:"
+  },
+  {
+   "kontext": "OCC::LegalNotice",
+   "quelle": "<p>Copyright 2017-2026 Nextcloud GmbH<br />Copyright 2012-2023 ownCloud GmbH</p>",
+   "text": "<p>Copyright 2017-2026 Nextcloud GmbH<br />Copyright 2012-2023 ownCloud GmbH</p>"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "No updates available. Your installation is the latest version.",
+   "text": "لا توجد تحديثات متاحة. نسختك المثبّتة هي أحدث إصدار."
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "You are using the %1 update channel. Your installation is the latest version.",
+   "text": "أنت تستخدم قناة التحديث %1. نسختك المثبّتة هي أحدث إصدار."
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "جارٍ إنشاء مجلد على BusinessCloud: %1",
+   "grund": "marke"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Back",
+   "kommentar": "Next button text in new account wizard",
+   "text": "السابق"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Next",
+   "kommentar": "Next button text in new account wizard",
+   "text": "التالي"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Proxy Settings",
+   "kommentar": "Proxy Settings button text in new account wizard",
+   "text": "إعدادات الوكيل"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File is locked by another application.",
+   "text": "الملف مقفول من قِبَل تطبيق آخر."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "لا يمكن الوصول إلى الملف على الخادم."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File name is a reserved name on this file system.",
+   "text": "اسم الملف اسم محجوز في نظام الملفات هذا."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File names containing the character \"%1\" are not supported on this file system.",
+   "kommentar": "%1: the invalid character",
+   "text": "أسماء الملفات التي تحتوي على الحرف \"%1\" غير مدعومة في نظام الملفات هذا."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "لا يمكن الوصول إلى المجلد على الخادم."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder name contains at least one invalid character",
+   "text": "اسم المجلد يحوي حرفاً أو أكثر من الحروف غير المقبولة"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder name is a reserved name on this file system.",
+   "text": "اسم المجلد اسم محجوز في نظام الملفات هذا."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder names containing the character \"%1\" are not supported on this file system.",
+   "kommentar": "%1: the invalid character",
+   "text": "أسماء المجلدات التي تحتوي على الحرف \"%1\" غير مدعومة في نظام الملفات هذا."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Upload of %1 exceeds %2 of space left in folder %3.",
+   "text": "رفع %1 يتجاوز المساحة المتبقية البالغة %2 في المجلد %3."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Upload of %1 exceeds %2 of space left in personal files.",
+   "text": "رفع %1 يتجاوز المساحة المتبقية البالغة %2 في الملفات الشخصية."
+  },
+  {
+   "kontext": "OCC::PropagateItemJob",
+   "quelle": "%1. Restoration failed: %2",
+   "kommentar": "%1 is the generic error string, the file restoration error (%2) will be appended here",
+   "text": "%1. أخفقت الاستعادة: %2"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRemove",
+   "quelle": "Temporary error when removing local item removed from server.",
+   "text": "خطأ مؤقت أثناء إزالة عنصر محلي أُزيل من الخادم."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "File is locked preventing syncing it",
+   "kommentar": "Generic warning message when a locked file cannot be synced",
+   "text": "الملف مقفول، مما يمنع مزامنته"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "File is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "لا يمكن الوصول إلى الملف على الخادم."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "Folder is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "لا يمكن الوصول إلى المجلد على الخادم."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileV1",
+   "quelle": "File is locked preventing syncing it",
+   "kommentar": "Generic warning message when a locked file cannot be synced",
+   "text": "الملف مقفول، مما يمنع مزامنته"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Advanced",
+   "text": "متقدمة"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Info",
+   "text": "معلومات"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "%1 day",
+   "text": "%1 يوم"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Expires in %1 minutes",
+   "kommentar": "remaining time before lock expires",
+   "formen": [
+    "ينتهي بعد %1 دقيقة",
+    "ينتهي بعد %1 دقيقة",
+    "ينتهي بعد %1 دقيقتين",
+    "ينتهي بعد %1 دقائق",
+    "ينتهي بعد %1 دقيقة",
+    "ينتهي بعد %1 دقيقة"
+   ]
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "File actions",
+   "text": "إجراءات الملف"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "No synchronisation configured",
+   "text": "لم تتم تهيئة أي مزامنة"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Please grant access to your sync folders",
+   "text": "يُرجى منح حق الوصول إلى مجلدات المزامنة الخاصة بك"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Reauthorization required",
+   "text": "إعادة التفويض مطلوبة"
+  },
+  {
+   "kontext": "OCC::Systray",
+   "quelle": "Open %1 Desktop",
+   "kommentar": "Open Nextcloud main window. Placeholer will be the application name. Please keep it.",
+   "text": "فتح عميل سطح المكتب %1"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "%1 Desktop Client Version %2 (%3 running on %4)",
+   "kommentar": "%1 is application name. %2 is the human version string. %3 is the operating system name. %4 is the platform name (wayland, x11, …)",
+   "text": "عميل سطح المكتب %1، الإصدار %2 (%3 يعمل على %4)"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "%n notification(s)",
+   "formen": [
+    "%n إشعار",
+    "%n إشعار",
+    "%n إشعاران",
+    "%n إشعارات",
+    "%n إشعارًا",
+    "%n إشعار"
+   ]
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant is already processing a request.",
+   "text": "المساعد يعالج طلبًا بالفعل."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant is not available for this account.",
+   "text": "المساعد غير متاح لهذا الحساب."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant request failed (%1).",
+   "text": "فشل طلب المساعد (%1)."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server.",
+   "text": "لا توجد مساحة تخزين كافية على الخادم."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server. The file requires %1 but only %2 are available.",
+   "text": "لا توجد مساحة تخزين كافية على الخادم. يتطلب الملف %1 لكن المتاح %2 فقط."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server. The file requires %1.",
+   "text": "لا توجد مساحة تخزين كافية على الخادم. يتطلب الملف %1."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "No response yet. Please try again later.",
+   "text": "لا يوجد رد بعد. حاول مرة أخرى لاحقًا من فضلك."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "No supported assistant task types were returned.",
+   "text": "لم تُرجَع أي أنواع مهام مدعومة للمساعد."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Assistant",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "فتح مساعد %1"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Assistant in browser",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "فتح مساعد %1 في المتصفح"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Talk in browser",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "فتح %1 Talk في المتصفح"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Public Share Link",
+   "text": "رابط مشاركة عامة"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Quota Warning - %1 percent or more storage in use",
+   "text": "تحذير حصة التخزين - %1 بالمئة أو أكثر من مساحة التخزين قيد الاستخدام"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Quota is updated; %1 percent of the total space is used.",
+   "text": "تم تحديث حصة التخزين؛ %1 بالمئة من المساحة الكلية مستخدمة."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Sending your request …",
+   "text": "جارٍ إرسال طلبك …"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Sending your request…",
+   "text": "جارٍ إرسال طلبك…"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "There is insufficient space available on the server for some uploads.",
+   "text": "لا تتوفر على الخادم مساحة كافية لبعض عمليات الرفع."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Waiting for the assistant response…",
+   "text": "في انتظار رد المساعد…"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "“%1” was not synchronized",
+   "text": "لم تتم مزامنة \"%1\""
+  },
+  {
+   "kontext": "OCC::UserModel",
+   "quelle": "Leave share",
+   "text": "مغادرة المشاركة"
+  },
+  {
+   "kontext": "OCC::UserModel",
+   "quelle": "Remove account",
+   "text": "إزالة الحساب"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n day(s)",
+   "formen": [
+    "%n يوم",
+    "%n يوم",
+    "%n يومان",
+    "%n أيام",
+    "%n يومًا",
+    "%n يوم"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n hour(s)",
+   "formen": [
+    "%n ساعة",
+    "%n ساعة",
+    "%n ساعتان",
+    "%n ساعات",
+    "%n ساعة",
+    "%n ساعة"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n minute(s)",
+   "formen": [
+    "%n دقيقة",
+    "%n دقيقة",
+    "%n دقيقتان",
+    "%n دقائق",
+    "%n دقيقة",
+    "%n دقيقة"
+   ]
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "Could not be downloaded",
+   "text": "تعذّر تنزيله"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "وكيل بروتوكول HTTP (أو HTTPS)"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "اسم مضيف الخادم الوكيل"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "كلمة مرور للخادم الوكيل"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Proxy Settings",
+   "kommentar": "Dialog window title for proxy settings",
+   "text": "إعدادات الوكيل"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "وكيل SOCKS5"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "اسم المستخدم للخادم الوكيل"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Internal link copied",
+   "text": "تم نسخ الرابط الداخلي"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "The internal link has been copied to the clipboard.",
+   "text": "تم نسخ الرابط الداخلي إلى الحافظة."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: An error was encountered.",
+   "text": "macOS VFS لـ %1: حدث خطأ."
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Form",
+   "text": "نموذج"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Host",
+   "text": "المضيف"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Manually specify proxy",
+   "text": "تعيين الوكيل يدوياً"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "No proxy",
+   "text": "لا وكيل"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "ملاحظة: إعدادات الوكيل لا تؤثر على الحسابات الموجودة على localhost"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Proxy Settings",
+   "text": "إعدادات الوكيل"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Proxy server requires authentication",
+   "text": "يفرض الخادم الوكيل المصادقة"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Use system proxy",
+   "text": "استخدم وكيل النظام"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Cancel",
+   "text": "إلغاء"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Done",
+   "text": "تم"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "وكيل بروتوكول HTTP (أو HTTPS)"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "اسم مضيف الخادم الوكيل"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Manually specify proxy",
+   "text": "تعيين الوكيل يدوياً"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "No proxy",
+   "text": "لا وكيل"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "ملاحظة: إعدادات الوكيل لا تؤثر على الحسابات الموجودة على localhost"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "كلمة مرور للخادم الوكيل"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy port",
+   "text": "منفذ الوكيل"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy server requires authentication",
+   "text": "يفرض الخادم الوكيل المصادقة"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy settings",
+   "text": "إعدادات الوكيل"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy type",
+   "text": "نوع الوكيل"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "وكيل SOCKS5"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Use system proxy",
+   "text": "استخدم وكيل النظام"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "اسم المستخدم للخادم الوكيل"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "%nmin",
+   "kommentar": "delay in minutes after an activity",
+   "formen": [
+    "%n دقيقة",
+    "%n دقيقة",
+    "%n دقيقتان",
+    "%n دقائق",
+    "%n دقيقة",
+    "%n دقيقة"
+   ]
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "1min",
+   "kommentar": "one minute after activity date and time",
+   "text": "1 دقيقة"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "حدث خطأ غير متوقع. يُرجى محاولة المزامنة مرة أخرى أو التواصل مع مسؤول الخادم لديك إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Answer",
+   "text": "ردّ"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not create debug archive in temporary location!",
+   "text": "تعذّر إنشاء أرشيف لتنقيح الأخطاء في موضع مؤقت!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not move debug archive to selected location!",
+   "text": "تعذّر نقل أرشيف تنقيح الأخطاء إلى الموضع المحدد!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not remove existing file at destination!",
+   "text": "تعذّرت إزالة الملف الموجود في الوجهة!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Error deleting the file",
+   "text": "خطأ في حذف الملف"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It seems you are using a proxy that required authentication. Please check your proxy settings and credentials. If you need help, contact your server administrator.",
+   "text": "يبدو أنك تستخدم وكيلًا يتطلب المصادقة. تحقق من إعدادات الوكيل وبيانات الاعتماد من فضلك. إذا احتجت إلى مساعدة، فتواصل مع مسؤول الخادم."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It’s taking too long to connect to the server. Please try again later. If you need help, contact your server administrator.",
+   "text": "يستغرق الاتصال بالخادم وقتًا طويلًا جدًا. حاول مرة أخرى لاحقًا من فضلك. إذا احتجت إلى مساعدة، فتواصل مع مسؤول الخادم."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Server files changed while you were working. Please try syncing again. Contact your server administrator if the issue persists.",
+   "text": "تغيّرت الملفات على الخادم أثناء عملك. حاول المزامنة مرة أخرى من فضلك. تواصل مع مسؤول الخادم إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Something went wrong on the server. Please try syncing again later, or contact your server administrator if the issue persists.",
+   "text": "حدث خطأ ما على الخادم. حاول المزامنة مرة أخرى لاحقًا من فضلك، أو تواصل مع مسؤول الخادم إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The address used to make the request is too long for the server to handle. Please try shortening the information you’re sending or contact your server administrator for assistance.",
+   "text": "العنوان المستخدم لإرسال الطلب أطول من أن يعالجه الخادم. حاول من فضلك تقصير المعلومات التي ترسلها، أو تواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The file is too big to upload. You might need to choose a smaller file or contact your server administrator for assistance.",
+   "text": "الملف أكبر من أن يُرفع. قد تحتاج إلى اختيار ملف أصغر أو التواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request could not be completed because some required conditions were not met. Please try syncing again later. If you need assistance, please contact your server administrator.",
+   "text": "تعذّر إكمال الطلب لعدم استيفاء بعض الشروط المطلوبة. حاول المزامنة مرة أخرى لاحقًا من فضلك. إذا احتجت إلى مساعدة، فتواصل مع مسؤول الخادم رجاءً."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request is taking longer than usual. Please try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "يستغرق الطلب وقتًا أطول من المعتاد. حاول المزامنة مرة أخرى من فضلك. وإذا لم ينجح ذلك أيضًا، فتواصل مع مسؤول الخادم."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The resource you are trying to access is currently locked and cannot be modified. Please try changing it later, or contact your server administrator for assistance.",
+   "text": "المورد الذي تحاول الوصول إليه مقفول حاليًا ولا يمكن تعديله. حاول تغييره لاحقًا من فضلك، أو تواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server couldn’t process your request because some information was incorrect or incomplete. Please try syncing again later, or contact your server administrator for assistance.",
+   "text": "تعذّر على الخادم معالجة طلبك لأن بعض المعلومات كانت غير صحيحة أو غير مكتملة. حاول المزامنة مرة أخرى لاحقًا من فضلك، أو تواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not have enough space to complete your request. Please check how much quota your user has by contacting your server administrator.",
+   "text": "لا تتوفر لدى الخادم مساحة كافية لإكمال طلبك. تحقق من حصة التخزين المخصصة لحسابك بالتواصل مع مسؤول الخادم من فضلك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not recognize the request method. Please contact your server administrator for help.",
+   "text": "لا يتعرّف الخادم على طريقة الطلب. تواصل مع مسؤول الخادم للحصول على المساعدة من فضلك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not support the version of the connection being used. Contact your server administrator for help.",
+   "text": "لا يدعم الخادم إصدار الاتصال المستخدم. تواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server is busy right now. Please try connecting again in a few minutes or contact your server administrator if it’s urgent.",
+   "text": "الخادم مشغول حاليًا. حاول الاتصال مرة أخرى بعد بضع دقائق من فضلك، أو تواصل مع مسؤول الخادم إذا كان الأمر عاجلًا."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This file type isn’t supported. Please contact your server administrator for assistance.",
+   "text": "نوع الملف هذا غير مدعوم. تواصل مع مسؤول الخادم للحصول على المساعدة من فضلك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This folder or file isn’t available anymore. If you need assistance, please contact your server administrator.",
+   "text": "هذا المجلد أو الملف لم يعد متاحًا. إذا احتجت إلى مساعدة، فتواصل مع مسؤول الخادم من فضلك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This request could not be completed because it is missing some required conditions. Please try again later, or contact your server administrator for help.",
+   "text": "تعذّر إكمال هذا الطلب لأنه يفتقد بعض الشروط المطلوبة. حاول مرة أخرى لاحقًا من فضلك، أو تواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t find what you were looking for. It might have been moved or deleted. If you need help, contact your server administrator.",
+   "text": "لم نتمكن من العثور على ما تبحث عنه. ربما نُقل أو حُذف. إذا احتجت إلى مساعدة، فتواصل مع مسؤول الخادم."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t process your request. Please try syncing again later. If this keeps happening, contact your server administrator for help.",
+   "text": "تعذّر علينا معالجة طلبك. حاول المزامنة مرة أخرى لاحقًا من فضلك. إذا تكرر ذلك، فتواصل مع مسؤول الخادم للحصول على المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We’re having trouble connecting to the server. Please try again soon. If the issue persists, your server administrator can help you.",
+   "text": "نواجه مشكلة في الاتصال بالخادم. حاول مرة أخرى بعد قليل من فضلك. إذا استمرت المشكلة، فبإمكان مسؤول الخادم مساعدتك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have access to this resource. If you think this is a mistake, please contact your server administrator.",
+   "text": "ليس لديك حق الوصول إلى هذا المورد. إذا كنت تعتقد أن هذا خطأ، فتواصل مع مسؤول الخادم من فضلك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have permission to access this resource. If you believe this is an error, contact your server administrator to ask for assistance.",
+   "text": "ليس لديك إذن بالوصول إلى هذا المورد. إذا كنت تعتقد أن هذا خطأ، فتواصل مع مسؤول الخادم لطلب المساعدة."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You made too many requests. Please wait and try again. If you keep seeing this, your server administrator can help.",
+   "text": "أرسلت طلبات كثيرة جدًا. انتظر ثم حاول مرة أخرى من فضلك. إذا استمر ظهور هذه الرسالة، فبإمكان مسؤول الخادم مساعدتك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You need to sign in to continue. If you have trouble with your credentials, please reach out to your server administrator.",
+   "text": "عليك تسجيل الدخول للمتابعة. إذا واجهت مشكلة في بيانات الاعتماد، فتواصل مع مسؤول الخادم من فضلك."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Your network needs extra authentication. Please check your connection. Contact your server administrator for help if the issue persists.",
+   "text": "تحتاج شبكتك إلى مصادقة إضافية. تحقق من اتصالك من فضلك. تواصل مع مسؤول الخادم للحصول على المساعدة إذا استمرت المشكلة."
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "%1 files in conflict",
+   "kommentar": "indicate the number of conflicts to resolve",
+   "formen": [
+    "%1 ملف متعارض",
+    "%1 ملف متعارض",
+    "%1 ملفان متعارضان",
+    "%1 ملفات متعارضة",
+    "%1 ملفًا متعارضًا",
+    "%1 ملف متعارض"
+   ]
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Enter the link to your %1 web interface from the browser or the link to a folder shared with you.",
+   "text": "أدخِل رابط واجهة الويب الخاصة بـ %1 من المتصفح، أو رابط مجلد تمت مشاركته معك."
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in",
+   "text": "تسجيل الدخول"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in to %1",
+   "text": "تسجيل الدخول إلى %1"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Server address",
+   "text": "عنوان الخادم"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose",
+   "text": "اختيار"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose what to sync",
+   "text": "اختر ما تريد مزامنته"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Download files on-demand",
+   "text": "تنزيل الملفات عند الحاجة"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Local sync folder",
+   "text": "مجلد المزامنة المحلي"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Synchronize everything",
+   "text": "مزامنة كل شيء"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Virtual files",
+   "text": "الملفات الافتراضية"
+  },
+  {
+   "kontext": "SyncStatus",
+   "quelle": "Open settings",
+   "text": "فتح الإعدادات"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Add account",
+   "text": "إضافة حساب"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Quit",
+   "text": "خروج"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Settings",
+   "text": "الإعدادات"
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "Open local or team folders",
+   "text": "فتح المجلدات المحلية أو مجلدات الفريق"
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "Open team folder \"%1\"",
+   "text": "فتح مجلد الفريق \"%1\""
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "Open local or team folders",
+   "text": "فتح المجلدات المحلية أو مجلدات الفريق"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Account sync status requires attention",
+   "text": "حالة مزامنة الحساب تحتاج إلى انتباهك"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Status message",
+   "text": "رسالة الحالة"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Apply",
+   "text": "طبِّق"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Cancel",
+   "text": "إلغاء"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Clear",
+   "text": "مسح"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Clear status message after",
+   "text": "مسح رسالة الحالة بعد"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Status message",
+   "text": "رسالة الحالة"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "What is your status?",
+   "text": "ما حالتك؟"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Appear offline",
+   "text": "الظهور بدون اتصال"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Away",
+   "text": "غائب"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Busy",
+   "text": "مشغول"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Do not disturb",
+   "text": "الرجاء عدم الإزعاج"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Invisible",
+   "text": "مخفي"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Mute all notifications",
+   "text": "كتم جميع الإشعارات"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Online",
+   "text": "متصل"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Online status",
+   "text": "حالة الاتصال"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Status message",
+   "text": "رسالة الحالة"
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n day(s)",
+   "formen": [
+    "%n يوم",
+    "%n يوم",
+    "%n يومان",
+    "%n أيام",
+    "%n يومًا",
+    "%n يوم"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n hour(s)",
+   "formen": [
+    "%n ساعة",
+    "%n ساعة",
+    "%n ساعتان",
+    "%n ساعات",
+    "%n ساعة",
+    "%n ساعة"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n minute(s)",
+   "formen": [
+    "%n دقيقة",
+    "%n دقيقة",
+    "%n دقيقتان",
+    "%n دقائق",
+    "%n دقيقة",
+    "%n دقيقة"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n month(s)",
+   "formen": [
+    "%n شهر",
+    "%n شهر",
+    "%n شهران",
+    "%n أشهر",
+    "%n شهرًا",
+    "%n شهر"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n second(s)",
+   "formen": [
+    "%n ثانية",
+    "%n ثانية",
+    "%n ثانيتان",
+    "%n ثوانٍ",
+    "%n ثانية",
+    "%n ثانية"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n year(s)",
+   "formen": [
+    "%n سنة",
+    "%n سنة",
+    "%n سنتان",
+    "%n سنوات",
+    "%n سنة",
+    "%n سنة"
+   ]
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental feature?",
+   "text": "تمكين خاصية تجريبية؟"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental placeholder mode",
+   "text": "تفعيل وضع العناصر النائبة التجريبي"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Stay safe",
+   "text": "ابقَ آمنًا"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "عند تمكين وضع \"الملفات الافتراضية\" لن يُنزَّل أي ملف في البداية. بدلًا من ذلك، يُنشأ ملف \"%1\" صغير لكل ملف موجود على الخادم. يمكن تنزيل المحتوى بتشغيل هذه الملفات أو باستخدام قائمة السياق الخاصة بها.\n\nلا يمكن استخدام وضع الملفات الافتراضية مع المزامنة الانتقائية في الوقت نفسه. ستتحول المجلدات غير المحددة حاليًا إلى مجلدات متاحة عبر الإنترنت فقط، وستُعاد تعيين إعدادات المزامنة الانتقائية الخاصة بك.\n\nسيؤدي التبديل إلى هذا الوضع إلى إلغاء أي مزامنة جارية حاليًا.\n\nهذا وضع تجريبي جديد. إذا قررت استخدامه، فأبلغ من فضلك عن أي مشكلات تظهر."
+  }
+ ]
+}

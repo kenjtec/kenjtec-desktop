@@ -1,0 +1,2346 @@
+{
+ "sprache": "nl",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_nl.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Advanced",
+   "text": "Geavanceerd"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Back",
+   "text": "Terug"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Cancel",
+   "text": "Annuleren"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect",
+   "text": "Verbinden"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect to %1?",
+   "text": "Verbinden met %1?"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect without TLS",
+   "text": "Verbinden zonder TLS"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Copy link",
+   "text": "Link kopiëren"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Done",
+   "text": "Klaar"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Log in",
+   "text": "Aanmelden"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Open",
+   "text": "Openen"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Proxy settings",
+   "text": "Proxy-instellingen"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Secure connection failed",
+   "text": "Beveiligde verbinding mislukt"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Self-host",
+   "text": "Zelf hosten"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Set up later",
+   "text": "Later instellen"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Sign up",
+   "text": "Registreren"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can add a client certificate and try again.",
+   "text": "De beveiligde verbinding is mislukt. Je kunt een clientcertificaat toevoegen en het opnieuw proberen."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can retry without encryption, or add a client certificate and try again.",
+   "text": "De beveiligde verbinding is mislukt. Je kunt het opnieuw proberen zonder versleuteling, of een clientcertificaat toevoegen en het opnieuw proberen."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Use client certificate",
+   "text": "Clientcertificaat gebruiken"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "%1 MB",
+   "text": "%1 MB"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Advanced options",
+   "text": "Geavanceerde opties"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing external storage",
+   "text": "Vragen vóór het synchroniseren van externe opslag"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing folders larger than",
+   "text": "Vragen vóór het synchroniseren van mappen groter dan"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Done",
+   "text": "Klaar"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Large folder threshold",
+   "text": "Drempel voor grote mappen"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Connect public share",
+   "text": "Openbare deellink verbinden"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter credentials",
+   "text": "Inloggegevens invoeren"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the share password if the link is password protected.",
+   "text": "Voer het wachtwoord van de deellink in als de link met een wachtwoord is beveiligd."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the username and password for this server.",
+   "text": "Voer de gebruikersnaam en het wachtwoord voor deze server in."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Password",
+   "text": "Wachtwoord"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Username",
+   "text": "Gebruikersnaam"
+  },
+  {
+   "kontext": "BrowserAuthPage",
+   "quelle": "Switch to your browser",
+   "text": "Schakel over naar je browser"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Cancel",
+   "text": "Annuleren"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate file",
+   "text": "Certificaatbestand"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate password",
+   "text": "Certificaatwachtwoord"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Choose",
+   "text": "Kiezen"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Client certificate",
+   "text": "Clientcertificaat"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Connect",
+   "text": "Verbinden"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Select a PKCS#12 certificate file and enter its password.",
+   "text": "Selecteer een PKCS#12-certificaatbestand en voer het bijbehorende wachtwoord in."
+  },
+  {
+   "kontext": "FileActionsWindow",
+   "quelle": "File actions for %1",
+   "text": "Bestandsacties voor %1"
+  },
+  {
+   "kontext": "FileProviderSettings",
+   "quelle": "Reset virtual files environment",
+   "text": "Omgeving voor virtuele bestanden opnieuw instellen"
+  },
+  {
+   "kontext": "FileProviderSettings",
+   "quelle": "Virtual files appear like regular files, but they do not use local storage space. The content downloads automatically when you open the file. Virtual files and classic sync can not be used at the same time.",
+   "text": "Virtuele bestanden zien eruit als gewone bestanden, maar gebruiken geen lokale opslagruimte. De inhoud wordt automatisch gedownload wanneer je het bestand opent. Virtuele bestanden en klassieke synchronisatie kunnen niet tegelijk worden gebruikt."
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Ask Assistant …",
+   "text": "Vraag de assistent …"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Ask Assistant…",
+   "text": "Vraag de assistent…"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Main content",
+   "text": "Hoofdinhoud"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "New activities",
+   "text": "Nieuwe activiteiten"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Send assistant question",
+   "text": "Vraag aan assistent verzenden"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Start a new assistant chat",
+   "text": "Nieuwe chat met de assistent starten"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "This will clear the existing conversation.",
+   "text": "Hierdoor wordt het bestaande gesprek gewist."
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Unified search results list",
+   "text": "Lijst met gecombineerde zoekresultaten"
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "Er is een onverwachte fout opgetreden. Probeer opnieuw te synchroniseren of neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "The server enforces strict transport security and does not accept untrusted certificates.",
+   "text": "De server dwingt strikte transportbeveiliging af en accepteert geen niet-vertrouwde certificaten."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "The server took too long to respond. Check your connection and try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "De server deed er te lang over om te reageren. Controleer je verbinding en probeer opnieuw te synchroniseren. Werkt het nog steeds niet, neem dan contact op met je serverbeheerder."
+  },
+  {
+   "kontext": "OCC::Account",
+   "quelle": "Public Share Link",
+   "text": "Openbare deellink"
+  },
+  {
+   "kontext": "OCC::AccountManager",
+   "quelle": "An account was detected from a legacy desktop client.\nShould the account be imported?",
+   "text": "Er is een account gevonden van een oudere desktopclient.\nWil je het account importeren?"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Bookmark Error",
+   "text": "Bladwijzerfout"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Classic sync",
+   "text": "Klassieke synchronisatie"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Connected to %1 (%2).",
+   "text": "Verbonden met %1 (%2)."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not acquire access to the selected folder. Please try again.",
+   "text": "Kon geen toegang krijgen tot de geselecteerde map. Probeer het opnieuw."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not create a security bookmark for the folder. Please try again.",
+   "text": "Kon geen beveiligingsbladwijzer voor de map aanmaken. Probeer het opnieuw."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not resolve the security bookmark. Please try again.",
+   "text": "Kon de beveiligingsbladwijzer niet herleiden. Probeer het opnieuw."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Do you want to forget the end-to-end encryption settings for %1 on this device?",
+   "text": "Wil je de instellingen voor end-to-end-versleuteling van %1 op dit apparaat vergeten?"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Encryption is set-up. Remember to <b>Encrypt</b> a folder to end-to-end encrypt any new files added to it.",
+   "text": "Versleuteling is ingesteld. Vergeet niet een map te <b>versleutelen</b> om alle nieuwe bestanden die eraan worden toegevoegd end-to-end te versleutelen."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has been initialized on this account with another device.<br>Enter the unique mnemonic to have the encrypted folders synchronize on this device as well.",
+   "text": "End-to-end-versleuteling is voor dit account op een ander apparaat geïnitialiseerd.<br>Voer de unieke geheugensteun in om de versleutelde mappen ook op dit apparaat te synchroniseren."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has not been initialized on this account.",
+   "text": "End-to-end-versleuteling is voor dit account niet geïnitialiseerd."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forget encryption setup",
+   "text": "Versleutelingsinstellingen vergeten"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forget the end-to-end encryption on this device",
+   "text": "End-to-end-versleuteling op dit apparaat vergeten"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forgetting end-to-end encryption will remove the sensitive data and all the encrypted files from this device.<br>However, the encrypted files will remain on the server and all your other devices, if configured.",
+   "text": "Als je de end-to-end-versleuteling vergeet, worden de gevoelige gegevens en alle versleutelde bestanden van dit apparaat verwijderd.<br>De versleutelde bestanden blijven echter op de server en op al je andere apparaten staan, als die zijn ingesteld."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Grant access to sync folder",
+   "text": "Toegang tot synchronisatiemap verlenen"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Migrate certificate to a new one",
+   "text": "Certificaat migreren naar een nieuw certificaat"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Please select the original sync folder: %1",
+   "text": "Selecteer de oorspronkelijke synchronisatiemap: %1"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "The virtual files integration does not support end-to-end encryption yet.",
+   "text": "De integratie voor virtuele bestanden ondersteunt nog geen end-to-end-versleuteling."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "This account supports end-to-end encryption, but it needs to be set up first.",
+   "text": "Dit account ondersteunt end-to-end-versleuteling, maar die moet eerst worden ingesteld."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 dictionary words. Please note it down and keep it safe. You will need it to set-up the synchronization of encrypted folders on your other devices.",
+   "text": "Om je cryptografische identiteit te beschermen, versleutelen we deze met een geheugensteun van 12 woorden uit het woordenboek. Schrijf hem op en bewaar hem op een veilige plek. Je hebt hem nodig om de synchronisatie van versleutelde mappen op je andere apparaten in te stellen."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Virtual files",
+   "text": "Virtuele bestanden"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You cannot encrypt this folder because the end-to-end encryption is not set-up yet on this device.\nWould you like to do this now?",
+   "text": "Je kunt deze map niet versleutelen, omdat end-to-end-versleuteling op dit apparaat nog niet is ingesteld.\nWil je dit nu doen?"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You need to accept the terms of service at %1.",
+   "text": "Je moet de gebruiksvoorwaarden op %1 accepteren."
+  },
+  {
+   "kontext": "OCC::AccountState",
+   "quelle": "Need the user to accept the terms of service",
+   "text": "De gebruiker moet de gebruiksvoorwaarden accepteren"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "%1 free space",
+   "kommentar": "%1 gets replaced with the size and a matching unit. Example: 3 MB or 5 GB",
+   "text": "%1 vrije ruimte"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Access forbidden by server. To verify that you have proper access, open the service in your browser.",
+   "text": "Toegang geweigerd door de server. Open de dienst in je browser om te controleren of je de juiste toegang hebt."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account connected.",
+   "text": "Account verbonden."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account setup failed while creating the sync folder.",
+   "text": "Het instellen van het account is mislukt tijdens het aanmaken van de synchronisatiemap."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Certificate files (*.p12 *.pfx)",
+   "text": "Certificaatbestanden (*.p12 *.pfx)"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking account access",
+   "text": "Toegang tot account wordt gecontroleerd"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking remote folder",
+   "text": "Externe map wordt gecontroleerd"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking server address",
+   "text": "Serveradres wordt gecontroleerd"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "Kon geen toegang krijgen tot het geselecteerde certificaatbestand."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create local folder %1",
+   "text": "Kon lokale map %1 niet aanmaken"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create the sync folder.",
+   "text": "Kon de synchronisatiemap niet aanmaken."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not load certificate. Maybe wrong password?",
+   "text": "Kan certificaat niet laden. Misschien is het wachtwoord onjuist?"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Creating remote folder",
+   "text": "Externe map wordt aangemaakt"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Error: %1",
+   "text": "Fout: %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Failed to connect to %1 at %2:\n%3",
+   "text": "Kon geen verbinding maken met %1 op %2:\n%3"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Invalid URL",
+   "text": "Ongeldige URL"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Link copied to clipboard.",
+   "text": "Link gekopieerd naar het klembord."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Local Sync Folder",
+   "text": "Lokale synchronisatiemap"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "No remote folder specified!",
+   "text": "Geen externe map opgegeven!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose a local sync folder.",
+   "text": "Kies een lokale synchronisatiemap."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose an empty local sync folder.",
+   "text": "Kies een lege lokale synchronisatiemap."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Preparing browser login",
+   "text": "Aanmelding via browser wordt voorbereid"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Proxy settings are incomplete.",
+   "text": "De proxy-instellingen zijn onvolledig."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Remote folder %1 creation failed with error <tt>%2</tt>.",
+   "text": "Het aanmaken van externe map %1 is mislukt met fout <tt>%2</tt>."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Select a certificate",
+   "text": "Selecteer een certificaat"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Server address does not seem to be valid",
+   "text": "Het serveradres lijkt niet geldig"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Starting authorization",
+   "text": "Autorisatie wordt gestart"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The authenticated request to the server was redirected to \"%1\". The URL is bad, the server is misconfigured.",
+   "text": "Het geauthenticeerde verzoek aan de server is omgeleid naar \"%1\". De URL is ongeldig, de server is verkeerd geconfigureerd."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The folder creation resulted in HTTP error code %1",
+   "text": "Het aanmaken van de map leverde HTTP-foutcode %1 op"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong. Please go back and check your credentials.",
+   "text": "Het aanmaken van de externe map is mislukt, omdat de opgegeven inloggegevens onjuist zijn. Ga terug en controleer je inloggegevens."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There isn't enough free space in the local folder!",
+   "text": "Er is niet genoeg vrije ruimte beschikbaar in de lokale map!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There was an invalid response to an authenticated WebDAV request",
+   "text": "Er is een ongeldig antwoord ontvangen op een geauthenticeerd WebDAV-verzoek"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "This server requires legacy browser authentication. Enter app-password credentials instead.",
+   "text": "Deze server vereist de oudere browserauthenticatie. Voer in plaats daarvan de inloggegevens van een app-wachtwoord in."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Timeout while trying to connect to %1 at %2.",
+   "text": "Time-out bij verbinden met %1 op %2."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "Kan de browser niet openen, kopieer de link naar je browser."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Username must not be empty.",
+   "text": "De gebruikersnaam mag niet leeg zijn."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Waiting for authorization",
+   "text": "Wachten op autorisatie"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require %1 of storage",
+   "text": "Vereist %1 opslagruimte"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require local storage",
+   "text": "Vereist lokale opslag"
+  },
+  {
+   "kontext": "OCC::AddCertificateDialog",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "Kon geen toegang krijgen tot het geselecteerde certificaatbestand."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Advanced",
+   "text": "Geavanceerd"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing external storages",
+   "text": "Vraag bevestiging voor synchronisatie van mappen op externe opslag"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing new folders larger than",
+   "text": "Vraag bevestiging vóór het synchroniseren van nieuwe mappen groter dan"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Automatically disable synchronisation of folders that overcome limit",
+   "text": "Schakel synchronisatie van mappen die de limiet overschrijden automatisch uit"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "Kon geen toegang krijgen tot de geselecteerde locatie. Probeer het opnieuw of kies een andere locatie."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Create Debug Archive",
+   "text": "Debugarchief maken"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Debug Archive Created",
+   "text": "Debugarchief aangemaakt"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Edit &Ignored Files",
+   "text": "&Genegeerde bestanden bewerken"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Failed to Access File",
+   "text": "Geen toegang tot bestand"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "MB",
+   "text": "MB"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Move removed files to trash",
+   "text": "Verplaats verwijderde bestanden naar de prullenbak"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Notify when synchronised folders grow larger than specified limit",
+   "text": "Meld wanneer gesynchroniseerde mappen groter worden dan de opgegeven limiet"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "Verwijder als gevoelig beschouwde informatie voordat je het deelt! Debugarchief aangemaakt in %1"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Server poll interval",
+   "text": "Interval voor servercontrole"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Show sync folders in &Explorer's navigation pane",
+   "text": "Toon synchronisatiemappen in het navigatievenster van &Explorer"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Zip Archives",
+   "text": "Zip-archieven"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "seconden (als <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> niet beschikbaar is)"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "Error updating metadata: %1",
+   "text": "Fout bij bijwerken metadata: %1"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "File %1 can not be downloaded because of a local file name clash!",
+   "text": "Bestand %1 kan niet worden gedownload vanwege een conflict met een lokale bestandsnaam!"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "The file %1 is currently in use",
+   "text": "Het bestand %1 is momenteel in gebruik"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "Unable to update metadata of new file %1.",
+   "kommentar": "error with update metadata of new Win VFS file",
+   "text": "Kan metadata van nieuw bestand %1 niet bijwerken."
+  },
+  {
+   "kontext": "OCC::BulkPropagatorJob",
+   "quelle": "File contains leading or trailing spaces and couldn't be renamed",
+   "text": "Bestand bevat spaties vooraan of achteraan en kon niet worden hernoemd"
+  },
+  {
+   "kontext": "OCC::ClientSideEncryption",
+   "quelle": "Enter Certificate USB Token PIN:",
+   "text": "PIN van USB-token voor certificaat invoeren:"
+  },
+  {
+   "kontext": "OCC::ClientSideEncryption",
+   "quelle": "Input PIN code",
+   "kommentar": "Please keep it short and shorter than \"Enter Certificate USB Token PIN:\"",
+   "text": "PIN-code invoeren"
+  },
+  {
+   "kontext": "OCC::ClientSideEncryption",
+   "quelle": "Login to the token failed after providing the user PIN. It may be invalid or wrong. Please try again!",
+   "text": "Aanmelden bij het token is mislukt na het invoeren van de gebruikers-PIN. Deze is mogelijk ongeldig of onjuist. Probeer het opnieuw!"
+  },
+  {
+   "kontext": "OCC::ConnectionValidator",
+   "quelle": "No %1 account configured",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "Geen %1-account geconfigureerd"
+  },
+  {
+   "kontext": "OCC::DiscoverySingleDirectoryJob",
+   "quelle": "Encrypted metadata setup error: initial signature from server is empty.",
+   "text": "Fout bij instellen versleutelde metadata: de initiële handtekening van de server is leeg."
+  },
+  {
+   "kontext": "OCC::DiscoverySingleDirectoryJob",
+   "quelle": "The server returned an unexpected response that couldn’t be read. Please reach out to your server administrator.”",
+   "text": "De server gaf een onverwacht antwoord dat niet kon worden gelezen. Neem contact op met je serverbeheerder.”"
+  },
+  {
+   "kontext": "OCC::EditLocallyJob",
+   "quelle": "Please try again.",
+   "text": "Probeer alsjeblieft opnieuw",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EditLocallyManager",
+   "quelle": "Please try again.",
+   "text": "Probeer alsjeblieft opnieuw",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::EditLocallyVerificationJob",
+   "quelle": "Please try again.",
+   "text": "Probeer alsjeblieft opnieuw",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "%1 did not succeed, please try again later. If you need help, contact your server administrator.",
+   "kommentar": "file action error message",
+   "text": "%1 is niet gelukt, probeer het later opnieuw. Neem contact op met je serverbeheerder als je hulp nodig hebt."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "%1 done.",
+   "kommentar": "file action success message",
+   "text": "%1 voltooid."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "No file actions were returned by the server for %1 files.",
+   "kommentar": "file mimetype, e.g text/plain files",
+   "text": "De server heeft geen bestandsacties teruggegeven voor bestanden van het type %1."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "The file ID is empty for %1.",
+   "kommentar": "file name",
+   "text": "De bestands-ID voor %1 is leeg."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "The file type for %1 is not valid.",
+   "kommentar": "file name",
+   "text": "Het bestandstype voor %1 is ongeldig."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "Your account is offline %1.",
+   "kommentar": "account url",
+   "text": "Je account is offline %1."
+  },
+  {
+   "kontext": "OCC::FileDetails",
+   "quelle": "Locked by %1 - Expires in %2 minute(s)",
+   "kommentar": "remaining time before lock expires",
+   "formen": [
+    "Vergrendeld door %1 - Verloopt over %2 minuut",
+    "Vergrendeld door %1 - Verloopt over %2 minuten"
+   ]
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "An unexpected error occurred when trying to access the server. Please try to access it again later or contact your server administrator if the issue continues.",
+   "text": "Er is een onverwachte fout opgetreden bij het openen van de server. Probeer het later opnieuw of neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The server did not reply with the expected data. Please try connecting again later or contact your server administrator if the issue continues.",
+   "text": "De server antwoordde niet met de verwachte gegevens. Probeer later opnieuw verbinding te maken of neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The server is temporarily unavailable because it is in maintenance mode. Please try again once maintenance has finished.",
+   "text": "De server is tijdelijk niet beschikbaar, omdat hij in onderhoudsmodus staat. Probeer het opnieuw zodra het onderhoud is afgerond."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "We couldn't parse the server response. Please try connecting again later or contact your server administrator if the issue continues.",
+   "text": "We konden het antwoord van de server niet verwerken. Probeer later opnieuw verbinding te maken of neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "OCC::Flow2AuthWidget",
+   "quelle": "Open Browser",
+   "text": "Browser openen"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "%1 and %n other file(s) have been removed.",
+   "formen": [
+    "%1 en %n ander bestand zijn verwijderd.",
+    "%1 en %n andere bestanden zijn verwijderd."
+   ]
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "A large number of files in the server have been deleted.\nPlease confirm if you'd like to proceed with these deletions.\nAlternatively, you can restore all deleted files by uploading from '%1' folder to the server.",
+   "text": "Een groot aantal bestanden op de server is verwijderd.\nBevestig of je met deze verwijderingen wilt doorgaan.\nJe kunt ook alle verwijderde bestanden herstellen door ze vanuit de map '%1' naar de server te uploaden."
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "A large number of files in your local '%1' folder have been deleted.\nPlease confirm if you'd like to proceed with these deletions.\nAlternatively, you can restore all deleted files by downloading them from the server.",
+   "text": "Een groot aantal bestanden in je lokale map '%1' is verwijderd.\nBevestig of je met deze verwijderingen wilt doorgaan.\nJe kunt ook alle verwijderde bestanden herstellen door ze van de server te downloaden."
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please choose a different location. %1 isn't a readable folder.",
+   "text": "Kies een andere locatie. %1 is geen leesbare map."
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please choose a different location. %1 isn't a valid folder.",
+   "text": "Kies een andere locatie. %1 is geen geldige map."
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please choose a different location. The folder %1 doesn't exist.",
+   "text": "Kies een andere locatie. De map %1 bestaat niet."
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Please go in the settings to select it if you wish to download it.",
+   "text": "Ga naar de instellingen om het te selecteren als je deze wilt downloaden.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Proceed with Deletion",
+   "text": "Doorgaan met verwijderen"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Restore Files from Server",
+   "text": "Bestanden van de server herstellen"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Restore Files to Server",
+   "text": "Bestanden op de server herstellen"
+  },
+  {
+   "kontext": "OCC::Folder",
+   "quelle": "Virtual file download failed with code \"%1\", status \"%2\" and error message \"%3\"",
+   "text": "Downloaden van virtueel bestand mislukt met code \"%1\", status \"%2\" en foutmelding \"%3\""
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. %1 is already being used as a sync folder for %2.",
+   "kommentar": "folder location, server url",
+   "text": "Kies een andere locatie. %1 wordt al als synchronisatiemap voor %2 gebruikt."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. %1 is already being used as a sync folder.",
+   "text": "Kies een andere locatie. %1 wordt al als synchronisatiemap gebruikt."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. %1 is already contained in a folder used as a sync folder.",
+   "text": "Kies een andere locatie. %1 bevindt zich al in een map die als synchronisatiemap wordt gebruikt."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. The path %1 doesn't exist.",
+   "text": "Kies een andere locatie. Het pad %1 bestaat niet."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. The path %1 isn't a folder.",
+   "text": "Kies een andere locatie. Het pad %1 is geen map."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. The selected folder isn't valid.",
+   "text": "Kies een andere locatie. De geselecteerde map is ongeldig."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please choose a different location. You don't have enough permissions to write to %1.",
+   "kommentar": "folder location",
+   "text": "Kies een andere locatie. Je hebt onvoldoende rechten om naar %1 te schrijven."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please open the app settings to grant access to the sync folders.",
+   "text": "Open de app-instellingen om toegang tot de synchronisatiemappen te verlenen."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Syncing %1",
+   "text": "Synchroniseren %1"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Syncing %1 (%2 left)",
+   "text": "Synchroniseren %1 (%2 over)"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Syncing %1 (A few seconds left)",
+   "text": "Synchroniseren %1 (een paar seconden over)"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Syncing %1 of %2",
+   "text": "Synchroniseren %1 van %2"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Syncing %1 of %2 (%3 left)",
+   "text": "Synchroniseren %1 van %2 (%3 over)"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Syncing %1 of %2 (A few seconds left)",
+   "text": "Synchroniseren %1 van %2 (een paar seconden over)"
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "The folder %1 is linked to multiple accounts.\nThis setup can cause data loss and it is no longer supported.\nTo resolve this issue: please remove %1 from one of the accounts and create a new sync folder.\nFor advanced users: this issue might be related to multiple sync database files found in one folder. Please check %1 for outdated and unused .sync_*.db files and remove them.",
+   "text": "De map %1 is gekoppeld aan meerdere accounts.\nDeze configuratie kan tot gegevensverlies leiden en wordt niet meer ondersteund.\nZo los je dit probleem op: verwijder %1 uit een van de accounts en maak een nieuwe synchronisatiemap aan.\nVoor gevorderde gebruikers: dit probleem kan te maken hebben met meerdere synchronisatiedatabasebestanden in één map. Controleer %1 op verouderde en ongebruikte .sync_*.db-bestanden en verwijder ze."
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Due to recent security improvements, the client no longer has access to the folder. Your approval is required one time to restore access. Please select the synchronization folder root.",
+   "text": "Door recente beveiligingsverbeteringen heeft de client geen toegang meer tot de map. Je toestemming is eenmalig nodig om de toegang te herstellen. Selecteer de hoofdmap van de synchronisatiemap."
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Waiting for %n other folder(s) …",
+   "formen": [
+    "Wachten op %n andere map …",
+    "Wachten op %n andere mappen …"
+   ]
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "You need to be connected to add a folder",
+   "text": "Je moet verbonden zijn om een map toe te voegen",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "Please choose a different location. %1 is already being synced to %2.",
+   "text": "Kies een andere locatie. %1 wordt al gesynchroniseerd met %2."
+  },
+  {
+   "kontext": "OCC::FolderWizardRemotePath",
+   "quelle": "You are already syncing the subfolder %1 at %2.",
+   "text": "Je synchroniseert de submap %1 op %2 al."
+  },
+  {
+   "kontext": "OCC::FolderWizardSelectiveSync",
+   "quelle": "Virtual files are not supported at the selected location",
+   "text": "Virtuele bestanden worden op de geselecteerde locatie niet ondersteund"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- beta: bevat versies met nieuwe functies die mogelijk niet grondig zijn getest\n- dagelijks: bevat dagelijks gemaakte versies, alleen voor testen en ontwikkeling\n\nTerugschakelen naar een oudere versie is niet direct mogelijk: overstappen van beta naar stabiel betekent wachten op de nieuwe stabiele versie."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- zakelijk: bevat stabiele versies voor klanten.\n\nTerugschakelen naar een oudere versie is niet direct mogelijk: overstappen van stabiel naar zakelijk betekent wachten op de nieuwe zakelijke versie."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "Verbonden met een zakelijk systeem. Het bijwerkkanaal (%1) kan niet worden gewijzigd."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "Kon geen toegang krijgen tot de geselecteerde locatie. Probeer het opnieuw of kies een andere locatie."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Failed to Access File",
+   "text": "Geen toegang tot bestand"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "General settings",
+   "text": "Algemene instellingen"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Login Item Requires Approval",
+   "text": "Inlogonderdeel vereist goedkeuring"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "Verwijder als gevoelig beschouwde informatie voordat je het deelt! Debugarchief aangemaakt in %1"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Restore &Default",
+   "text": "&Standaard herstellen"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Restore to &%1",
+   "text": "Herstellen naar &%1"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Server poll interval",
+   "text": "Interval voor servercontrole"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show &Quota Warning Notifications",
+   "text": "Toon meldingen voor &quotumwaarschuwingen"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show Chat Notifications",
+   "text": "Toon chatmeldingen"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show chat notification dialogs.",
+   "text": "Toon vensters voor chatmeldingen."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show notification when quota usage exceeds 80%.",
+   "text": "Toon een melding wanneer het quotumgebruik 80% overschrijdt."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "Het kanaal bepaalt welke upgrades ter installatie worden aangeboden:\n- stabiel: bevat geteste versies die als betrouwbaar worden beschouwd\n"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "The login item has been registered but needs your approval to become active. Please open System Settings → General → Login Items and enable %1 there.",
+   "text": "Het inlogonderdeel is geregistreerd, maar heeft je goedkeuring nodig om actief te worden. Open Systeeminstellingen → Algemeen → Inlogonderdelen en schakel %1 daar in."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "seconden (als <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> niet beschikbaar is)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Automatically check for updates",
+   "text": "&Controleer automatisch op updates"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Restart && Update",
+   "text": "&Herstarten && bijwerken"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- beta: bevat versies met nieuwe functies die mogelijk niet grondig zijn getest\n- dagelijks: bevat dagelijks gemaakte versies, alleen voor testen en ontwikkeling\n\nTerugschakelen naar een oudere versie is niet direct mogelijk: overstappen van beta naar stabiel betekent wachten op de nieuwe stabiele versie."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- zakelijk: bevat stabiele versies voor klanten.\n\nTerugschakelen naar een oudere versie is niet direct mogelijk: overstappen van stabiel naar zakelijk betekent wachten op de nieuwe zakelijke versie."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Cancel",
+   "text": "Annuleren"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Change update channel",
+   "text": "Bijwerkkanaal wijzigen"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Changing update channel?",
+   "text": "Bijwerkkanaal wijzigen?"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Check Now",
+   "text": "Controleer nu"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "Verbonden met een zakelijk systeem. Het bijwerkkanaal (%1) kan niet worden gewijzigd."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Desktop client x.x.x",
+   "text": "Desktopclient x.x.x"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Legal Notice",
+   "text": "Juridische bepalingen"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore &Default",
+   "text": "&Standaard herstellen"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore to &%1",
+   "text": "Herstellen naar &%1"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "Het kanaal bepaalt welke upgrades ter installatie worden aangeboden:\n- stabiel: bevat geteste versies die als betrouwbaar worden beschouwd\n"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Update channel",
+   "text": "Bijwerkkanaal"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Usage Documentation",
+   "text": "Gebruiksdocumentatie"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "beta",
+   "text": "beta"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "daily",
+   "text": "dagelijks"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "enterprise",
+   "text": "zakelijk"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "stable",
+   "text": "stabiel"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "The following characters are not allowed on the system: \\ / : ? * \"  < > | leading/trailing spaces",
+   "text": "De volgende tekens zijn niet toegestaan op het systeem: \\ / : ? * \"  < > | spaties vooraan/achteraan"
+  },
+  {
+   "kontext": "OCC::LegacyAccountSelectionDialog",
+   "quelle": "Legacy import",
+   "text": "Legacy import"
+  },
+  {
+   "kontext": "OCC::LegacyAccountSelectionDialog",
+   "quelle": "Select the accounts to import from the legacy configuration:",
+   "text": "Selecteer de accounts die je uit de oude configuratie wilt importeren:"
+  },
+  {
+   "kontext": "OCC::Mac::FileProviderEditLocallyJob",
+   "quelle": "Could not find a file for local editing. Make sure its path is valid and it is synced locally.",
+   "text": "Kon geen bestand vinden om lokaal te bewerken. Controleer of het pad geldig is en of het bestand lokaal is gesynchroniseerd."
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "No updates available. Your installation is the latest version.",
+   "text": "Geen updates beschikbaar. Je installatie is de nieuwste versie."
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "You are using the %1 update channel. Your installation is the latest version.",
+   "text": "Je gebruikt het bijwerkkanaal %1. Je installatie is de nieuwste versie."
+  },
+  {
+   "kontext": "OCC::OwncloudAdvancedSetupPage",
+   "quelle": "In Finder's \"Locations\" sidebar section",
+   "text": "In het gedeelte \"Locaties\" van de navigatiekolom in Finder"
+  },
+  {
+   "kontext": "OCC::OwncloudAdvancedSetupPage",
+   "quelle": "Virtual files are not supported at the selected location",
+   "text": "Virtuele bestanden worden op de geselecteerde locatie niet ondersteund"
+  },
+  {
+   "kontext": "OCC::OwncloudConnectionMethodDialog",
+   "quelle": "<html><head/><body><p>Failed to connect to the secure server address <em>%1</em>. How do you wish to proceed?</p></body></html>",
+   "text": "<html><head/><body><p>Kan niet verbinden met het opgegeven beveiligde serveradres <em>%1</em>.Hoe wil je verder gaan?</p></body></html>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudConnectionMethodDialog",
+   "quelle": "<html><head/><body><p>Failed to connect to the secure server address specified. How do you wish to proceed?</p></body></html>",
+   "text": "<html><head/><body><p>Kan niet verbinden met het opgegeven beveiligde serveradres. Hoe wil je verder gaan?</p></body></html>",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudHttpCredsPage",
+   "quelle": "Enter user credentials",
+   "text": "Vul je inloggegevens in",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "<font color=\"green\"><b>File Provider-based account %1 successfully created!</b></font>",
+   "text": "<font color=\"green\"><b>Op File Provider gebaseerd account %1 succesvol aangemaakt!</b></font>"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "aanmaken map in BusinessCloud: %1",
+   "grund": "marke"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Back",
+   "kommentar": "Next button text in new account wizard",
+   "text": "Terug"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Next",
+   "kommentar": "Next button text in new account wizard",
+   "text": "Volgende"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Proxy Settings",
+   "kommentar": "Proxy Settings button text in new account wizard",
+   "text": "Proxy-instellingen"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Cannot be renamed or uploaded.",
+   "text": "Kan niet worden hernoemd of geüpload."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Cannot modify encrypted item because the selected certificate is not valid.",
+   "text": "Kan het versleutelde item niet wijzigen, omdat het geselecteerde certificaat ongeldig is."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Case Clash Conflict: Server file downloaded and renamed to avoid clash.",
+   "text": "Conflict in hoofdlettergebruik: serverbestand gedownload en hernoemd om een conflict te voorkomen."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File is locked by another application.",
+   "text": "Bestand is vergrendeld door een andere applicatie."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Bestand is niet toegankelijk op de server."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File name is a reserved name on this file system.",
+   "text": "De bestandsnaam is een gereserveerde naam op dit bestandssysteem."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File names containing the character \"%1\" are not supported on this file system.",
+   "kommentar": "%1: the invalid character",
+   "text": "Bestandsnamen met het teken \"%1\" worden op dit bestandssysteem niet ondersteund."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Map is niet toegankelijk op de server."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder name is a reserved name on this file system.",
+   "text": "De mapnaam is een gereserveerde naam op dit bestandssysteem."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder names containing the character \"%1\" are not supported on this file system.",
+   "kommentar": "%1: the invalid character",
+   "text": "Mapnamen met het teken \"%1\" worden op dit bestandssysteem niet ondersteund."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Reason: the entire filename is forbidden.",
+   "text": "Reden: de volledige bestandsnaam is niet toegestaan."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Reason: the file has a forbidden extension (.%1).",
+   "text": "Reden: het bestand heeft een niet-toegestane extensie (.%1)."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Reason: the filename contains a forbidden character (%1).",
+   "text": "Reden: de bestandsnaam bevat een niet-toegestaan teken (%1)."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Reason: the filename has a forbidden base name (filename start).",
+   "text": "Reden: de bestandsnaam heeft een niet-toegestane basisnaam (begin van de bestandsnaam)."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Upload of %1 exceeds %2 of space left in folder %3.",
+   "text": "Upload van %1 overschrijdt de %2 resterende ruimte in map %3."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Upload of %1 exceeds %2 of space left in personal files.",
+   "text": "Upload van %1 overschrijdt de %2 resterende ruimte in persoonlijke bestanden."
+  },
+  {
+   "kontext": "OCC::PropagateDirectory",
+   "quelle": "Could not delete file %1 from local DB",
+   "text": "Kon bestand %1 niet verwijderen uit de lokale DB"
+  },
+  {
+   "kontext": "OCC::PropagateDirectory",
+   "quelle": "unknown exception",
+   "text": "onbekende uitzondering"
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "Could not get file %1 from local DB",
+   "text": "Kon bestand %1 niet ophalen uit de lokale DB"
+  },
+  {
+   "kontext": "OCC::PropagateItemJob",
+   "quelle": "%1. Restoration failed: %2",
+   "kommentar": "%1 is the generic error string, the file restoration error (%2) will be appended here",
+   "text": "%1. Herstellen mislukt: %2"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRemove",
+   "quelle": "Temporary error when removing local item removed from server.",
+   "text": "Tijdelijke fout bij het verwijderen van een lokaal item dat van de server is verwijderd."
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Could not get file %1 from local DB",
+   "text": "Kon bestand %1 niet ophalen uit de lokale DB"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Failed to propagate directory rename in hierarchy",
+   "text": "Kon het hernoemen van de map niet doorvoeren in de hiërarchie"
+  },
+  {
+   "kontext": "OCC::PropagateRemoteMove",
+   "quelle": "Could not get file %1 from local DB",
+   "text": "Kon bestand %1 niet ophalen uit de lokale DB"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "File is locked preventing syncing it",
+   "kommentar": "Generic warning message when a locked file cannot be synced",
+   "text": "Bestand is vergrendeld, waardoor het niet kan worden gesynchroniseerd"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "File is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Bestand is niet toegankelijk op de server."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "Folder is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Map is niet toegankelijk op de server."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileV1",
+   "quelle": "File is locked preventing syncing it",
+   "kommentar": "Generic warning message when a locked file cannot be synced",
+   "text": "Bestand is vergrendeld, waardoor het niet kan worden gesynchroniseerd"
+  },
+  {
+   "kontext": "OCC::SelectiveSyncWidget",
+   "quelle": "Deselect remote folders you do not wish to synchronize.",
+   "text": "Deselecteer de externe mappen die je niet wenst te synchroniseren.",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Advanced",
+   "text": "Geavanceerd"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Info",
+   "text": "Info"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "%1 day",
+   "text": "%1 dag"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "%1 days",
+   "text": "%1 dagen"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "1 day",
+   "text": "1 dag"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Link share",
+   "text": "Deellink"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Today",
+   "text": "Vandaag"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Expires in %1 minutes",
+   "kommentar": "remaining time before lock expires",
+   "formen": [
+    "Verloopt over %1 minuut",
+    "Verloopt over %1 minuten"
+   ]
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "File actions",
+   "text": "Bestandsacties"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "I shared something with you",
+   "text": "Ik deelde iets met je",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "No synchronisation configured",
+   "text": "Geen synchronisatie geconfigureerd"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Please grant access to your sync folders",
+   "text": "Verleen toegang tot je synchronisatiemappen"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Reauthorization required",
+   "text": "Opnieuw autoriseren vereist"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "You need to accept the terms of service",
+   "text": "Je moet de gebruiksvoorwaarden accepteren"
+  },
+  {
+   "kontext": "OCC::Systray",
+   "quelle": "Open %1 Desktop",
+   "kommentar": "Open Nextcloud main window. Placeholer will be the application name. Please keep it.",
+   "text": "Open %1 Desktop"
+  },
+  {
+   "kontext": "OCC::TermsOfServiceCheckWidget",
+   "quelle": "Copy Link",
+   "text": "Link kopiëren"
+  },
+  {
+   "kontext": "OCC::TermsOfServiceCheckWidget",
+   "quelle": "Link copied to clipboard.",
+   "text": "Link gekopieerd naar het klembord."
+  },
+  {
+   "kontext": "OCC::TermsOfServiceCheckWidget",
+   "quelle": "Open Browser",
+   "text": "Browser openen"
+  },
+  {
+   "kontext": "OCC::TermsOfServiceCheckWidget",
+   "quelle": "Polling",
+   "text": "Controleren"
+  },
+  {
+   "kontext": "OCC::TermsOfServiceCheckWidget",
+   "quelle": "Waiting for terms to be accepted",
+   "text": "Wachten tot de voorwaarden zijn geaccepteerd"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "%1 Desktop Client Version %2 (%3 running on %4)",
+   "kommentar": "%1 is application name. %2 is the human version string. %3 is the operating system name. %4 is the platform name (wayland, x11, …)",
+   "text": "%1 Desktopclient versie %2 (%3 draait op %4)"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "%1 Desktop Client Version %2 (%3)",
+   "kommentar": "%1 is application name. %2 is the human version string. %3 is the operating system name.",
+   "text": "%1 Desktopclient versie %2 (%3)"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant is already processing a request.",
+   "text": "De assistent verwerkt al een verzoek."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant is not available for this account.",
+   "text": "De assistent is niet beschikbaar voor dit account."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant request failed (%1).",
+   "text": "Verzoek aan de assistent mislukt (%1)."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "End-to-end certificate needs to be migrated to a new one",
+   "text": "Het end-to-end-certificaat moet naar een nieuw certificaat worden gemigreerd"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server.",
+   "text": "Onvoldoende opslagruimte op de server."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server. The file requires %1 but only %2 are available.",
+   "text": "Onvoldoende opslagruimte op de server. Het bestand vereist %1, maar er is maar %2 beschikbaar."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server. The file requires %1.",
+   "text": "Onvoldoende opslagruimte op de server. Het bestand vereist %1."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "No response yet. Please try again later.",
+   "text": "Nog geen antwoord. Probeer het later opnieuw."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "No supported assistant task types were returned.",
+   "text": "Er zijn geen ondersteunde taaktypen voor de assistent teruggegeven."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Assistant",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "%1 Assistent openen"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Assistant in browser",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "%1 Assistent in browser openen"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Talk in browser",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "%1 Talk in browser openen"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Public Share Link",
+   "text": "Openbare deellink"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Quota Warning - %1 percent or more storage in use",
+   "text": "Quotumwaarschuwing - %1 procent of meer opslagruimte in gebruik"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Quota is updated; %1 percent of the total space is used.",
+   "text": "Quotum is bijgewerkt; %1 procent van de totale ruimte is in gebruik."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Sending your request …",
+   "text": "Je verzoek wordt verzonden …"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Sending your request…",
+   "text": "Je verzoek wordt verzonden…"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "There is insufficient space available on the server for some uploads.",
+   "text": "Er is op de server onvoldoende ruimte beschikbaar voor sommige uploads."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Trigger the migration",
+   "text": "Migratie starten"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Waiting for the assistant response…",
+   "text": "Wachten op het antwoord van de assistent…"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "“%1” was not synchronized",
+   "text": "“%1” is niet gesynchroniseerd"
+  },
+  {
+   "kontext": "OCC::UserModel",
+   "quelle": "Leave share",
+   "text": "Gedeelde locatie verlaten"
+  },
+  {
+   "kontext": "OCC::UserModel",
+   "quelle": "Remove account",
+   "text": "Account verwijderen"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n day(s)",
+   "formen": [
+    "%n dag",
+    "%n dagen"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n hour(s)",
+   "formen": [
+    "%n uur",
+    "%n uur"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n minute(s)",
+   "formen": [
+    "%n minuut",
+    "%n minuten"
+   ]
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 is a drive. It doesn't support virtual files.",
+   "text": "Kies een andere locatie. %1 is een station. Het ondersteunt geen virtuele bestanden."
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 is a network drive. It doesn't support virtual files.",
+   "text": "Kies een andere locatie. %1 is een netwerkstation. Het ondersteunt geen virtuele bestanden."
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 isn't a NTFS file system. It doesn't support virtual files.",
+   "text": "Kies een andere locatie. %1 is geen NTFS-bestandssysteem. Het ondersteunt geen virtuele bestanden."
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "Could not be downloaded",
+   "text": "Kon niet worden gedownload"
+  },
+  {
+   "kontext": "OCC::WebEnginePage",
+   "quelle": "The host \"%1\" provided an invalid certificate. Continue?",
+   "text": "De server \"%1\" heeft een ongeldig certificaat . Wil je doorgaan?",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "HTTP(S) proxy"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "Hostnaam van proxyserver"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "Wachtwoord voor proxyserver"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Proxy Settings",
+   "kommentar": "Dialog window title for proxy settings",
+   "text": "Proxy-instellingen"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "SOCKS5 proxy"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "Gebruikersnaam voor proxyserver"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "%1: %2",
+   "text": "%1: %2"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Internal link copied",
+   "text": "Interne link gekopieerd"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Terms of service",
+   "text": "Gebruiksvoorwaarden"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "The internal link has been copied to the clipboard.",
+   "text": "De interne link is naar het klembord gekopieerd."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Your account %1 requires you to accept the terms of service of your server. You will be redirected to %2 to acknowledge that you have read it and agrees with it.",
+   "text": "Voor je account %1 moet je de gebruiksvoorwaarden van je server accepteren. Je wordt doorgestuurd naar %2 om te bevestigen dat je ze hebt gelezen en ermee akkoord gaat."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: A problem was encountered.",
+   "text": "macOS VFS voor %1: er is een probleem opgetreden."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: An error was encountered.",
+   "text": "macOS VFS voor %1: er is een fout opgetreden."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: Last sync was successful.",
+   "text": "macOS VFS voor %1: laatste synchronisatie was geslaagd."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: Sync is running.",
+   "text": "macOS VFS voor %1: synchronisatie loopt."
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Form",
+   "text": "Formulier"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Host",
+   "text": "Host"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Manually specify proxy",
+   "text": "Proxy handmatig opgeven"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "No proxy",
+   "text": "Geen proxy"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "Let op: proxy-instellingen hebben geen effect op accounts op localhost"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Proxy Settings",
+   "text": "Proxy-instellingen"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Proxy server requires authentication",
+   "text": "Proxyserver vereist authenticatie"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Use system proxy",
+   "text": "Systeemproxy gebruiken"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Cancel",
+   "text": "Annuleren"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Done",
+   "text": "Klaar"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "HTTP(S) proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "Hostnaam van proxyserver"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Manually specify proxy",
+   "text": "Proxy handmatig opgeven"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "No proxy",
+   "text": "Geen proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "Let op: proxy-instellingen hebben geen effect op accounts op localhost"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "Wachtwoord voor proxyserver"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy port",
+   "text": "Proxypoort"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy server requires authentication",
+   "text": "Proxyserver vereist authenticatie"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy settings",
+   "text": "Proxy-instellingen"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy type",
+   "text": "Proxytype"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "SOCKS5 proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Use system proxy",
+   "text": "Systeemproxy gebruiken"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "Gebruikersnaam voor proxyserver"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "%nmin",
+   "kommentar": "delay in minutes after an activity",
+   "formen": [
+    "%n min",
+    "%n min"
+   ]
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "1min",
+   "kommentar": "one minute after activity date and time",
+   "text": "1 min"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "Er is een onverwachte fout opgetreden. Probeer opnieuw te synchroniseren of neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Answer",
+   "text": "Antwoord"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not create debug archive in temporary location!",
+   "text": "Kon geen debugarchief aanmaken op de tijdelijke locatie!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not move debug archive to selected location!",
+   "text": "Kon debugarchief niet naar de geselecteerde locatie verplaatsen!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not remove existing file at destination!",
+   "text": "Kon bestaand bestand op de bestemming niet verwijderen!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Error deleting the file",
+   "text": "Fout bij het verwijderen van het bestand"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It seems you are using a proxy that required authentication. Please check your proxy settings and credentials. If you need help, contact your server administrator.",
+   "text": "Het lijkt erop dat je een proxy gebruikt die authenticatie vereist. Controleer je proxy-instellingen en inloggegevens. Neem contact op met je serverbeheerder als je hulp nodig hebt."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It’s taking too long to connect to the server. Please try again later. If you need help, contact your server administrator.",
+   "text": "Het maken van verbinding met de server duurt te lang. Probeer het later opnieuw. Neem contact op met je serverbeheerder als je hulp nodig hebt."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Paths beginning with '#' character are not supported in VFS mode.",
+   "text": "Paden die met het teken '#' beginnen, worden in VFS-modus niet ondersteund."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Server files changed while you were working. Please try syncing again. Contact your server administrator if the issue persists.",
+   "text": "Bestanden op de server zijn gewijzigd terwijl je aan het werk was. Probeer opnieuw te synchroniseren. Neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Something went wrong on the server. Please try syncing again later, or contact your server administrator if the issue persists.",
+   "text": "Er is iets misgegaan op de server. Probeer later opnieuw te synchroniseren of neem contact op met je serverbeheerder als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The address used to make the request is too long for the server to handle. Please try shortening the information you’re sending or contact your server administrator for assistance.",
+   "text": "Het adres van het verzoek is te lang voor de server om te verwerken. Probeer de informatie die je verstuurt in te korten of neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The file is too big to upload. You might need to choose a smaller file or contact your server administrator for assistance.",
+   "text": "Het bestand is te groot om te uploaden. Kies eventueel een kleiner bestand of neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request could not be completed because some required conditions were not met. Please try syncing again later. If you need assistance, please contact your server administrator.",
+   "text": "Het verzoek kon niet worden voltooid, omdat niet aan enkele vereiste voorwaarden is voldaan. Probeer later opnieuw te synchroniseren. Neem contact op met je serverbeheerder als je hulp nodig hebt."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request is taking longer than usual. Please try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "Het verzoek duurt langer dan gebruikelijk. Probeer opnieuw te synchroniseren. Werkt het nog steeds niet, neem dan contact op met je serverbeheerder."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The resource you are trying to access is currently locked and cannot be modified. Please try changing it later, or contact your server administrator for assistance.",
+   "text": "De bron die je probeert te openen, is momenteel vergrendeld en kan niet worden gewijzigd. Probeer het later te wijzigen of neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server couldn’t process your request because some information was incorrect or incomplete. Please try syncing again later, or contact your server administrator for assistance.",
+   "text": "De server kon je verzoek niet verwerken, omdat bepaalde informatie onjuist of onvolledig was. Probeer later opnieuw te synchroniseren of neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not have enough space to complete your request. Please check how much quota your user has by contacting your server administrator.",
+   "text": "De server heeft onvoldoende ruimte om je verzoek te voltooien. Neem contact op met je serverbeheerder om na te gaan hoeveel quotum je gebruiker heeft."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not recognize the request method. Please contact your server administrator for help.",
+   "text": "De server herkent de verzoekmethode niet. Neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not support the version of the connection being used. Contact your server administrator for help.",
+   "text": "De server ondersteunt de gebruikte versie van de verbinding niet. Neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server is busy right now. Please try connecting again in a few minutes or contact your server administrator if it’s urgent.",
+   "text": "De server is op dit moment bezet. Probeer over een paar minuten opnieuw verbinding te maken of neem contact op met je serverbeheerder als het dringend is."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This file type isn’t supported. Please contact your server administrator for assistance.",
+   "text": "Dit bestandstype wordt niet ondersteund. Neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This folder or file isn’t available anymore. If you need assistance, please contact your server administrator.",
+   "text": "Deze map of dit bestand is niet meer beschikbaar. Neem contact op met je serverbeheerder als je hulp nodig hebt."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This request could not be completed because it is missing some required conditions. Please try again later, or contact your server administrator for help.",
+   "text": "Dit verzoek kon niet worden voltooid, omdat enkele vereiste voorwaarden ontbreken. Probeer het later opnieuw of neem contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t find what you were looking for. It might have been moved or deleted. If you need help, contact your server administrator.",
+   "text": "We konden niet vinden wat je zocht. Het is mogelijk verplaatst of verwijderd. Neem contact op met je serverbeheerder als je hulp nodig hebt."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t process your request. Please try syncing again later. If this keeps happening, contact your server administrator for help.",
+   "text": "We konden je verzoek niet verwerken. Probeer later opnieuw te synchroniseren. Blijft dit gebeuren, neem dan contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We’re having trouble connecting to the server. Please try again soon. If the issue persists, your server administrator can help you.",
+   "text": "We hebben problemen met het verbinden met de server. Probeer het straks opnieuw. Als het probleem blijft bestaan, kan jouw serverbeheerder je helpen."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have access to this resource. If you think this is a mistake, please contact your server administrator.",
+   "text": "Je hebt geen toegang tot deze bron. Als je denkt dat dit een vergissing is, neem dan contact op met je serverbeheerder."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have permission to access this resource. If you believe this is an error, contact your server administrator to ask for assistance.",
+   "text": "Je hebt geen toestemming om deze bron te openen. Als je denkt dat dit een fout is, neem dan contact op met je serverbeheerder voor hulp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You made too many requests. Please wait and try again. If you keep seeing this, your server administrator can help.",
+   "text": "Je hebt te veel verzoeken gedaan. Wacht even en probeer het opnieuw. Blijf je dit zien, dan kan jouw serverbeheerder helpen."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You need to sign in to continue. If you have trouble with your credentials, please reach out to your server administrator.",
+   "text": "Je moet je aanmelden om door te gaan. Als je problemen hebt met je inloggegevens, neem dan contact op met je serverbeheerder."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Your network needs extra authentication. Please check your connection. Contact your server administrator for help if the issue persists.",
+   "text": "Je netwerk vereist extra authenticatie. Controleer je verbinding. Neem contact op met je serverbeheerder voor hulp als het probleem blijft bestaan."
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "%1 files in conflict",
+   "kommentar": "indicate the number of conflicts to resolve",
+   "formen": [
+    "%1 bestand met conflict",
+    "%1 bestanden met conflict"
+   ]
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Enter the link to your %1 web interface from the browser or the link to a folder shared with you.",
+   "text": "Voer de link naar je %1-webinterface uit de browser in, of de link naar een map die met je is gedeeld."
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in",
+   "text": "Aanmelden"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in to %1",
+   "text": "Aanmelden bij %1"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Server address",
+   "text": "Serveradres"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Enter a note for the recipient",
+   "text": "Voer een notitie in voor de ontvanger"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Password protection",
+   "text": "Wachtwoordbeveiliging"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Expires in %1",
+   "text": "Verloopt over %1"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Shared with you by %1",
+   "text": "Met je gedeeld door %1"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose",
+   "text": "Kiezen"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose what to sync",
+   "text": "Kies wat je wilt synchroniseren"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Download files on-demand",
+   "text": "Bestanden downloaden wanneer nodig"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Local sync folder",
+   "text": "Lokale synchronisatiemap"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Synchronize everything",
+   "text": "Alles synchroniseren"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Virtual files",
+   "text": "Virtuele bestanden"
+  },
+  {
+   "kontext": "SyncStatus",
+   "quelle": "Open browser",
+   "text": "Browser openen"
+  },
+  {
+   "kontext": "TermsOfServiceCheckWidget",
+   "quelle": "Logo",
+   "text": "Logo"
+  },
+  {
+   "kontext": "TermsOfServiceCheckWidget",
+   "quelle": "Switch to your browser to accept the terms of service",
+   "text": "Schakel over naar je browser om de gebruiksvoorwaarden te accepteren"
+  },
+  {
+   "kontext": "TermsOfServiceCheckWidget",
+   "quelle": "Terms of Service",
+   "text": "Gebruiksvoorwaarden"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Add account",
+   "text": "Account toevoegen"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Quit",
+   "text": "Afsluiten"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Settings",
+   "text": "Instellingen"
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "Open local or team folders",
+   "text": "Lokale mappen of teammappen openen"
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "Open team folder \"%1\"",
+   "text": "Teammap \"%1\" openen"
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "More apps",
+   "text": "Meer apps"
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "Open %1 in browser",
+   "text": "%1 openen in browser"
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "Open local or team folders",
+   "text": "Lokale mappen of teammappen openen"
+  },
+  {
+   "kontext": "UnifiedSearchPlaceholderView",
+   "quelle": "Start typing to search",
+   "text": "Begin met typen om te zoeken"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Account sync status requires attention",
+   "text": "Synchronisatiestatus van account vereist aandacht"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Log in",
+   "text": "Meld je aan",
+   "grund": "anrede"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Status message",
+   "text": "Statusbericht"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Apply",
+   "text": "Toepassen"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Clear status message after",
+   "text": "Statusbericht wissen na"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Status message",
+   "text": "Statusbericht"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "What is your status?",
+   "text": "Wat is je status?"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Appear offline",
+   "text": "Als offline weergeven"
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n day(s)",
+   "formen": [
+    "%n dag",
+    "%n dagen"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n hour(s)",
+   "formen": [
+    "%n uur",
+    "%n uur"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n minute(s)",
+   "formen": [
+    "%n minuut",
+    "%n minuten"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n month(s)",
+   "formen": [
+    "%n maand",
+    "%n maanden"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n second(s)",
+   "formen": [
+    "%n seconde",
+    "%n seconden"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n year(s)",
+   "formen": [
+    "%n jaar",
+    "%n jaar"
+   ]
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Updated end-to-end encryption metadata",
+   "text": "Metadata voor end-to-end-versleuteling bijgewerkt"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Updating end-to-end encryption metadata",
+   "text": "Metadata voor end-to-end-versleuteling wordt bijgewerkt"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental feature?",
+   "text": "Experimentele functie inschakelen?"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental placeholder mode",
+   "text": "Experimentele aanduidermodus inschakelen"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Stay safe",
+   "text": "Veilig blijven"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "Als de modus \"virtuele bestanden\" is ingeschakeld, worden er in eerste instantie geen bestanden gedownload. In plaats daarvan wordt voor elk bestand op de server een klein \"%1\"-bestand aangemaakt. De inhoud kan worden gedownload door deze bestanden uit te voeren of via hun contextmenu.\n\nDe modus voor virtuele bestanden en selectieve synchronisatie sluiten elkaar uit. Momenteel niet-geselecteerde mappen worden omgezet naar mappen die alleen online beschikbaar zijn, en je instellingen voor selectieve synchronisatie worden opnieuw ingesteld.\n\nOverschakelen naar deze modus breekt een lopende synchronisatie af.\n\nDit is een nieuwe, experimentele modus. Als je besluit deze te gebruiken, meld dan alle problemen die zich voordoen."
+  }
+ ]
+}

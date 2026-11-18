@@ -1,0 +1,95 @@
+{
+ "sprache": "pt_BR",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_pt_BR.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing external storages",
+   "text": "Pedir confirmação antes de sincronizar armazenamentos externos"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Move removed files to trash",
+   "text": "Mover arquivos removidos para a lixeira"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Server poll interval",
+   "text": "Intervalo de sondagem do servidor"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "segundos (se o <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> não estiver disponível)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- beta: contém versões com novos recursos que podem não ter sido testados a fundo\n- diário: contém versões criadas diariamente apenas para testes e desenvolvimento\n\nNão é possível fazer o downgrade de versões imediatamente: mudar de beta para estável significa aguardar a nova versão estável."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- empresarial: contém versões estáveis para clientes.\n\nNão é possível fazer o downgrade de versões imediatamente: mudar de estável para empresarial significa aguardar a nova versão empresarial."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Change update channel",
+   "text": "Mudar canal de atualização"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Changing update channel?",
+   "text": "Mudando o canal de atualização?"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "Conectado a um sistema empresarial. O canal de atualização (%1) não pode ser alterado."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore &Default",
+   "text": "Restaurar Pa&drão"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore to &%1",
+   "text": "Restaurar para &%1"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "O canal determina quais atualizações serão oferecidas para instalação:\n- estável: contém versões testadas e consideradas confiáveis\n"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "beta",
+   "text": "beta"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "daily",
+   "text": "diário"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "enterprise",
+   "text": "empresarial"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "stable",
+   "text": "estável"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "criando pasta na BusinessCloud: %1",
+   "grund": "marke"
+  }
+ ]
+}

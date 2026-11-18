@@ -119,6 +119,24 @@ jobs:
           if (-not $exe) { Write-Error "Kein Installer gefunden"; exit 1 }
           Copy-Item $exe.FullName "KENJTEC-${{ needs.fassung.outputs.version }}-windows-x64.exe"
 
+      - name: Sprachen im Installer prüfen
+        shell: pwsh
+        run: |
+          # Beleg aus dem fertigen Installer, nicht aus dem Bauordner: jede
+          # unserer Sprachen liegt als bin\i18n\client_<code>.qm darin — auch
+          # Hindi, das Nextcloud nicht hat (werkzeuge/sprachen.py).
+          # Entschieden wird an den gefundenen Dateien, nicht an 7-Zips
+          # Rückgabewert (Warnungen zu NSIS-Daten hinter dem Archiv sind harmlos).
+          $liste = & 7z l "KENJTEC-${{ needs.fassung.outputs.version }}-windows-x64.exe"
+          if ($LASTEXITCODE -ne 0) { Write-Warning "7-Zip endete mit $LASTEXITCODE"; $liste | Select-Object -Last 15 }
+          $qm = $liste | Select-String -Pattern 'i18n[\\/]client_[A-Za-z_]+\.qm'
+          $qm | ForEach-Object { $_.Line }
+          foreach ($code in 'de','es','fr','it','nl','pt','pt_BR','da','sv','ja','ar','hi') {
+            if (-not ($qm | Select-String -Pattern "bin[\\/]i18n[\\/]client_$code\.qm")) { Write-Error "client_$code.qm fehlt im Installer unter bin\i18n"; exit 1 }
+          }
+          Write-Output "KENJTEC: alle Sprachen im Installer, auch bin\i18n\client_hi.qm"
+          exit 0  # sonst gälte 7-Zips Rückgabewert als Ergebnis des Schritts
+
       # Hier kommt das Signieren (Azure Trusted Signing) hin, sobald die Firma
       # eingetragen ist — README, Abschnitt „Signieren“. Bis dahin bleibt der
       # Installer unsigniert und das Release ein Vorabrelease.
@@ -197,6 +215,12 @@ jobs:
       - name: DMG packen
         run: |
           test -d mac-produkt/KENJTEC.app || { echo "KENJTEC.app fehlt"; ls mac-produkt; exit 1; }
+          # Jede unserer Sprachen im App-Paket, auch Hindi (werkzeuge/sprachen.py).
+          tr=mac-produkt/KENJTEC.app/Contents/Resources/Translations
+          ls "$tr"/client_*.qm
+          for code in de es fr it nl pt pt_BR da sv ja ar hi; do
+            test -f "$tr/client_$code.qm" || { echo "client_$code.qm fehlt in $tr"; exit 1; }
+          done
           mkdir dmg && cp -R mac-produkt/KENJTEC.app dmg/ && ln -s /Applications dmg/Programme
           hdiutil create -volname KENJTEC -srcfolder dmg -ov -format UDZO "KENJTEC-${{ needs.fassung.outputs.version }}-macos-arm64.dmg"
 

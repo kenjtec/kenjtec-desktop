@@ -1,0 +1,12 @@
+{
+ "sprache": "de",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_de.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "Erstelle Ordner in der BusinessCloud: %1",
+   "grund": "marke"
+  }
+ ]
+}

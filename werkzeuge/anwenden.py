@@ -97,6 +97,11 @@ REZEPT_I18N = (
     '            if not glob.glob(os.path.join(ziel, "client_*.qm")):\n'
     '                CraftCore.log.error(f"KENJTEC: keine Übersetzungen in {ziel} — der Client bliebe englisch.")\n'
     "                return False\n"
+    "            # Jede unserer Sprachen, auch Hindi, das Nextcloud nicht hat (werkzeuge/sprachen.py).\n"
+    '            fehlen = [c for c in __KENJTEC_SPRACHEN__ if not os.path.isfile(os.path.join(ziel, f"client_{c}.qm"))]\n'
+    "            if fehlen:\n"
+    '                CraftCore.log.error(f"KENJTEC: in {ziel} fehlen client_*.qm für {fehlen} — werkzeuge/sprachen.py.")\n'
+    "                return False\n"
     "        return True\n"
     "\n"
 )
@@ -189,6 +194,19 @@ def quelle(ordner: Path, bau: int) -> None:
                     "icons/KENJTEC-icon-win-folder.svg", "wizard_logo.svg", "wizard_logo.png"):
         if not (ziel_theme / "colored" / pflicht).exists():
             fehler(f"theme/colored/{pflicht} fehlt nach dem Anwenden.")
+
+    # 4. Sprachen: unsere Ergänzungen in Nextclouds translations/, Hindi neu
+    #    (werkzeuge/sprachen.py). Unter 100 % in einer unserer Sprachen sähe ein
+    #    Kunde englische Sätze mitten in seiner Sprache — dann lieber rot.
+    import sprachen  # liegt neben dieser Datei
+    try:
+        sprachen.einmischen(ordner)
+        voll = sprachen.pruefen(ordner)
+    except sprachen.Fehler as f:
+        fehler(str(f))
+    if not voll:
+        fehler("Nicht jede unserer Sprachen ist vollständig — Nextcloud hat neue Texte. "
+               "`python werkzeuge/sprachen.py luecken <quelle> <code> <vorlage.json>`, übersetzen, `aufnehmen`.")
     print(f"KENJTEC-Branding: Quelle {ordner} gebrandet (Bau {bau}).")
 
 
@@ -217,7 +235,9 @@ def rezept(craft_wurzel: Path, fassung: str) -> None:
         if text.count(REZEPT_I18N_ANKER) != 1 or re.search(r"^    def install\(", text, re.M):
             fehler(f"Im Rezept {pfad} steht `{REZEPT_I18N_ANKER.strip()}` nicht genau einmal, oder es hat schon "
                    "ein eigenes install() — die Übersetzungen kämen nicht nach bin/i18n.")
-        text = text.replace(REZEPT_I18N_ANKER, REZEPT_I18N + REZEPT_I18N_ANKER)
+        import sprachen  # liegt neben dieser Datei
+        i18n = REZEPT_I18N.replace("__KENJTEC_SPRACHEN__", repr(sprachen.codes()))
+        text = text.replace(REZEPT_I18N_ANKER, i18n + REZEPT_I18N_ANKER)
         # Nextclouds Rezept benutzt `os.path.join` in createPackage, importiert
         # `os` aber nicht (stable-4.0, gemessen 05.11.2026: NameError beim
         # Packen — Nextclouds eigene CI packt nie und merkt es nicht).

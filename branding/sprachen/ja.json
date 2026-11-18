@@ -1,0 +1,761 @@
+{
+ "sprache": "ja",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_ja.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Advanced",
+   "text": "詳細設定"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Back",
+   "text": "戻る"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Cancel",
+   "text": "キャンセル"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect",
+   "text": "接続"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect to %1?",
+   "text": "%1 に接続しますか？"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect without TLS",
+   "text": "TLS なしで接続"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Copy link",
+   "text": "リンクをコピー"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Done",
+   "text": "完了"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Log in",
+   "text": "ログイン"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Open",
+   "text": "開く"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Proxy settings",
+   "text": "プロキシ設定"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Secure connection failed",
+   "text": "安全な接続に失敗しました"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Self-host",
+   "text": "セルフホスト"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Set up later",
+   "text": "後で設定"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Sign up",
+   "text": "サインアップ"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can add a client certificate and try again.",
+   "text": "安全な接続に失敗しました。クライアント証明書を追加して、もう一度お試しください。"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can retry without encryption, or add a client certificate and try again.",
+   "text": "安全な接続に失敗しました。暗号化せずに再試行するか、クライアント証明書を追加してもう一度お試しください。"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Use client certificate",
+   "text": "クライアント証明書を使用"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "%1 MB",
+   "text": "%1 MB"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Advanced options",
+   "text": "詳細オプション"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing external storage",
+   "text": "外部ストレージを同期する前に確認"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing folders larger than",
+   "text": "指定された容量以上のフォルダーは同期前に確認"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Done",
+   "text": "完了"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Large folder threshold",
+   "text": "大きなフォルダーのしきい値"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Connect public share",
+   "text": "公開共有に接続"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter credentials",
+   "text": "資格情報を入力"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the share password if the link is password protected.",
+   "text": "リンクがパスワードで保護されている場合は、共有パスワードを入力してください。"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the username and password for this server.",
+   "text": "このサーバーのユーザー名とパスワードを入力してください。"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Password",
+   "text": "パスワード"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Username",
+   "text": "ユーザー名"
+  },
+  {
+   "kontext": "BrowserAuthPage",
+   "quelle": "Switch to your browser",
+   "text": "ブラウザーに切り替えてください"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Cancel",
+   "text": "キャンセル"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate file",
+   "text": "証明書ファイル"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate password",
+   "text": "証明書のパスワード"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Choose",
+   "text": "選択"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Client certificate",
+   "text": "クライアント証明書"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Connect",
+   "text": "接続"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Select a PKCS#12 certificate file and enter its password.",
+   "text": "PKCS#12 証明書ファイルを選択し、そのパスワードを入力してください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "%1 free space",
+   "kommentar": "%1 gets replaced with the size and a matching unit. Example: 3 MB or 5 GB",
+   "text": "空き容量 %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Access forbidden by server. To verify that you have proper access, open the service in your browser.",
+   "text": "サーバーによってアクセスが禁止されました。適切なアクセス権があるか確認するには、ブラウザーでサービスを開いてください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account connected.",
+   "text": "アカウントを接続しました。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account setup failed while creating the sync folder.",
+   "text": "同期フォルダーの作成中にアカウントのセットアップに失敗しました。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Certificate files (*.p12 *.pfx)",
+   "text": "証明書ファイル (*.p12 *.pfx)"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking account access",
+   "text": "アカウントへのアクセスを確認中"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking remote folder",
+   "text": "リモートフォルダーを確認中"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking server address",
+   "text": "サーバーアドレスを確認中"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "選択した証明書ファイルにアクセスできませんでした。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create local folder %1",
+   "text": "ローカルフォルダー %1 を作成できませんでした"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create the sync folder.",
+   "text": "同期フォルダーを作成できませんでした。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not load certificate. Maybe wrong password?",
+   "text": "証明書を読み込めませんでした。パスワードが間違っていますか？"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Creating remote folder",
+   "text": "リモートフォルダーを作成中"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Error: %1",
+   "text": "エラー: %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Failed to connect to %1 at %2:\n%3",
+   "text": "%2 の %1 への接続に失敗しました:\n%3"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Invalid URL",
+   "text": "無効なURL"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Link copied to clipboard.",
+   "text": "リンクをクリップボードにコピーしました。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Local Sync Folder",
+   "text": "ローカル同期フォルダー"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "No remote folder specified!",
+   "text": "リモートフォルダーが指定されていません！"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose a local sync folder.",
+   "text": "ローカル同期フォルダーを選択してください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose an empty local sync folder.",
+   "text": "空のローカル同期フォルダーを選択してください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Preparing browser login",
+   "text": "ブラウザーでのログインを準備中"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Proxy settings are incomplete.",
+   "text": "プロキシ設定が不完全です。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Remote folder %1 creation failed with error <tt>%2</tt>.",
+   "text": "リモートフォルダー %1 の作成に失敗しました (エラー: <tt>%2</tt>)。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Select a certificate",
+   "text": "証明書を選択"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Server address does not seem to be valid",
+   "text": "サーバーアドレスが有効ではないようです"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Starting authorization",
+   "text": "承認を開始"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The authenticated request to the server was redirected to \"%1\". The URL is bad, the server is misconfigured.",
+   "text": "サーバーへの認証済みリクエストが \"%1\" にリダイレクトされました。URL が正しくなく、サーバーの設定に誤りがあります。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The folder creation resulted in HTTP error code %1",
+   "text": "フォルダーの作成はHTTPのエラーコード %1 で終了しました"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong. Please go back and check your credentials.",
+   "text": "入力された資格情報が正しくないため、リモートフォルダーの作成に失敗しました。前の画面に戻って資格情報を確認してください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There isn't enough free space in the local folder!",
+   "text": "ローカルフォルダーに十分な空き容量がありません。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There was an invalid response to an authenticated WebDAV request",
+   "text": "認証済みの WebDAV リクエストに対して無効な応答がありました"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "This server requires legacy browser authentication. Enter app-password credentials instead.",
+   "text": "このサーバーでは従来のブラウザー認証が必要です。代わりにアプリパスワードの資格情報を入力してください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Timeout while trying to connect to %1 at %2.",
+   "text": "%2 の %1 へ接続を試みた際にタイムアウトしました。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "ブラウザーを開けません。リンクをコピーしてブラウザーに貼り付けてください。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Username must not be empty.",
+   "text": "ユーザー名は空欄にできません。"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Waiting for authorization",
+   "text": "承認を待機中"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require %1 of storage",
+   "text": "%1 のストレージ容量が必要になります"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require local storage",
+   "text": "ローカルストレージが必要になります"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Advanced",
+   "text": "詳細設定"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing external storages",
+   "text": "外部ストレージと同期する前に確認"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing new folders larger than",
+   "text": "指定された容量以上の新しいフォルダーは同期前に確認"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Automatically disable synchronisation of folders that overcome limit",
+   "text": "上限を超えたフォルダーの同期を自動的に無効にする"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "選択した場所にアクセスできませんでした。もう一度お試しいただくか、別の場所を選択してください。"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Create Debug Archive",
+   "text": "デバッグアーカイブを作成"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Debug Archive Created",
+   "text": "デバッグアーカイブを作成しました"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Edit &Ignored Files",
+   "text": "除外ファイルリストを編集(&I)"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Failed to Access File",
+   "text": "ファイルへのアクセスに失敗しました"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "MB",
+   "text": "MB"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Move removed files to trash",
+   "text": "削除したファイルをゴミ箱に移動する"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Notify when synchronised folders grow larger than specified limit",
+   "text": "同期しているフォルダーが指定した上限を超えたら通知する"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "共有する前に、機密と思われる情報を伏せてください！デバッグアーカイブを %1 に作成しました"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Server poll interval",
+   "text": "サーバーのポーリング間隔"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Show sync folders in &Explorer's navigation pane",
+   "text": "エクスプローラーのナビゲーションペインに同期フォルダーを表示する(&E)"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Zip Archives",
+   "text": "Zipアーカイブ"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "秒 (<a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> が利用できない場合)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Automatically check for updates",
+   "text": "自動的にアップデートをチェック(&A)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Restart && Update",
+   "text": "再起動 && アップデート(&R)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- ベータ版: 十分にテストされていない可能性がある新機能を含むバージョン\n- デイリー版: テストと開発専用に毎日作成されるバージョン\n\nバージョンをすぐにダウングレードすることはできません: ベータ版から安定版に変更する場合は、新しい安定版を待つ必要があります。"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- エンタープライズ版: お客様向けの安定したバージョン。\n\nバージョンをすぐにダウングレードすることはできません: 安定版からエンタープライズ版に変更する場合は、新しいエンタープライズ版を待つ必要があります。"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Cancel",
+   "text": "キャンセル"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Change update channel",
+   "text": "アップデートチャネルを変更"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Changing update channel?",
+   "text": "アップデートチャネルを変更しますか?"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Check Now",
+   "text": "今すぐチェック"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "エンタープライズシステムに接続されています。アップデートチャネル (%1) は変更できません。"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Desktop client x.x.x",
+   "text": "デスクトップクライアント x.x.x"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Legal Notice",
+   "text": "法的通知"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore &Default",
+   "text": "デフォルトに戻す(&D)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore to &%1",
+   "text": "%1に戻す(&R)"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "チャネルによって、インストール用に提供されるアップグレードが決まります:\n- 安定版: 信頼できると判断された、テスト済みのバージョン\n"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Update channel",
+   "text": "アップデートチャネル"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Usage Documentation",
+   "text": "利用ドキュメント"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "beta",
+   "text": "ベータ版"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "daily",
+   "text": "デイリー版"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "enterprise",
+   "text": "エンタープライズ版"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "stable",
+   "text": "安定版"
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "BusinessCloud上にフォルダーを作成中：%1",
+   "grund": "marke"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Advanced",
+   "text": "詳細設定"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Info",
+   "text": "情報"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Cancel",
+   "text": "キャンセル"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Done",
+   "text": "完了"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "HTTP(S)プロキシ"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "プロキシサーバーのホスト名"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Manually specify proxy",
+   "text": "手動でプロキシを指定"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "No proxy",
+   "text": "プロキシを利用しない"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "注: localhost 上のアカウントにはプロキシ設定は適用されません"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "プロキシサーバーのパスワード"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy port",
+   "text": "プロキシのポート"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy server requires authentication",
+   "text": "認証が必要なプロキシサーバー"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy settings",
+   "text": "プロキシ設定"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy type",
+   "text": "プロキシの種類"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "SOCKS5プロキシ"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Use system proxy",
+   "text": "システムのプロキシを利用"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "プロキシサーバーのユーザー名"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Answer",
+   "text": "応答"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Enter the link to your %1 web interface from the browser or the link to a folder shared with you.",
+   "text": "ブラウザーで表示される %1 の Web インターフェースのリンク、または共有されたフォルダーのリンクを入力してください。"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in",
+   "text": "ログイン"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in to %1",
+   "text": "%1 にログイン"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Server address",
+   "text": "サーバーアドレス"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose",
+   "text": "選択"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose what to sync",
+   "text": "同期フォルダーを選択"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Download files on-demand",
+   "text": "必要に応じてファイルをダウンロード"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Local sync folder",
+   "text": "ローカル同期フォルダー"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Synchronize everything",
+   "text": "すべてを同期"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Virtual files",
+   "text": "仮想ファイル"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Add account",
+   "text": "アカウントを追加"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Quit",
+   "text": "終了"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Settings",
+   "text": "設定"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental feature?",
+   "text": "試験的な機能を有効化しますか?"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental placeholder mode",
+   "text": "試験的なプレースホルダーモードを有効にする"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Stay safe",
+   "text": "安全なままにする"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "「仮想ファイル」モードを有効にすると、最初はファイルがダウンロードされません。代わりに、サーバー上にある各ファイルに対して小さな \"%1\" ファイルが作成されます。これらのファイルを実行するか、コンテキストメニューを使用すると、内容をダウンロードできます。\n\n仮想ファイルモードと選択的同期は同時に使用できません。現在選択されていないフォルダーはオンライン専用フォルダーに変換され、選択的同期の設定はリセットされます。\n\nこのモードに切り替えると、現在実行中の同期はすべて中止されます。\n\nこれは新しい試験的なモードです。使用する場合は、発生した問題をご報告ください。"
+  }
+ ]
+}

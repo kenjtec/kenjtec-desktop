@@ -1,0 +1,2908 @@
+{
+ "sprache": "da",
+ "zweck": "KENJTECs Texte über Nextclouds translations/client_da.ts — sie gelten vor Nextclouds eigenen. Eingemischt von werkzeuge/sprachen.py; „grund“ nennt, warum ein fertiger Text von Nextcloud ersetzt wird (anrede, marke).",
+ "texte": [
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Advanced",
+   "text": "Avanceret"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Back",
+   "text": "Tilbage"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Cancel",
+   "text": "Annuller"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect",
+   "text": "Forbind"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect to %1?",
+   "text": "Opret forbindelse til %1?"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Connect without TLS",
+   "text": "Forbind uden TLS"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Copy link",
+   "text": "Kopiér link"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Done",
+   "text": "Færdig"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Log in",
+   "text": "Log ind"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Open",
+   "text": "Åbn"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Proxy settings",
+   "text": "Proxyindstillinger"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Secure connection failed",
+   "text": "Sikker forbindelse mislykkedes"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Self-host",
+   "text": "Kør din egen server"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Set up later",
+   "text": "Opsæt senere"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Sign up",
+   "text": "Tilmeld dig"
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can add a client certificate and try again.",
+   "text": "Den sikre forbindelse mislykkedes. Du kan tilføje et klientcertifikat og prøve igen."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "The secure connection failed. You can retry without encryption, or add a client certificate and try again.",
+   "text": "Den sikre forbindelse mislykkedes. Du kan prøve igen uden kryptering eller tilføje et klientcertifikat og prøve igen."
+  },
+  {
+   "kontext": "AccountWizardWindow",
+   "quelle": "Use client certificate",
+   "text": "Brug klientcertifikat"
+  },
+  {
+   "kontext": "ActivityItemContent",
+   "quelle": "File actions",
+   "text": "Filhandlinger"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "%1 MB",
+   "text": "%1 MB"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Advanced options",
+   "text": "Avancerede indstillinger"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing external storage",
+   "text": "Spørg før synk. af eksternt lager"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Ask before syncing folders larger than",
+   "text": "Spørg før synk. af mapper større end"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Done",
+   "text": "Færdig"
+  },
+  {
+   "kontext": "AdvancedOptionsDialog",
+   "quelle": "Large folder threshold",
+   "text": "Grænse for store mapper"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Connect public share",
+   "text": "Forbind offentlig deling"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter credentials",
+   "text": "Angiv legitimationsoplysninger"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the share password if the link is password protected.",
+   "text": "Angiv adgangskoden til delingen, hvis linket er beskyttet med adgangskode."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Enter the username and password for this server.",
+   "text": "Angiv brugernavn og adgangskode til denne server."
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Password",
+   "text": "Adgangskode"
+  },
+  {
+   "kontext": "BasicAuthPage",
+   "quelle": "Username",
+   "text": "Brugernavn"
+  },
+  {
+   "kontext": "BrowserAuthPage",
+   "quelle": "Switch to your browser",
+   "text": "Skift til din browser"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Cancel",
+   "text": "Annuller"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate file",
+   "text": "Certifikatfil"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Certificate password",
+   "text": "Adgangskode til certifikat"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Choose",
+   "text": "Vælg"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Client certificate",
+   "text": "Klientcertifikat"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Connect",
+   "text": "Forbind"
+  },
+  {
+   "kontext": "ClientCertificateDialog",
+   "quelle": "Select a PKCS#12 certificate file and enter its password.",
+   "text": "Vælg en PKCS#12-certifikatfil, og angiv dens adgangskode."
+  },
+  {
+   "kontext": "CloudProviderWrapper",
+   "quelle": "Open %1 Desktop",
+   "kommentar": "Open Nextcloud main window. Placeholer will be the application name. Please keep it.",
+   "text": "Åbn %1 Desktop"
+  },
+  {
+   "kontext": "FileActionsWindow",
+   "quelle": "File actions for %1",
+   "text": "Filhandlinger for %1"
+  },
+  {
+   "kontext": "FileProviderSettings",
+   "quelle": "Virtual files appear like regular files, but they do not use local storage space. The content downloads automatically when you open the file. Virtual files and classic sync can not be used at the same time.",
+   "text": "Virtuelle filer vises som almindelige filer, men de bruger ikke lokal lagerplads. Indholdet downloades automatisk, når du åbner filen. Virtuelle filer og klassisk synkronisering kan ikke bruges på samme tid."
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Ask Assistant …",
+   "text": "Spørg assistenten …"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Ask Assistant…",
+   "text": "Spørg assistenten…"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Issue with account %1",
+   "text": "Problem med kontoen %1"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Issues with several accounts",
+   "text": "Problemer med flere konti"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "New conversation",
+   "text": "Ny samtale"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Send assistant question",
+   "text": "Send spørgsmål til assistenten"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Start a new assistant chat",
+   "text": "Start en ny chat med assistenten"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "Start new conversation?",
+   "text": "Start ny samtale?"
+  },
+  {
+   "kontext": "MainWindow",
+   "quelle": "This will clear the existing conversation.",
+   "text": "Dette rydder den eksisterende samtale."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "Der opstod en uventet fejl. Prøv at synkronisere igen, eller kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "The server enforces strict transport security and does not accept untrusted certificates.",
+   "text": "Serveren håndhæver streng transportsikkerhed og accepterer ikke certifikater, der ikke er betroede."
+  },
+  {
+   "kontext": "OCC::AbstractNetworkJob",
+   "quelle": "The server took too long to respond. Check your connection and try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "Serveren var for længe om at svare. Kontrollér din forbindelse, og prøv at synkronisere igen. Hvis det stadig ikke virker, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "OCC::Account",
+   "quelle": "Public Share Link",
+   "text": "Offentligt delingslink"
+  },
+  {
+   "kontext": "OCC::AccountManager",
+   "quelle": "An account was detected from a legacy desktop client.\nShould the account be imported?",
+   "text": "Der blev fundet en konto fra en ældre desktopklient.\nSkal kontoen importeres?"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Access Error",
+   "text": "Adgangsfejl"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Bookmark Error",
+   "text": "Bogmærkefejl"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Classic sync",
+   "text": "Klassisk synkronisering"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Connected to %1 (%2).",
+   "text": "Forbundet til %1 (%2)."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not acquire access to the selected folder. Please try again.",
+   "text": "Kunne ikke få adgang til den valgte mappe. Prøv igen."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not create a security bookmark for the folder. Please try again.",
+   "text": "Kunne ikke oprette et sikkerhedsbogmærke til mappen. Prøv igen."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Could not resolve the security bookmark. Please try again.",
+   "text": "Kunne ikke opløse sikkerhedsbogmærket. Prøv igen."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Do you want to forget the end-to-end encryption settings for %1 on this device?",
+   "text": "Vil du glemme indstillingerne for end-to-end-kryptering for %1 på denne enhed?"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Encryption is set-up. Remember to <b>Encrypt</b> a folder to end-to-end encrypt any new files added to it.",
+   "text": "Krypteringen er sat op. Husk at <b>kryptere</b> en mappe for at end-to-end-kryptere alle nye filer, der føjes til den."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has been initialized on this account with another device.<br>Enter the unique mnemonic to have the encrypted folders synchronize on this device as well.",
+   "text": "End-to-end-kryptering er blevet initialiseret på denne konto med en anden enhed.<br>Angiv den unikke huskeregel for også at få de krypterede mapper synkroniseret på denne enhed."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "End-to-end encryption has not been initialized on this account.",
+   "text": "End-to-end-kryptering er ikke initialiseret på denne konto."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forget encryption setup",
+   "text": "Glem opsætningen af kryptering"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Forgetting end-to-end encryption will remove the sensitive data and all the encrypted files from this device.<br>However, the encrypted files will remain on the server and all your other devices, if configured.",
+   "text": "Hvis du glemmer end-to-end-krypteringen, fjernes de følsomme data og alle krypterede filer fra denne enhed.<br>De krypterede filer forbliver dog på serveren og på alle dine andre enheder, hvis de er sat op."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Grant access to sync folder",
+   "text": "Giv adgang til synkroniseringsmappe"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Please select the original sync folder: %1",
+   "text": "Vælg den oprindelige synkroniseringsmappe: %1"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "The virtual files integration does not support end-to-end encryption yet.",
+   "text": "Integrationen af virtuelle filer understøtter endnu ikke end-to-end-kryptering."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "This account supports end-to-end encryption, but it needs to be set up first.",
+   "text": "Denne konto understøtter end-to-end-kryptering, men den skal først sættes op."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "To protect your Cryptographic Identity, we encrypt it with a mnemonic of 12 dictionary words. Please note it down and keep it safe. You will need it to set-up the synchronization of encrypted folders on your other devices.",
+   "text": "For at beskytte din kryptografiske identitet krypterer vi den med en huskeregel på 12 ord fra en ordbog. Skriv den ned, og opbevar den sikkert. Du skal bruge den for at sætte synkronisering af krypterede mapper op på dine andre enheder."
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Virtual files",
+   "text": "Virtuelle filer"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "Wrong Folder",
+   "text": "Forkert mappe"
+  },
+  {
+   "kontext": "OCC::AccountSettings",
+   "quelle": "You cannot encrypt this folder because the end-to-end encryption is not set-up yet on this device.\nWould you like to do this now?",
+   "text": "Du kan ikke kryptere denne mappe, fordi end-to-end-kryptering endnu ikke er sat op på denne enhed.\nVil du gøre det nu?"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "%1 free space",
+   "kommentar": "%1 gets replaced with the size and a matching unit. Example: 3 MB or 5 GB",
+   "text": "%1 ledig plads"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Access forbidden by server. To verify that you have proper access, open the service in your browser.",
+   "text": "Serveren nægter adgang. Åbn tjenesten i din browser for at kontrollere, at du har den rette adgang."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account connected.",
+   "text": "Konto forbundet."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Account setup failed while creating the sync folder.",
+   "text": "Opsætningen af kontoen mislykkedes under oprettelsen af synkroniseringsmappen."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Certificate files (*.p12 *.pfx)",
+   "text": "Certifikatfiler (*.p12 *.pfx)"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking account access",
+   "text": "Kontrollerer adgang til kontoen"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking remote folder",
+   "text": "Kontrollerer afsides mappe"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Checking server address",
+   "text": "Kontrollerer serveradresse"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "Kunne ikke få adgang til den valgte certifikatfil."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create local folder %1",
+   "text": "Kunne ikke oprette lokal mappe %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not create the sync folder.",
+   "text": "Kunne ikke oprette synkroniseringsmappen."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Could not load certificate. Maybe wrong password?",
+   "text": "Kunne ikke indlæse certifikatet. Måske forkert adgangskode?"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Creating remote folder",
+   "text": "Opretter afsides mappe"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Error: %1",
+   "text": "Fejl: %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Failed to connect to %1 at %2:\n%3",
+   "text": "Kunne ikke oprette forbindelse til %1 hos %2:\n%3"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Invalid URL",
+   "text": "Ugyldig URL"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Link copied to clipboard.",
+   "text": "Linket kopieret til udklipsholderen."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Local Sync Folder",
+   "text": "Lokal synkroniseringsmappe"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "No remote folder specified!",
+   "text": "Ingen afsides mappe angivet!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose a local sync folder.",
+   "text": "Vælg en lokal synkroniseringsmappe."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Please choose an empty local sync folder.",
+   "text": "Vælg en tom lokal synkroniseringsmappe."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Preparing browser login",
+   "text": "Forbereder login i browseren"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Proxy settings are incomplete.",
+   "text": "Proxyindstillingerne er ufuldstændige."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Remote folder %1 creation failed with error <tt>%2</tt>.",
+   "text": "Oprettelsen af den afsides mappe %1 mislykkedes med fejlen <tt>%2</tt>."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Select a certificate",
+   "text": "Vælg et certifikat"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Server address does not seem to be valid",
+   "text": "Serveradressen synes ikke at være gyldig"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Starting authorization",
+   "text": "Påbegynder godkendelse"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The authenticated request to the server was redirected to \"%1\". The URL is bad, the server is misconfigured.",
+   "text": "Den godkendte forespørgsel til serveren blev omdirigeret til \"%1\". URL'en er forkert, serveren er fejlkonfigureret."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The folder creation resulted in HTTP error code %1",
+   "text": "Mappeoprettelsen resulterede i HTTP-fejlkode %1"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "The remote folder creation failed because the provided credentials are wrong. Please go back and check your credentials.",
+   "text": "Oprettelsen af den afsides mappe mislykkedes, fordi de angivne legitimationsoplysninger er forkerte. Gå tilbage, og kontrollér dine legitimationsoplysninger."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There isn't enough free space in the local folder!",
+   "text": "Der er ikke nok ledig plads i den lokale mappe!"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "There was an invalid response to an authenticated WebDAV request",
+   "text": "Der kom et ugyldigt svar på en godkendt WebDAV-forespørgsel"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "This server requires legacy browser authentication. Enter app-password credentials instead.",
+   "text": "Denne server kræver ældre browsergodkendelse. Angiv i stedet legitimationsoplysninger til en app-adgangskode."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Timeout while trying to connect to %1 at %2.",
+   "text": "Timeout ved forsøg på forbindelse til %1 hos %2."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Unable to open the Browser, please copy the link to your Browser.",
+   "text": "Browseren kan ikke åbnes. Kopiér linket til din browser."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Username must not be empty.",
+   "text": "Brugernavnet må ikke være tomt."
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Waiting for authorization",
+   "text": "Venter på godkendelse"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require %1 of storage",
+   "text": "Kræver %1 lagerplads"
+  },
+  {
+   "kontext": "OCC::AccountWizardController",
+   "quelle": "Will require local storage",
+   "text": "Kræver lokal lagerplads"
+  },
+  {
+   "kontext": "OCC::AddCertificateDialog",
+   "quelle": "Could not access the selected certificate file.",
+   "text": "Kunne ikke få adgang til den valgte certifikatfil."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Advanced",
+   "text": "Avanceret"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing external storages",
+   "text": "Spørg om bekræftelse inden synkronisering af eksterne lagre"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Ask for confirmation before synchronizing new folders larger than",
+   "text": "Spørg om bekræftelse inden synkronisering af nye mapper større end"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Automatically disable synchronisation of folders that overcome limit",
+   "text": "Deaktiver automatisk synkronisering af mapper, der overskrider grænsen"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "Kunne ikke få adgang til den valgte placering. Prøv igen, eller vælg en anden placering."
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Create Debug Archive",
+   "text": "Opret fejlfindingsarkiv"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Debug Archive Created",
+   "text": "Fejlfindingsarkiv oprettet"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Edit &Ignored Files",
+   "text": "Redigér &ignorerede filer"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Failed to Access File",
+   "text": "Kunne ikke få adgang til filen"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "MB",
+   "text": "MB"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Move removed files to trash",
+   "text": "Flyt fjernede filer til papirkurven"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Notify when synchronised folders grow larger than specified limit",
+   "text": "Giv besked, når synkroniserede mapper bliver større end den angivne grænse"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "Fjern oplysninger, der anses for følsomme, før du deler! Fejlfindingsarkiv oprettet i %1"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Server poll interval",
+   "text": "Interval for serverforespørgsler"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Show sync folders in &Explorer's navigation pane",
+   "text": "Vis synkroniseringsmapper i &Explorers navigationsrude"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "Zip Archives",
+   "text": "Zip-arkiver"
+  },
+  {
+   "kontext": "OCC::AdvancedSettings",
+   "quelle": "seconds (if <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> is unavailable)",
+   "text": "sekunder (hvis <a href=\"https://github.com/nextcloud/notify_push\">Client Push</a> ikke er tilgængelig)"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "Error updating metadata: %1",
+   "text": "Fejl ved opdatering af metadata: %1"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "File %1 can not be downloaded because of a local file name clash!",
+   "text": "Filen %1 kan ikke downloades på grund af en lokal filnavnskonflikt!"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "The file %1 is currently in use",
+   "text": "Filen %1 er i øjeblikket i brug"
+  },
+  {
+   "kontext": "OCC::BulkPropagatorDownloadJob",
+   "quelle": "Unable to update metadata of new file %1.",
+   "kommentar": "error with update metadata of new Win VFS file",
+   "text": "Kunne ikke opdatere metadata for den nye fil %1."
+  },
+  {
+   "kontext": "OCC::BulkPropagatorJob",
+   "quelle": "File contains leading or trailing spaces and couldn't be renamed",
+   "text": "Filen indeholder mellemrum i starten eller slutningen og kunne ikke omdøbes"
+  },
+  {
+   "kontext": "OCC::ConnectionValidator",
+   "quelle": "No %1 account configured",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "Ingen %1-konto konfigureret"
+  },
+  {
+   "kontext": "OCC::DiscoverySingleDirectoryJob",
+   "quelle": "The server returned an unexpected response that couldn’t be read. Please reach out to your server administrator.”",
+   "text": "Serveren returnerede et uventet svar, som ikke kunne læses. Kontakt din serveradministrator."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "%1 did not succeed, please try again later. If you need help, contact your server administrator.",
+   "kommentar": "file action error message",
+   "text": "%1 lykkedes ikke. Prøv igen senere. Hvis du har brug for hjælp, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "%1 done.",
+   "kommentar": "file action success message",
+   "text": "%1 udført."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "No file actions were returned by the server for %1 files.",
+   "kommentar": "file mimetype, e.g text/plain files",
+   "text": "Serveren returnerede ingen filhandlinger for filer af typen %1."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "The file ID is empty for %1.",
+   "kommentar": "file name",
+   "text": "Fil-id'et for %1 er tomt."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "The file type for %1 is not valid.",
+   "kommentar": "file name",
+   "text": "Filtypen for %1 er ugyldig."
+  },
+  {
+   "kontext": "OCC::FileActionsModel",
+   "quelle": "Your account is offline %1.",
+   "kommentar": "account url",
+   "text": "Din konto er offline %1."
+  },
+  {
+   "kontext": "OCC::FileDetails",
+   "quelle": "%1 year(s) ago",
+   "kommentar": "years elapsed since file last modified",
+   "formen": [
+    "For %1 år siden",
+    "For %1 år siden"
+   ]
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "An unexpected error occurred when trying to access the server. Please try to access it again later or contact your server administrator if the issue continues.",
+   "text": "Der opstod en uventet fejl under forsøget på at få adgang til serveren. Prøv igen senere, eller kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The server did not reply with the expected data. Please try connecting again later or contact your server administrator if the issue continues.",
+   "text": "Serveren svarede ikke med de forventede data. Prøv at oprette forbindelse igen senere, eller kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "The server is temporarily unavailable because it is in maintenance mode. Please try again once maintenance has finished.",
+   "text": "Serveren er midlertidigt utilgængelig, fordi den er i vedligeholdelsestilstand. Prøv igen, når vedligeholdelsen er afsluttet."
+  },
+  {
+   "kontext": "OCC::Flow2Auth",
+   "quelle": "We couldn't parse the server response. Please try connecting again later or contact your server administrator if the issue continues.",
+   "text": "Vi kunne ikke fortolke svaret fra serveren. Prøv at oprette forbindelse igen senere, eller kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "OCC::FolderMan",
+   "quelle": "Please open the app settings to grant access to the sync folders.",
+   "text": "Åbn appens indstillinger for at give adgang til synkroniseringsmapperne."
+  },
+  {
+   "kontext": "OCC::FolderStatusDelegate",
+   "quelle": "Grant access",
+   "text": "Giv adgang"
+  },
+  {
+   "kontext": "OCC::FolderStatusModel",
+   "quelle": "Due to recent security improvements, the client no longer has access to the folder. Your approval is required one time to restore access. Please select the synchronization folder root.",
+   "text": "På grund af nylige sikkerhedsforbedringer har klienten ikke længere adgang til mappen. Din godkendelse kræves én gang for at gendanne adgangen. Vælg roden af synkroniseringsmappen."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "Forbundet til et virksomhedssystem. Opdateringskanalen (%1) kan ikke ændres."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Could not access the selected location. Please try again or choose a different location.",
+   "text": "Kunne ikke få adgang til den valgte placering. Prøv igen, eller vælg en anden placering."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Failed to Access File",
+   "text": "Kunne ikke få adgang til filen"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "General settings",
+   "text": "Generelle indstillinger"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Login Item Requires Approval",
+   "text": "Logonemne kræver godkendelse"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Redact information deemed sensitive before sharing! Debug archive created at %1",
+   "text": "Fjern oplysninger, der anses for følsomme, før du deler! Fejlfindingsarkiv oprettet i %1"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Restore &Default",
+   "text": "Gendan &standard"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Restore to &%1",
+   "text": "Gendan til &%1"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show &Quota Warning Notifications",
+   "text": "Vis notifikationer om &kvoteadvarsler"
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "Show notification when quota usage exceeds 80%.",
+   "text": "Vis en notifikation, når kvoteforbruget overstiger 80%."
+  },
+  {
+   "kontext": "OCC::GeneralSettings",
+   "quelle": "The login item has been registered but needs your approval to become active. Please open System Settings → General → Login Items and enable %1 there.",
+   "text": "Logonemnet er registreret, men skal godkendes af dig for at blive aktivt. Åbn Systemindstillinger → Generelt → Logonemner, og aktiver %1 der."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Automatically check for updates",
+   "text": "&Søg automatisk efter opdateringer"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "&Restart && Update",
+   "text": "&Genstart && opdatér"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- beta: contains versions with new features that may not be tested thoroughly\n- daily: contains versions created daily only for testing and development\n\nDowngrading versions is not possible immediately: changing from beta to stable means waiting for the new stable version.",
+   "kommentar": "list of available update channels to non enterprise users and downgrading warning",
+   "text": "- beta: indeholder versioner med nye funktioner, som måske ikke er grundigt testet\n- dagligt: indeholder versioner, der oprettes dagligt udelukkende til test og udvikling\n\nDet er ikke muligt at nedgradere med det samme: Et skift fra beta til stabil betyder, at du skal vente på den nye stabile version."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "- enterprise: contains stable versions for customers.\n\nDowngrading versions is not possible immediately: changing from stable to enterprise means waiting for the new enterprise version.",
+   "kommentar": "list of available update channels to enterprise users and downgrading warning",
+   "text": "- enterprise: indeholder stabile versioner til kunder.\n\nDet er ikke muligt at nedgradere med det samme: Et skift fra stabil til enterprise betyder, at du skal vente på den nye enterprise-version."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Cancel",
+   "text": "Annuller"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Change update channel",
+   "text": "Ændr opdateringskanal"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Changing update channel?",
+   "text": "Ændre opdateringskanal?"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Check Now",
+   "text": "Kontrollér nu"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Connected to an enterprise system. Update channel (%1) cannot be changed.",
+   "text": "Forbundet til et virksomhedssystem. Opdateringskanalen (%1) kan ikke ændres."
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Desktop client x.x.x",
+   "text": "Desktopklient x.x.x"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Legal Notice",
+   "text": "Juridisk notits"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore &Default",
+   "text": "Gendan &standard"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Restore to &%1",
+   "text": "Gendan til &%1"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "The channel determines which upgrades will be offered to install:\n- stable: contains tested versions considered reliable\n",
+   "kommentar": "starts list of available update channels, stable is always available",
+   "text": "Kanalen bestemmer, hvilke opgraderinger der tilbydes til installation:\n- stabil: indeholder testede versioner, der anses for pålidelige\n"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Update channel",
+   "text": "Opdateringskanal"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "Usage Documentation",
+   "text": "Anvendelsesdokumentation"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "beta",
+   "text": "beta"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "daily",
+   "text": "dagligt"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "enterprise",
+   "text": "enterprise"
+  },
+  {
+   "kontext": "OCC::InfoSettings",
+   "quelle": "stable",
+   "text": "stabil"
+  },
+  {
+   "kontext": "OCC::InvalidFilenameDialog",
+   "quelle": "The following characters are not allowed on the system: \\ / : ? * \"  < > | leading/trailing spaces",
+   "text": "Følgende tegn er ikke tilladt på systemet: \\ / : ? * \"  < > | mellemrum i starten/slutningen"
+  },
+  {
+   "kontext": "OCC::LegacyAccountSelectionDialog",
+   "quelle": "Legacy import",
+   "text": "Import fra ældre klient"
+  },
+  {
+   "kontext": "OCC::LegacyAccountSelectionDialog",
+   "quelle": "Select the accounts to import from the legacy configuration:",
+   "text": "Vælg de konti, der skal importeres fra den ældre konfiguration:"
+  },
+  {
+   "kontext": "OCC::LegalNotice",
+   "quelle": "<p>Copyright 2017-2026 Nextcloud GmbH<br />Copyright 2012-2023 ownCloud GmbH</p>",
+   "text": "<p>Copyright 2017-2026 Nextcloud GmbH<br />Copyright 2012-2023 ownCloud GmbH</p>"
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "No updates available. Your installation is the latest version.",
+   "text": "Ingen opdateringer tilgængelige. Din installation er den nyeste version."
+  },
+  {
+   "kontext": "OCC::OCUpdater",
+   "quelle": "You are using the %1 update channel. Your installation is the latest version.",
+   "text": "Du bruger opdateringskanalen %1. Din installation er den nyeste version."
+  },
+  {
+   "kontext": "OCC::OwncloudSetupWizard",
+   "quelle": "creating folder on Nextcloud: %1",
+   "text": "opretter mappe i BusinessCloud: %1",
+   "grund": "marke"
+  },
+  {
+   "kontext": "OCC::OwncloudWizard",
+   "quelle": "Proxy Settings",
+   "kommentar": "Proxy Settings button text in new account wizard",
+   "text": "Proxyindstillinger"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File is locked by another application.",
+   "text": "Filen er låst af et andet program."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Filen er ikke tilgængelig på serveren."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File name contains at least one invalid character",
+   "text": "Filnavnet indeholder mindst ét ugyldigt tegn"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File name is a reserved name on this file system.",
+   "text": "Filnavnet er et reserveret navn på dette filsystem."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "File names containing the character \"%1\" are not supported on this file system.",
+   "kommentar": "%1: the invalid character",
+   "text": "Filnavne, der indeholder tegnet \"%1\", understøttes ikke på dette filsystem."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Mappen er ikke tilgængelig på serveren."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder name contains at least one invalid character",
+   "text": "Mappenavnet indeholder mindst ét ugyldigt tegn"
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder name is a reserved name on this file system.",
+   "text": "Mappenavnet er et reserveret navn på dette filsystem."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Folder names containing the character \"%1\" are not supported on this file system.",
+   "kommentar": "%1: the invalid character",
+   "text": "Mappenavne, der indeholder tegnet \"%1\", understøttes ikke på dette filsystem."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Upload of %1 exceeds %2 of space left in folder %3.",
+   "text": "Upload af %1 overskrider den resterende plads på %2 i mappen %3."
+  },
+  {
+   "kontext": "OCC::ProcessDirectoryJob",
+   "quelle": "Upload of %1 exceeds %2 of space left in personal files.",
+   "text": "Upload af %1 overskrider den resterende plads på %2 i de personlige filer."
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "Could not delete file record %1 from local DB",
+   "text": "Kunne ikke slette filposten %1 fra lokal DB"
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "Error updating metadata: %1",
+   "text": "Fejl ved opdatering af metadata: %1"
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "File %1 downloaded but it resulted in a local file name clash!",
+   "text": "Filen %1 blev downloadet, men det resulterede i en lokal filnavnskonflikt!"
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "File %1 has invalid modified time reported by server. Do not save it.",
+   "text": "Filen %1 har et ugyldigt ændringstidspunkt rapporteret af serveren. Gem den ikke."
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "The downloaded file is empty, but the server said it should have been %1.",
+   "text": "Den downloadede fil er tom, men serveren oplyste, at den skulle have været %1."
+  },
+  {
+   "kontext": "OCC::PropagateDownloadFile",
+   "quelle": "The file %1 is currently in use",
+   "text": "Filen %1 er i øjeblikket i brug"
+  },
+  {
+   "kontext": "OCC::PropagateItemJob",
+   "quelle": "%1. Restoration failed: %2",
+   "kommentar": "%1 is the generic error string, the file restoration error (%2) will be appended here",
+   "text": "%1. Gendannelse mislykkedes: %2"
+  },
+  {
+   "kontext": "OCC::PropagateLocalMkdir",
+   "quelle": "Could not create folder %1",
+   "text": "Kunne ikke oprette mappen %1"
+  },
+  {
+   "kontext": "OCC::PropagateLocalMkdir",
+   "quelle": "Error updating metadata: %1",
+   "text": "Fejl ved opdatering af metadata: %1"
+  },
+  {
+   "kontext": "OCC::PropagateLocalMkdir",
+   "quelle": "Folder %1 cannot be created because of a local file or folder name clash!",
+   "text": "Mappen %1 kan ikke oprettes på grund af en lokal konflikt mellem fil- eller mappenavne!"
+  },
+  {
+   "kontext": "OCC::PropagateLocalMkdir",
+   "quelle": "The file %1 is currently in use",
+   "text": "Filen %1 er i øjeblikket i brug"
+  },
+  {
+   "kontext": "OCC::PropagateLocalMkdir",
+   "quelle": "The folder %1 cannot be made read-only: %2",
+   "text": "Mappen %1 kan ikke sættes som skrivebeskyttet: %2"
+  },
+  {
+   "kontext": "OCC::PropagateLocalMkdir",
+   "quelle": "unknown exception",
+   "text": "ukendt undtagelse"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRemove",
+   "quelle": "Could not delete file record %1 from local DB",
+   "text": "Kunne ikke slette filposten %1 fra lokal DB"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRemove",
+   "quelle": "Temporary error when removing local item removed from server.",
+   "text": "Midlertidig fejl ved fjernelse af et lokalt element, der er fjernet fra serveren."
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Could not get file %1 from local DB",
+   "text": "Kunne ikke hente filen %1 fra lokal DB"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Error setting pin state",
+   "text": "Fejl ved indstilling af pin-status"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Error updating metadata: %1",
+   "text": "Fejl ved opdatering af metadata: %1"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Failed to propagate directory rename in hierarchy",
+   "text": "Kunne ikke overføre omdøbningen af mappen i hierarkiet"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "File %1 downloaded but it resulted in a local file name clash!",
+   "text": "Filen %1 blev downloadet, men det resulterede i en lokal filnavnskonflikt!"
+  },
+  {
+   "kontext": "OCC::PropagateLocalRename",
+   "quelle": "Folder %1 cannot be renamed because of a local file or folder name clash!",
+   "text": "Mappen %1 kan ikke omdøbes på grund af en lokal konflikt mellem fil- eller mappenavne!"
+  },
+  {
+   "kontext": "OCC::PropagateRemoteDeleteEncryptedRootFolder",
+   "quelle": "Wrong HTTP code returned by server. Expected 204, but received \"%1 %2\".",
+   "text": "Forkert HTTP-kode returneret af serveren. Forventede 204, men modtog \"%1 %2\"."
+  },
+  {
+   "kontext": "OCC::PropagateRemoteMove",
+   "quelle": "Could not delete file record %1 from local DB",
+   "text": "Kunne ikke slette filposten %1 fra lokal DB"
+  },
+  {
+   "kontext": "OCC::PropagateRemoteMove",
+   "quelle": "Error setting pin state",
+   "text": "Fejl ved indstilling af pin-status"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileCommon",
+   "quelle": "Error updating metadata: %1",
+   "text": "Fejl ved opdatering af metadata: %1"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileCommon",
+   "quelle": "Failed to unlock encrypted folder.",
+   "text": "Kunne ikke låse den krypterede mappe op."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileCommon",
+   "quelle": "Failed to upload encrypted file.",
+   "text": "Kunne ikke uploade den krypterede fil."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileCommon",
+   "quelle": "File %1 has invalid modification time. Do not upload to the server.",
+   "text": "Filen %1 har et ugyldigt ændringstidspunkt. Upload den ikke til serveren."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileCommon",
+   "quelle": "The file %1 is currently in use",
+   "text": "Filen %1 er i øjeblikket i brug"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileCommon",
+   "quelle": "Unable to upload an item with invalid characters",
+   "text": "Kan ikke uploade et element med ugyldige tegn"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "File is locked preventing syncing it",
+   "kommentar": "Generic warning message when a locked file cannot be synced",
+   "text": "Filen er låst og kan derfor ikke synkroniseres"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "File is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Filen er ikke tilgængelig på serveren."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "Folder is not accessible on the server.",
+   "kommentar": "server error",
+   "text": "Mappen er ikke tilgængelig på serveren."
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileNG",
+   "quelle": "Poll URL missing",
+   "text": "Forespørgsels-URL mangler"
+  },
+  {
+   "kontext": "OCC::PropagateUploadFileV1",
+   "quelle": "File is locked preventing syncing it",
+   "kommentar": "Generic warning message when a locked file cannot be synced",
+   "text": "Filen er låst og kan derfor ikke synkroniseres"
+  },
+  {
+   "kontext": "OCC::ServerNotificationHandler",
+   "quelle": "Reply",
+   "text": "Svar"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Advanced",
+   "text": "Avanceret"
+  },
+  {
+   "kontext": "OCC::SettingsDialog",
+   "quelle": "Info",
+   "text": "Info"
+  },
+  {
+   "kontext": "OCC::ShareManager",
+   "quelle": "Error",
+   "text": "Fejl"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "%1 day",
+   "text": "%1 dag"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "%1 days",
+   "text": "%1 dage"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "1 day",
+   "text": "1 dag"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Could not find local folder for %1",
+   "text": "Kunne ikke finde lokal mappe for %1"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Internal link",
+   "text": "Internt link"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Link share",
+   "text": "Linkdeling"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Secure file drop",
+   "text": "Sikker filaflevering"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Secure file drop link",
+   "text": "Link til sikker filaflevering"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Share link",
+   "text": "Delingslink"
+  },
+  {
+   "kontext": "OCC::ShareModel",
+   "quelle": "Today",
+   "text": "I dag"
+  },
+  {
+   "kontext": "OCC::ShareeModel",
+   "quelle": "%1 (%2)",
+   "kommentar": "sharee (shareWithAdditionalInfo)",
+   "text": "%1 (%2)"
+  },
+  {
+   "kontext": "OCC::ShareeModel",
+   "quelle": "No results found",
+   "text": "Ingen resultater fundet"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Activity",
+   "text": "Aktivitet"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Could not encrypt the following folder: \"%1\".\n\nServer replied with error: %2",
+   "text": "Kunne ikke kryptere følgende mappe: \"%1\".\n\nServeren svarede med fejlen: %2"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Delete local changes",
+   "text": "Slet lokale ændringer"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Encrypt",
+   "text": "Krypter"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Expires in %1 minutes",
+   "kommentar": "remaining time before lock expires",
+   "formen": [
+    "Udløber om %1 minut",
+    "Udløber om %1 minutter"
+   ]
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Failed to encrypt folder",
+   "text": "Kunne ikke kryptere mappen"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Failed to encrypt folder at \"%1\"",
+   "text": "Kunne ikke kryptere mappen i \"%1\""
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "File actions",
+   "text": "Filhandlinger"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Folder encrypted successfully",
+   "text": "Mappen er krypteret"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Leave this share",
+   "text": "Forlad denne deling"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Lock file",
+   "text": "Lås fil"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Locked by %1",
+   "text": "Låst af %1"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Move and rename …",
+   "text": "Flyt og omdøb …"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Move and upload …",
+   "text": "Flyt og upload …"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Move, rename and upload …",
+   "text": "Flyt, omdøb og upload …"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Resharing this folder is not allowed",
+   "text": "Videredeling af denne mappe er ikke tilladt"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Resolve conflict …",
+   "text": "Løs konflikt …"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Select new location …",
+   "text": "Vælg ny placering …"
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "The account %1 does not have end-to-end encryption configured. Please configure this in your account settings to enable folder encryption.",
+   "text": "Kontoen %1 har ikke end-to-end-kryptering konfigureret. Konfigurer det i dine kontoindstillinger for at aktivere kryptering af mapper."
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "The following folder was encrypted successfully: \"%1\"",
+   "text": "Følgende mappe blev krypteret: \"%1\""
+  },
+  {
+   "kontext": "OCC::SocketApi",
+   "quelle": "Unlock file",
+   "text": "Lås fil op"
+  },
+  {
+   "kontext": "OCC::SslErrorDialog",
+   "quelle": "Additional errors:",
+   "text": "Yderligere fejl:"
+  },
+  {
+   "kontext": "OCC::SyncEngine",
+   "quelle": "Could not set file record to local DB: %1",
+   "text": "Kunne ikke gemme filposten i lokal DB: %1"
+  },
+  {
+   "kontext": "OCC::SyncEngine",
+   "quelle": "Could not update file metadata: %1",
+   "text": "Kunne ikke opdatere filens metadata: %1"
+  },
+  {
+   "kontext": "OCC::SyncEngine",
+   "quelle": "Could not update file: %1",
+   "text": "Kunne ikke opdatere filen: %1"
+  },
+  {
+   "kontext": "OCC::SyncEngine",
+   "quelle": "Could not update virtual file metadata: %1",
+   "text": "Kunne ikke opdatere metadata for den virtuelle fil: %1"
+  },
+  {
+   "kontext": "OCC::SyncEngine",
+   "quelle": "Using virtual files with suffix, but suffix is not set",
+   "text": "Bruger virtuelle filer med endelse, men endelsen er ikke angivet"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "%1 of %2",
+   "text": "%1 af %2"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "%1 of %2 · %3 left",
+   "text": "%1 af %2 · %3 tilbage"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "All synced!",
+   "text": "Alt er synkroniseret!"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Checking folder changes",
+   "text": "Kontrollerer ændringer i mapper"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "No synchronisation configured",
+   "text": "Ingen synkronisering konfigureret"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Offline",
+   "text": "Offline"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Please grant access to your sync folders",
+   "text": "Giv adgang til dine synkroniseringsmapper"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Reauthorization required",
+   "text": "Ny godkendelse påkrævet"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "See below for errors",
+   "text": "Se fejl nedenfor"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "See below for warnings",
+   "text": "Se advarsler nedenfor"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Some files could not be synced!",
+   "text": "Nogle filer kunne ikke synkroniseres!"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Some files couldn't be synced!",
+   "text": "Nogle filer kunne ikke synkroniseres!"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Sync paused",
+   "text": "Synk. på pause"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Syncing",
+   "text": "Synkroniserer"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Syncing changes",
+   "text": "Synkroniserer ændringer"
+  },
+  {
+   "kontext": "OCC::SyncStatusSummary",
+   "quelle": "Syncing file %1 of %2",
+   "text": "Synkroniserer fil %1 af %2"
+  },
+  {
+   "kontext": "OCC::Systray",
+   "quelle": "Open %1 Desktop",
+   "kommentar": "Open Nextcloud main window. Placeholer will be the application name. Please keep it.",
+   "text": "Åbn %1 Desktop"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "%1 Desktop Client Version %2 (%3 running on %4)",
+   "kommentar": "%1 is application name. %2 is the human version string. %3 is the operating system name. %4 is the platform name (wayland, x11, …)",
+   "text": "%1 desktopklient version %2 (%3 kører på %4)"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "%1 Desktop Client Version %2 (%3)",
+   "kommentar": "%1 is application name. %2 is the human version string. %3 is the operating system name.",
+   "text": "%1 desktopklient version %2 (%3)"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "<p><small>Using virtual files plugin: %1</small></p>",
+   "text": "<p><small>Bruger plugin til virtuelle filer: %1</small></p>"
+  },
+  {
+   "kontext": "OCC::Theme",
+   "quelle": "<p>This release was supplied by %1.</p>",
+   "text": "<p>Denne udgivelse blev leveret af %1.</p>"
+  },
+  {
+   "kontext": "OCC::UnifiedSearchResultsListModel",
+   "quelle": "Failed to fetch providers.",
+   "text": "Kunne ikke hente udbydere."
+  },
+  {
+   "kontext": "OCC::UnifiedSearchResultsListModel",
+   "quelle": "Failed to fetch search providers for '%1'. Error: %2",
+   "text": "Kunne ikke hente søgeudbydere for '%1'. Fejl: %2"
+  },
+  {
+   "kontext": "OCC::UnifiedSearchResultsListModel",
+   "quelle": "Search has failed for '%1'. Error: %2",
+   "text": "Søgningen efter '%1' mislykkedes. Fejl: %2"
+  },
+  {
+   "kontext": "OCC::UnifiedSearchResultsListModel",
+   "quelle": "Search has failed for '%2'.",
+   "text": "Søgningen efter '%2' mislykkedes."
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderMetadataJob",
+   "quelle": "Failed to finalize item.",
+   "text": "Kunne ikke færdiggøre elementet."
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderMetadataJob",
+   "quelle": "Failed to unlock encrypted folder.",
+   "text": "Kunne ikke låse krypteret mappe op."
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderMetadataJob",
+   "quelle": "Failed to update folder metadata.",
+   "text": "Kunne ikke opdatere mappens metadata."
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderUsersMetadataJob",
+   "quelle": "Could not add or remove user %1 to access folder %2",
+   "text": "Kunne ikke tilføje eller fjerne adgang til mappen %2 for brugeren %1"
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderUsersMetadataJob",
+   "quelle": "Could not fetch public key for user %1",
+   "text": "Kunne ikke hente offentlig nøgle for brugeren %1"
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderUsersMetadataJob",
+   "quelle": "Could not find root encrypted folder for folder %1",
+   "text": "Kunne ikke finde den krypterede rodmappe for mappen %1"
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderUsersMetadataJob",
+   "quelle": "Error updating metadata for a folder %1",
+   "text": "Fejl ved opdatering af metadata for en mappe %1"
+  },
+  {
+   "kontext": "OCC::UpdateE2eeFolderUsersMetadataJob",
+   "quelle": "Failed to unlock a folder.",
+   "text": "Kunne ikke låse en mappe op."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "%n notification(s)",
+   "formen": [
+    "%n notifikation",
+    "%n notifikationer"
+   ]
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant is already processing a request.",
+   "text": "Assistenten behandler allerede en anmodning."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant is not available for this account.",
+   "text": "Assistenten er ikke tilgængelig for denne konto."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Assistant request failed (%1).",
+   "text": "Anmodningen til assistenten mislykkedes (%1)."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server.",
+   "text": "Ikke nok lagerplads på serveren."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server. The file requires %1 but only %2 are available.",
+   "text": "Ikke nok lagerplads på serveren. Filen kræver %1, men kun %2 er tilgængelig."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Insufficient storage on the server. The file requires %1.",
+   "text": "Ikke nok lagerplads på serveren. Filen kræver %1."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "No response yet. Please try again later.",
+   "text": "Intet svar endnu. Prøv igen senere."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "No supported assistant task types were returned.",
+   "text": "Der blev ikke returneret nogen understøttede opgavetyper for assistenten."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Assistant",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "Åbn %1 Assistent"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Assistant in browser",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "Åbn %1 Assistent i browser"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Open %1 Talk in browser",
+   "kommentar": "The placeholder will be the application name. Please keep it",
+   "text": "Åbn %1 Talk i browser"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Public Share Link",
+   "text": "Offentligt delingslink"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Quota Warning - %1 percent or more storage in use",
+   "text": "Kvoteadvarsel - %1 procent eller mere af lagerpladsen er i brug"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Quota is updated; %1 percent of the total space is used.",
+   "text": "Kvoten er opdateret; %1 procent af den samlede plads er brugt."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Rename file",
+   "text": "Omdøb fil"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Resolve conflict",
+   "text": "Løs konflikt"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Sending your request …",
+   "text": "Sender din anmodning …"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Sending your request…",
+   "text": "Sender din anmodning…"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "There is insufficient space available on the server for some uploads.",
+   "text": "Der er ikke nok ledig plads på serveren til nogle uploads."
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "Waiting for the assistant response…",
+   "text": "Venter på svar fra assistenten…"
+  },
+  {
+   "kontext": "OCC::User",
+   "quelle": "“%1” was not synchronized",
+   "text": "“%1” blev ikke synkroniseret"
+  },
+  {
+   "kontext": "OCC::UserModel",
+   "quelle": "Leave share",
+   "text": "Forlad deling"
+  },
+  {
+   "kontext": "OCC::UserModel",
+   "quelle": "Remove account",
+   "text": "Fjern konto"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n day(s)",
+   "formen": [
+    "%n dag",
+    "%n dage"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n hour(s)",
+   "formen": [
+    "%n time",
+    "%n timer"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "%n minute(s)",
+   "formen": [
+    "%n minut",
+    "%n minutter"
+   ]
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "1 hour",
+   "text": "1 time"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "30 minutes",
+   "text": "30 minutter"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "4 hours",
+   "text": "4 timer"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Could not clear status message. Make sure you are connected to the server.",
+   "text": "Kunne ikke rydde statusbeskeden. Sørg for, at du har forbindelse til serveren."
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Could not fetch predefined statuses. Make sure you are connected to the server.",
+   "text": "Kunne ikke hente foruddefinerede statusser. Sørg for, at du har forbindelse til serveren."
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Could not fetch status. Make sure you are connected to the server.",
+   "text": "Kunne ikke hente status. Sørg for, at du har forbindelse til serveren."
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Don't clear",
+   "text": "Ryd ikke"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Emojis are not supported. Some status functionality may not work.",
+   "text": "Emojis understøttes ikke. Nogle statusfunktioner virker muligvis ikke."
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Less than a minute",
+   "text": "Mindre end et minut"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Status feature is not supported. You will not be able to set your status.",
+   "text": "Statusfunktionen understøttes ikke. Du vil ikke kunne angive din status."
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "This week",
+   "text": "Denne uge"
+  },
+  {
+   "kontext": "OCC::UserStatusSelectorModel",
+   "quelle": "Today",
+   "text": "I dag"
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 is a drive. It doesn't support virtual files.",
+   "text": "Vælg venligst en anden placering. %1 er et drev. Det understøtter ikke virtuelle filer."
+  },
+  {
+   "kontext": "OCC::Vfs",
+   "quelle": "Please choose a different location. %1 isn't a NTFS file system. It doesn't support virtual files.",
+   "text": "Vælg venligst en anden placering. %1 er ikke et NTFS-filsystem. Det understøtter ikke virtuelle filer."
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "%1 could not be downloaded.",
+   "text": "%1 kunne ikke hentes."
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "> More details",
+   "text": "> Flere detaljer"
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "Could not be downloaded",
+   "text": "Kunne ikke hentes"
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "Download error",
+   "text": "Downloadfejl"
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "Error downloading",
+   "text": "Fejl under hentning"
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "Error downloading %1",
+   "text": "Fejl under hentning af %1"
+  },
+  {
+   "kontext": "OCC::VfsDownloadErrorDialog",
+   "quelle": "More details",
+   "text": "Flere detaljer"
+  },
+  {
+   "kontext": "OCC::VfsSuffix",
+   "quelle": "Error updating metadata due to invalid modification time",
+   "text": "Fejl ved opdatering af metadata på grund af ugyldigt ændringstidspunkt"
+  },
+  {
+   "kontext": "OCC::VfsXAttr",
+   "quelle": "Error updating metadata due to invalid modification time",
+   "text": "Fejl ved opdatering af metadata på grund af ugyldigt ændringstidspunkt"
+  },
+  {
+   "kontext": "OCC::WebFlowCredentials",
+   "quelle": "You have been logged out of your account %1 at %2. Please login again.",
+   "text": "Du er blevet logget ud af din konto %1 på %2. Log venligst ind igen."
+  },
+  {
+   "kontext": "OCC::WelcomePage",
+   "quelle": "Form",
+   "text": "Formular"
+  },
+  {
+   "kontext": "OCC::WelcomePage",
+   "quelle": "Log in",
+   "text": "Log ind"
+  },
+  {
+   "kontext": "OCC::WelcomePage",
+   "quelle": "Sign up with provider",
+   "text": "Tilmeld dig hos en udbyder"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "HTTP(S) proxy"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "Proxyserverens værtsnavn"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "Adgangskode til proxyserveren"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Proxy Settings",
+   "kommentar": "Dialog window title for proxy settings",
+   "text": "Proxyindstillinger"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "SOCKS5 proxy"
+  },
+  {
+   "kontext": "OCC::WizardProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "Brugernavn til proxyserveren"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "%1: %2",
+   "text": "%1: %2"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Checking for changes in local \"%1\"",
+   "text": "Kontrollerer for ændringer i lokal \"%1\""
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Checking for changes in remote \"%1\"",
+   "text": "Kontrollerer for ændringer i ekstern \"%1\""
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Internal link copied",
+   "text": "Internt link kopieret"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Terms of service",
+   "text": "Servicevilkår"
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "The internal link has been copied to the clipboard.",
+   "text": "Det interne link er kopieret til udklipsholderen."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "Your account %1 requires you to accept the terms of service of your server. You will be redirected to %2 to acknowledge that you have read it and agrees with it.",
+   "text": "Din konto %1 kræver, at du accepterer din servers servicevilkår. Du bliver sendt videre til %2 for at bekræfte, at du har læst og accepterer dem."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: A problem was encountered.",
+   "text": "macOS VFS for %1: Der opstod et problem."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: An error was encountered.",
+   "text": "macOS VFS for %1: Der opstod en fejl."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: Last sync was successful.",
+   "text": "macOS VFS for %1: Seneste synkronisering lykkedes."
+  },
+  {
+   "kontext": "OCC::ownCloudGui",
+   "quelle": "macOS VFS for %1: Sync is running.",
+   "text": "macOS VFS for %1: Synkronisering er i gang."
+  },
+  {
+   "kontext": "OwncloudAdvancedSetupPage",
+   "quelle": "Choose different folder",
+   "text": "Vælg en anden mappe"
+  },
+  {
+   "kontext": "OwncloudAdvancedSetupPage",
+   "quelle": "Sync Logo",
+   "text": "Synkroniseringslogo"
+  },
+  {
+   "kontext": "OwncloudAdvancedSetupPage",
+   "quelle": "Username",
+   "text": "Brugernavn"
+  },
+  {
+   "kontext": "OwncloudSetupPage",
+   "quelle": "Logo",
+   "text": "Logo"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Form",
+   "text": "Formular"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Host",
+   "text": "Vært"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Manually specify proxy",
+   "text": "Angiv proxy manuelt"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "No proxy",
+   "text": "Ingen proxy"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "Bemærk: Proxyindstillinger har ingen virkning for konti på localhost"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Proxy Settings",
+   "text": "Proxyindstillinger"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Proxy server requires authentication",
+   "text": "Proxyserveren kræver autentificering"
+  },
+  {
+   "kontext": "ProxySettings",
+   "quelle": "Use system proxy",
+   "text": "Brug systemets proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Cancel",
+   "text": "Annuller"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Done",
+   "text": "Færdig"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "HTTP(S) proxy",
+   "text": "HTTP(S) proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Hostname of proxy server",
+   "text": "Proxyserverens værtsnavn"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Manually specify proxy",
+   "text": "Angiv proxy manuelt"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "No proxy",
+   "text": "Ingen proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Note: proxy settings have no effects for accounts on localhost",
+   "text": "Bemærk: Proxyindstillinger har ingen virkning for konti på localhost"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Password for proxy server",
+   "text": "Adgangskode til proxyserveren"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy port",
+   "text": "Proxyport"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy server requires authentication",
+   "text": "Proxyserveren kræver autentificering"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy settings",
+   "text": "Proxyindstillinger"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Proxy type",
+   "text": "Proxytype"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "SOCKS5 proxy",
+   "text": "SOCKS5 proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Use system proxy",
+   "text": "Brug systemets proxy"
+  },
+  {
+   "kontext": "ProxySettingsDialog",
+   "quelle": "Username for proxy server",
+   "text": "Brugernavn til proxyserveren"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "%nd",
+   "kommentar": "delay in days after an activity",
+   "formen": [
+    "%nd",
+    "%nd"
+   ]
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "%nh",
+   "kommentar": "delay in hours after an activity",
+   "formen": [
+    "%nt",
+    "%nt"
+   ]
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "%nmin",
+   "kommentar": "delay in minutes after an activity",
+   "formen": [
+    "%nmin",
+    "%nmin"
+   ]
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "1min",
+   "kommentar": "one minute after activity date and time",
+   "text": "1min"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "An unexpected error occurred. Please try syncing again or contact your server administrator if the issue continues.",
+   "text": "Der opstod en uventet fejl. Prøv at synkronisere igen, eller kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Answer",
+   "text": "Svar"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not create debug archive in temporary location!",
+   "text": "Kunne ikke oprette fejlfindingsarkiv på den midlertidige placering!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not move debug archive to selected location!",
+   "text": "Kunne ikke flytte fejlfindingsarkivet til den valgte placering!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Could not remove existing file at destination!",
+   "text": "Kunne ikke fjerne den eksisterende fil på destinationen!"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Error deleting the file",
+   "text": "Fejl ved sletning af filen"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It seems you are using a proxy that required authentication. Please check your proxy settings and credentials. If you need help, contact your server administrator.",
+   "text": "Det ser ud til, at du bruger en proxy, der kræver autentificering. Kontrollér dine proxyindstillinger og legitimationsoplysninger. Hvis du har brug for hjælp, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "It’s taking too long to connect to the server. Please try again later. If you need help, contact your server administrator.",
+   "text": "Det tager for lang tid at oprette forbindelse til serveren. Prøv igen senere. Hvis du har brug for hjælp, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Paths beginning with '#' character are not supported in VFS mode.",
+   "text": "Stier, der begynder med tegnet '#', understøttes ikke i VFS-tilstand."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Server files changed while you were working. Please try syncing again. Contact your server administrator if the issue persists.",
+   "text": "Filerne på serveren blev ændret, mens du arbejdede. Prøv at synkronisere igen. Kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Something went wrong on the server. Please try syncing again later, or contact your server administrator if the issue persists.",
+   "text": "Noget gik galt på serveren. Prøv at synkronisere igen senere, eller kontakt din serveradministrator, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Synced %1",
+   "text": "%1 synkroniseret"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The address used to make the request is too long for the server to handle. Please try shortening the information you’re sending or contact your server administrator for assistance.",
+   "text": "Adressen, der blev brugt til anmodningen, er for lang til, at serveren kan håndtere den. Prøv at forkorte de oplysninger, du sender, eller kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The file is too big to upload. You might need to choose a smaller file or contact your server administrator for assistance.",
+   "text": "Filen er for stor til at blive uploadet. Du skal muligvis vælge en mindre fil eller kontakte din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request could not be completed because some required conditions were not met. Please try syncing again later. If you need assistance, please contact your server administrator.",
+   "text": "Anmodningen kunne ikke gennemføres, fordi nogle påkrævede betingelser ikke var opfyldt. Prøv at synkronisere igen senere. Hvis du har brug for hjælp, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The request is taking longer than usual. Please try syncing again. If it still doesn’t work, reach out to your server administrator.",
+   "text": "Anmodningen tager længere tid end normalt. Prøv at synkronisere igen. Hvis det stadig ikke virker, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The resource you are trying to access is currently locked and cannot be modified. Please try changing it later, or contact your server administrator for assistance.",
+   "text": "Den ressource, du forsøger at få adgang til, er låst lige nu og kan ikke ændres. Prøv at ændre den senere, eller kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server couldn’t process your request because some information was incorrect or incomplete. Please try syncing again later, or contact your server administrator for assistance.",
+   "text": "Serveren kunne ikke behandle din anmodning, fordi nogle oplysninger var forkerte eller ufuldstændige. Prøv at synkronisere igen senere, eller kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not have enough space to complete your request. Please check how much quota your user has by contacting your server administrator.",
+   "text": "Serveren har ikke nok plads til at gennemføre din anmodning. Kontakt din serveradministrator for at få oplyst, hvor stor en kvote din bruger har."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not recognize the request method. Please contact your server administrator for help.",
+   "text": "Serveren genkender ikke anmodningsmetoden. Kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server does not support the version of the connection being used. Contact your server administrator for help.",
+   "text": "Serveren understøtter ikke den version af forbindelsen, der bruges. Kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "The server is busy right now. Please try connecting again in a few minutes or contact your server administrator if it’s urgent.",
+   "text": "Serveren er optaget lige nu. Prøv at oprette forbindelse igen om et par minutter, eller kontakt din serveradministrator, hvis det haster."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This file type isn’t supported. Please contact your server administrator for assistance.",
+   "text": "Denne filtype understøttes ikke. Kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This folder or file isn’t available anymore. If you need assistance, please contact your server administrator.",
+   "text": "Denne mappe eller fil er ikke længere tilgængelig. Hvis du har brug for hjælp, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "This request could not be completed because it is missing some required conditions. Please try again later, or contact your server administrator for help.",
+   "text": "Denne anmodning kunne ikke gennemføres, fordi nogle påkrævede betingelser mangler. Prøv igen senere, eller kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t find what you were looking for. It might have been moved or deleted. If you need help, contact your server administrator.",
+   "text": "Vi kunne ikke finde det, du ledte efter. Det er muligvis blevet flyttet eller slettet. Hvis du har brug for hjælp, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We couldn’t process your request. Please try syncing again later. If this keeps happening, contact your server administrator for help.",
+   "text": "Vi kunne ikke behandle din anmodning. Prøv at synkronisere igen senere. Hvis det bliver ved med at ske, så kontakt din serveradministrator for at få hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "We’re having trouble connecting to the server. Please try again soon. If the issue persists, your server administrator can help you.",
+   "text": "Vi har problemer med at oprette forbindelse til serveren. Prøv igen om lidt. Hvis problemet fortsætter, kan din serveradministrator hjælpe dig."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You changed %1",
+   "text": "Du ændrede %1"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You created %1",
+   "text": "Du oprettede %1"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You deleted %1",
+   "text": "Du slettede %1"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have access to this resource. If you think this is a mistake, please contact your server administrator.",
+   "text": "Du har ikke adgang til denne ressource. Hvis du mener, at det er en fejl, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You don’t have permission to access this resource. If you believe this is an error, contact your server administrator to ask for assistance.",
+   "text": "Du har ikke tilladelse til at få adgang til denne ressource. Hvis du mener, at det er en fejl, så kontakt din serveradministrator og bed om hjælp."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You made too many requests. Please wait and try again. If you keep seeing this, your server administrator can help.",
+   "text": "Du har sendt for mange anmodninger. Vent, og prøv igen. Hvis du bliver ved med at se dette, kan din serveradministrator hjælpe."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You need to sign in to continue. If you have trouble with your credentials, please reach out to your server administrator.",
+   "text": "Du skal logge ind for at fortsætte. Hvis du har problemer med dine legitimationsoplysninger, så kontakt din serveradministrator."
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "You renamed %1",
+   "text": "Du omdøbte %1"
+  },
+  {
+   "kontext": "QObject",
+   "quelle": "Your network needs extra authentication. Please check your connection. Contact your server administrator for help if the issue persists.",
+   "text": "Dit netværk kræver ekstra godkendelse. Kontrollér din forbindelse. Kontakt din serveradministrator for at få hjælp, hvis problemet fortsætter."
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "%1 files in conflict",
+   "kommentar": "indicate the number of conflicts to resolve",
+   "formen": [
+    "%1 fil i konflikt",
+    "%1 filer i konflikt"
+   ]
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "All local versions",
+   "text": "Alle lokale versioner"
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "All server versions",
+   "text": "Alle serverversioner"
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "Cancel",
+   "text": "Annuller"
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "Choose if you want to keep the local version, server version, or both. If you choose both, the local file will have a number added to its name.",
+   "text": "Vælg, om du vil beholde den lokale version, serverversionen eller begge. Hvis du vælger begge, får den lokale fil et nummer tilføjet til sit navn."
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "Resolve conflicts",
+   "text": "Løs konflikter"
+  },
+  {
+   "kontext": "ResolveConflictsDialog",
+   "quelle": "Solve sync conflicts",
+   "text": "Løs synkroniseringskonflikter"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Enter the link to your %1 web interface from the browser or the link to a folder shared with you.",
+   "text": "Indtast linket til din %1-webgrænseflade fra browseren eller linket til en mappe, der er delt med dig."
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in",
+   "text": "Log ind"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Log in to %1",
+   "text": "Log ind på %1"
+  },
+  {
+   "kontext": "ServerPage",
+   "quelle": "Server address",
+   "text": "Serveradresse"
+  },
+  {
+   "kontext": "ShareDelegate",
+   "quelle": "Copied!",
+   "text": "Kopieret!"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Add another link",
+   "text": "Tilføj endnu et link"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Allow resharing",
+   "text": "Tillad videredeling"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Allow upload and editing",
+   "text": "Tillad upload og redigering"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "An error occurred setting the share password.",
+   "text": "Der opstod en fejl ved angivelse af adgangskoden til delingen."
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Copy share link",
+   "text": "Kopiér delingslink"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Edit share",
+   "text": "Redigér deling"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "File drop (upload only)",
+   "text": "Filaflevering (kun upload)"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Hide download",
+   "text": "Skjul download"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Note to recipient",
+   "text": "Note til modtageren"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Password protection",
+   "text": "Adgangskodebeskyttelse"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Set expiration date",
+   "text": "Angiv udløbsdato"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Share label",
+   "text": "Delingsetiket"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Share link copied!",
+   "text": "Delingslink kopieret!"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "Unshare",
+   "text": "Fjern deling"
+  },
+  {
+   "kontext": "ShareDetailsPage",
+   "quelle": "View only",
+   "text": "Kun visning"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Expires in %1",
+   "text": "Udløber om %1"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Password required for new share",
+   "text": "Adgangskode påkrævet for ny deling"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Share password",
+   "text": "Adgangskode til deling"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Shared with you by %1",
+   "text": "Delt med dig af %1"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Sharing is disabled",
+   "text": "Deling er deaktiveret"
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "Sharing is disabled.",
+   "text": "Deling er deaktiveret."
+  },
+  {
+   "kontext": "ShareView",
+   "quelle": "This item cannot be shared.",
+   "text": "Dette element kan ikke deles."
+  },
+  {
+   "kontext": "ShareeSearchField",
+   "quelle": "Search for users or groups…",
+   "text": "Søg efter brugere eller grupper…"
+  },
+  {
+   "kontext": "ShareeSearchField",
+   "quelle": "Sharing is not available for this folder",
+   "text": "Deling er ikke tilgængelig for denne mappe"
+  },
+  {
+   "kontext": "SyncJournalDb",
+   "quelle": "Failed to connect database.",
+   "text": "Kunne ikke oprette forbindelse til databasen."
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose",
+   "text": "Vælg"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Choose what to sync",
+   "text": "Vælg hvad der skal synkroniseres"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Download files on-demand",
+   "text": "Hent filer efter behov"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Local sync folder",
+   "text": "Lokal synkroniseringsmappe"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Synchronize everything",
+   "text": "Synkroniser alt"
+  },
+  {
+   "kontext": "SyncOptionsPage",
+   "quelle": "Virtual files",
+   "text": "Virtuelle filer"
+  },
+  {
+   "kontext": "SyncStatus",
+   "quelle": "Open settings",
+   "text": "Åbn indstillinger"
+  },
+  {
+   "kontext": "SyncStatus",
+   "quelle": "Resolve conflicts",
+   "text": "Løs konflikter"
+  },
+  {
+   "kontext": "SyncStatus",
+   "quelle": "Sync now",
+   "text": "Synkroniser nu"
+  },
+  {
+   "kontext": "TalkReplyTextField",
+   "quelle": "Reply to …",
+   "text": "Svar til …"
+  },
+  {
+   "kontext": "TalkReplyTextField",
+   "quelle": "Send reply to chat message",
+   "text": "Send svar på chatbesked"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Add account",
+   "text": "Tilføj konto"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Quit",
+   "text": "Afslut"
+  },
+  {
+   "kontext": "TrayAccountPopup",
+   "quelle": "Settings",
+   "text": "Indstillinger"
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "Open local or team folders",
+   "text": "Åbn lokale mapper eller teammapper"
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "Open team folder \"%1\"",
+   "text": "Åbn teammappen \"%1\""
+  },
+  {
+   "kontext": "TrayFoldersMenuButton",
+   "quelle": "User group and local folders menu",
+   "text": "Menu for brugergruppe og lokale mapper"
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "More apps",
+   "text": "Flere apps"
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "Open %1 in browser",
+   "text": "Åbn %1 i browser"
+  },
+  {
+   "kontext": "TrayWindowHeader",
+   "quelle": "Open local or team folders",
+   "text": "Åbn lokale mapper eller teammapper"
+  },
+  {
+   "kontext": "UnifiedSearchInputContainer",
+   "quelle": "Search files, messages, events …",
+   "text": "Søg i filer, beskeder, begivenheder …"
+  },
+  {
+   "kontext": "UnifiedSearchPlaceholderView",
+   "quelle": "Start typing to search",
+   "text": "Begynd at skrive for at søge"
+  },
+  {
+   "kontext": "UnifiedSearchResultFetchMoreTrigger",
+   "quelle": "Load more results",
+   "text": "Indlæs flere resultater"
+  },
+  {
+   "kontext": "UnifiedSearchResultItemSkeleton",
+   "quelle": "Search result skeleton.",
+   "text": "Pladsholder for søgeresultat."
+  },
+  {
+   "kontext": "UnifiedSearchResultListItem",
+   "quelle": "Load more results",
+   "text": "Indlæs flere resultater"
+  },
+  {
+   "kontext": "UnifiedSearchResultNothingFound",
+   "quelle": "No results for",
+   "text": "Ingen resultater for"
+  },
+  {
+   "kontext": "UnifiedSearchResultSectionItem",
+   "quelle": "Search results section %1",
+   "text": "Søgeresultater, afsnit %1"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Account sync status requires attention",
+   "text": "Kontoens synkroniseringsstatus kræver opmærksomhed"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Current account status is do not disturb",
+   "text": "Aktuel kontostatus er forstyr ikke"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Current account status is online",
+   "text": "Aktuel kontostatus er online"
+  },
+  {
+   "kontext": "UserLine",
+   "quelle": "Status message",
+   "text": "Statusbesked"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Apply",
+   "text": "Anvend"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Cancel",
+   "text": "Annuller"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Clear",
+   "text": "Ryd"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Clear status message after",
+   "text": "Ryd statusbesked efter"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "Status message",
+   "text": "Statusbesked"
+  },
+  {
+   "kontext": "UserStatusMessageView",
+   "quelle": "What is your status?",
+   "text": "Hvad er din status?"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Appear offline",
+   "text": "Vis som offline"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Away",
+   "text": "Væk"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Busy",
+   "text": "Optaget"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Do not disturb",
+   "text": "Forstyr ikke"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Invisible",
+   "text": "Usynlig"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Mute all notifications",
+   "text": "Slå alle notifikationer fra"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Online",
+   "text": "Online"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Online status",
+   "text": "Onlinestatus"
+  },
+  {
+   "kontext": "UserStatusSetStatusView",
+   "quelle": "Status message",
+   "text": "Statusbesked"
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%L1 TB",
+   "text": "%L1 TB"
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n day(s)",
+   "formen": [
+    "%n dag",
+    "%n dage"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n hour(s)",
+   "formen": [
+    "%n time",
+    "%n timer"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n minute(s)",
+   "formen": [
+    "%n minut",
+    "%n minutter"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n month(s)",
+   "formen": [
+    "%n måned",
+    "%n måneder"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n second(s)",
+   "formen": [
+    "%n sekund",
+    "%n sekunder"
+   ]
+  },
+  {
+   "kontext": "Utility",
+   "quelle": "%n year(s)",
+   "formen": [
+    "%n år",
+    "%n år"
+   ]
+  },
+  {
+   "kontext": "ValidateChecksumHeader",
+   "quelle": "The checksum header contained an unknown checksum type \"%1\"",
+   "text": "Kontrolsum-hovedet indeholdt en ukendt kontrolsumtype \"%1\""
+  },
+  {
+   "kontext": "ValidateChecksumHeader",
+   "quelle": "The downloaded file does not match the checksum, it will be resumed. \"%1\" != \"%2\"",
+   "text": "Den hentede fil stemmer ikke overens med kontrolsummen, den vil blive genoptaget. \"%1\" != \"%2\""
+  },
+  {
+   "kontext": "nextcloudTheme::aboutInfo()",
+   "quelle": "<p><small>Built from Git revision <a href=\"%1\">%2</a> on %3, %4 using Qt %5, %6</small></p>",
+   "text": "<p><small>Bygget fra Git-revision <a href=\"%1\">%2</a> den %3, %4 med Qt %5, %6</small></p>"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Deleting",
+   "text": "Sletter"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Ignoring",
+   "text": "Ignorerer"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Moving",
+   "text": "Flytter"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Server version downloaded, copied changed local file into case conflict conflict file",
+   "text": "Serverversion hentet, ændret lokal fil kopieret til konfliktfil for versalkonflikt"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Updated local virtual files metadata",
+   "text": "Opdaterede metadata for lokale virtuelle filer"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Updating local metadata",
+   "text": "Opdaterer lokale metadata"
+  },
+  {
+   "kontext": "progress",
+   "quelle": "Updating local virtual files metadata",
+   "text": "Opdaterer metadata for lokale virtuelle filer"
+  },
+  {
+   "kontext": "theme",
+   "quelle": "Sync status is unknown",
+   "text": "Synkroniseringsstatus er ukendt"
+  },
+  {
+   "kontext": "theme",
+   "quelle": "Sync was successful",
+   "text": "Synkroniseringen lykkedes"
+  },
+  {
+   "kontext": "theme",
+   "quelle": "Sync was successful but some files were ignored",
+   "text": "Synkroniseringen lykkedes, men nogle filer blev ignoreret"
+  },
+  {
+   "kontext": "theme",
+   "quelle": "Waiting to start syncing",
+   "text": "Venter på, at synkroniseringen starter"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental feature?",
+   "text": "Aktivér eksperimentel funktion?"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Enable experimental placeholder mode",
+   "text": "Aktivér eksperimentel pladsholdertilstand"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "Stay safe",
+   "text": "Pas på dig selv"
+  },
+  {
+   "kontext": "utility",
+   "quelle": "When the \"virtual files\" mode is enabled no files will be downloaded initially. Instead, a tiny \"%1\" file will be created for each file that exists on the server. The contents can be downloaded by running these files or by using their context menu.\n\nThe virtual files mode is mutually exclusive with selective sync. Currently unselected folders will be translated to online-only folders and your selective sync settings will be reset.\n\nSwitching to this mode will abort any currently running synchronization.\n\nThis is a new, experimental mode. If you decide to use it, please report any issues that come up.",
+   "text": "Når tilstanden \"virtuelle filer\" er aktiveret, hentes der i første omgang ingen filer. I stedet oprettes en lille \"%1\"-fil for hver fil, der findes på serveren. Indholdet kan hentes ved at køre disse filer eller ved at bruge deres kontekstmenu.\n\nTilstanden virtuelle filer kan ikke bruges sammen med selektiv synkronisering. Mapper, der ikke er valgt i øjeblikket, bliver omdannet til mapper, der kun er tilgængelige online, og dine indstillinger for selektiv synkronisering bliver nulstillet.\n\nHvis du skifter til denne tilstand, afbrydes en igangværende synkronisering.\n\nDette er en ny, eksperimentel tilstand. Hvis du vælger at bruge den, så rapportér venligst de problemer, der opstår."
+  }
+ ]
+}

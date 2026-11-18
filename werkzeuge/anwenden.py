@@ -24,7 +24,7 @@ heißt, ist schlechter als ein roter Bau.
 AUFRUF
 ------
     python anwenden.py quelle <nextcloud-quellordner> --bau <nummer>
-    python anwenden.py rezept <craft-wurzel>
+    python anwenden.py rezept <craft-wurzel> --fassung <x.y.z.bau>
 
 `quelle` braucht Inkscape (das braucht der Nextcloud-Bau ohnehin), um das
 Logo des Assistenten auch als PNG abzulegen — sonst bliebe dort Nextclouds
@@ -60,6 +60,18 @@ REZEPT_SYMBOL_ANKER = "        return super().createPackage()"
 REZEPT_SYMBOL = (
     '        self.defines["icon"] = os.path.join(self.buildDir(), "src", "gui", "KENJTEC.ico")\n'
     '        self.defines["productname"] = "KENJTEC"\n'
+)
+
+#: Startmenü und Fassung im Installer. Crafts NSIS-Packer legt eine
+#: Verknüpfung NUR an, wenn `executable` (oder `shortcuts`) gesetzt ist —
+#: `applicationExecutable` liest er dafür nicht. Nextclouds Rezept setzt
+#: keins von beiden, weil Nextcloud für Windows ein MSI aus einer anderen
+#: Kette ausliefert. Ohne `version` schreibt Craft die Quellrevision als
+#: Fassung in „Apps“ — mit `--src-dir` gebaut heißt die „HEAD“ (gemessen an
+#: v4.0.11.7, 18.11.2026: Programm da, aber keine Verknüpfung, Fassung HEAD).
+REZEPT_INSTALLER = (
+    '        self.defines["executable"] = "bin/kenjtec.exe"\n'
+    '        self.defines["version"] = "{fassung}"\n'
 )
 
 EINBINDUNG = "include(${CMAKE_SOURCE_DIR}/kenjtec-marke.cmake)"
@@ -133,7 +145,9 @@ def quelle(ordner: Path, bau: int) -> None:
     print(f"KENJTEC-Branding: Quelle {ordner} gebrandet (Bau {bau}).")
 
 
-def rezept(craft_wurzel: Path) -> None:
+def rezept(craft_wurzel: Path, fassung: str) -> None:
+    if not re.fullmatch(r"\d+\.\d+\.\d+\.\d+", fassung):
+        fehler(f"`{fassung}` ist keine Fassung wie 4.0.11.8 — sie landet als Fassung in „Apps“.")
     treffer = [
         p for p in craft_wurzel.rglob("nextcloud-client.py")
         if p.parent.name == "nextcloud-client" and "blueprints" in p.parts
@@ -151,7 +165,8 @@ def rezept(craft_wurzel: Path) -> None:
             text = text.replace(alt, neu)
         if text.count(REZEPT_SYMBOL_ANKER) != 1:
             fehler(f"Im Rezept {pfad} fehlt `{REZEPT_SYMBOL_ANKER.strip()}`.")
-        text = text.replace(REZEPT_SYMBOL_ANKER, REZEPT_SYMBOL + REZEPT_SYMBOL_ANKER)
+        installer = REZEPT_INSTALLER.format(fassung=fassung)
+        text = text.replace(REZEPT_SYMBOL_ANKER, REZEPT_SYMBOL + installer + REZEPT_SYMBOL_ANKER)
         # Nextclouds Rezept benutzt `os.path.join` in createPackage, importiert
         # `os` aber nicht (stable-4.0, gemessen 05.11.2026: NameError beim
         # Packen — Nextclouds eigene CI packt nie und merkt es nicht).
@@ -193,11 +208,12 @@ def main() -> None:
     q.add_argument("--bau", type=int, required=True)
     r = unter.add_parser("rezept")
     r.add_argument("craft_wurzel", type=Path)
+    r.add_argument("--fassung", required=True, help="z. B. 4.0.11.8 — Fassung im Installer und in „Apps“")
     args = teiler.parse_args()
     if args.befehl == "quelle":
         quelle(args.ordner.resolve(), args.bau)
     else:
-        rezept(args.craft_wurzel.resolve())
+        rezept(args.craft_wurzel.resolve(), args.fassung)
 
 
 if __name__ == "__main__":

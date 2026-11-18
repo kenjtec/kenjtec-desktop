@@ -97,7 +97,7 @@ jobs:
           craft --add-blueprint-repository "https://github.com/nextcloud/desktop-client-blueprints.git|${{ needs.fassung.outputs.zweig }}|"
           craft craft
           craft --install-deps nextcloud-client
-          python kenjtec\werkzeuge\anwenden.py rezept "${{ github.workspace }}\$env:CRAFT_TARGET"
+          python kenjtec\werkzeuge\anwenden.py rezept "${{ github.workspace }}\$env:CRAFT_TARGET" --fassung ${{ needs.fassung.outputs.version }}
           if ($LASTEXITCODE -ne 0) { exit 1 }
 
       - name: Bauen und Installer packen

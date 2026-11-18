@@ -73,9 +73,10 @@ Was dazukommt (CEO-Aufgabe „Entwicklerkonten anlegen“):
 
 ## Noch offen
 
-- **Probe** (T-47.3): Der erste Bau ist am 05.11.2026 durchgelaufen (v4.0.11.6, Vorabrelease). Einmal installieren, anmelden und synchronisieren steht noch aus.
+- **Probe** (T-47.3): Installiert wird erst ab v4.0.11.7 richtig (v4.0.11.6 hatte kein Programm im Installer). Anmelden und synchronisieren steht noch aus.
 - **Fallen aus dem ersten Bau**, alle behoben: Quellordner für mac-crafter als Argument; Mac mit Nextclouds `next`-Rezepten; `zlib-1.3.1` liegt nicht mehr auf zlib.net (`werkzeuge/vorrat.py`); Inkscape nie in den Suchpfad (sein `python.exe`); Nextclouds Rezept importiert `os` nicht. Und ein Abbruch bei ffmpeg.org war nur eine Netzstörung: Lauf wiederholen.
-- **Große Dateien:** Cloudflare nimmt höchstens 100 MB je Anfrage an. Der Client lädt in Stücken hoch; ob er bei großen Dateien unter der Grenze bleibt, zeigt erst die Probe.
+- **Fallen des Installers** (18.11.2026), behoben in `anwenden.py rezept`: Nextclouds Packliste warf `kenjtec.exe` weg (`PACKLISTE_ALT`); Crafts NSIS-Packer legt eine Startmenü-Verknüpfung nur mit `defines["executable"]` an, und ohne `defines["version"]` steht in „Apps“ die Fassung `HEAD` (`REZEPT_INSTALLER`). Probeinstallation ohne Verwalterrechte: `__COMPAT_LAYER=RunAsInvoker`, dann `<installer> /S /D=%LOCALAPPDATA%\Programs\KENJTEC`.
+- **Große Dateien:** Die Grenze ist nicht Cloudflare (100 MB), sondern **Cloud Run: 32 MiB je Anfrage** (gemessen 18.11.2026, darüber 413). Der Client nimmt als Stückgröße, was die Cloud ankündigt (`files.chunked_upload.max_size`), und schickt Dateien bis zu dieser Größe in EINER Anfrage. Deshalb kündigt die Cloud 30 MiB an (`apps/cloud/config/kenjtec.config.php`). Ob Downloads über 32 MiB durchkommen (Cloud Run begrenzt auch nicht gestreamte Antworten), zeigt die Probe.
 - **Intel-Macs:** gebaut wird nur für Apple Silicon (arm64).
 - **Datenschutzerklärung:** Der Update-Abruf schickt Betriebssystem und Fassung an `kenjtec.com`. Der Kern liest nur die Plattform und speichert nichts. Ein Satz dazu gehört in die Erklärung, bevor der Client beworben wird.
 - **Download-Seite** erst, wenn signiert wird (Grundsatz 6).

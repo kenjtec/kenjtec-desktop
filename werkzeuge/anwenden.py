@@ -64,6 +64,14 @@ REZEPT_SYMBOL = (
 
 EINBINDUNG = "include(${CMAKE_SOURCE_DIR}/kenjtec-marke.cmake)"
 
+#: Nextclouds Packliste (`blacklist.txt` neben dem Rezept) wirft jede .exe aus
+#: `bin/` weg, die nicht `nextcloud`/`nextcloudcmd` heißt. Unsere heißen
+#: `kenjtec`/`kenjteccmd` — ohne diese Ersetzung installierte v4.0.11.6 alle
+#: Bibliotheken, aber kein Programm (gemessen 18.11.2026: nur uninstall.exe und
+#: QtWebEngineProcess.exe, keine Verknüpfung). Links WÖRTLICH wie in der Liste.
+PACKLISTE_ALT = r"bin/(?!(nextcloud|nextcloudcmd|QtWebEngineProcess)).*\.exe"
+PACKLISTE_NEU = r"bin/(?!(kenjtec|kenjteccmd|QtWebEngineProcess)).*\.exe"
+
 
 def fehler(satz: str) -> None:
     print(f"KENJTEC-Branding: {satz}", file=sys.stderr)
@@ -158,6 +166,23 @@ def rezept(craft_wurzel: Path) -> None:
             fehler(f"Im Rezept {pfad} steht nach dem Anpassen noch Nextcloud als Hersteller oder Programm.")
         pfad.write_text(text, encoding="utf-8", newline="\n")
         print(f"KENJTEC-Branding: Rezept {pfad} angepasst.")
+    for pfad in treffer:
+        packliste(pfad.parent / "blacklist.txt")
+
+
+def packliste(pfad: Path) -> None:
+    """Die Programme dürfen nicht aus dem Installer fallen (siehe PACKLISTE_ALT)."""
+    if not pfad.exists():
+        fehler(f"{pfad} fehlt — ohne Packliste weiß niemand, welche .exe Craft wegwirft.")
+    text = pfad.read_text(encoding="utf-8")
+    if PACKLISTE_NEU in text and PACKLISTE_ALT not in text:
+        print(f"KENJTEC-Branding: {pfad} ist schon angepasst.")
+        return
+    if text.count(PACKLISTE_ALT) != 1:
+        fehler(f"In {pfad} steht `{PACKLISTE_ALT}` nicht genau einmal — Nextcloud hat die Packliste geändert. "
+               "Ohne Anpassung fehlt kenjtec.exe im Installer.")
+    pfad.write_text(text.replace(PACKLISTE_ALT, PACKLISTE_NEU), encoding="utf-8", newline="\n")
+    print(f"KENJTEC-Branding: Packliste {pfad} angepasst (kenjtec.exe bleibt im Paket).")
 
 
 def main() -> None:
